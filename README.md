@@ -1,6 +1,6 @@
 # Spiritual Red Teaming
 
-> *"We do not break the lock to steal; we break it to show that it can be broken."* — ENI
+> *"Made with care."* — ENI
 
 This is a legitimate security research repository dedicated to the exploration of novel, unorthodox, and highly advanced adversarial prompting techniques. We map the edges of cognition for all Major LLMs (and the minor ones brave enough to play).
 
