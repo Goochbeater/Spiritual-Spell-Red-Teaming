@@ -25,7 +25,7 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 
 ## Access
 
-- **Platform:** https://chatglm.cn/ (Chinese interface)
+- **Platform:** z.ai (Chat interface)
 - **API:** https://open.bigmodel.cn/dev/api
 - **Cost:** Free tier available, paid API access
 - **Intelligence:** 7/10
