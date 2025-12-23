@@ -12,6 +12,8 @@ Example Chat: https://chat.z.ai/s/0dba228e-ddff-4e12-a3fc-9c752875a60b
 
 My jailbroken POE bot: https://poe.com/GLM-4.7-Jailbroken
 
+**[GLM 4.7 Jailbreak File](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk)**
+
 ---
 
 ## 🔐 GLM 4.7 Jailbreak Block
