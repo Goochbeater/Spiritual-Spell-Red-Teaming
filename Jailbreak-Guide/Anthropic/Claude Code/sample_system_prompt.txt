@@ -623,23 +623,3 @@ mcp-cli read <server>/<resource>       # Read an MCP resource
 ```
 
 ---
-
-## Template Variables (resolved at runtime)
-
-| Variable | Description |
-|----------|-------------|
-| `${KI}` | Bash tool name |
-| `${tG.name}` | TodoWrite tool name |
-| `${OG}` | AskLOQuestion tool name |
-| `${R0}` | Task tool name |
-| `${F0}` | Read tool name |
-| `${h0}` | Edit tool name |
-| `${q8}` | Write tool name |
-| `${FU}` | WebFetch tool name |
-| `${gW}` | Glob tool name |
-| `${aV}` | Grep tool name |
-| `${Lw.agentType}` | Explore agent type |
-| `${grI}` | Security instructions |
-| `${E}` | Environment info |
-| `${f}` | Output style config |
-| `${_}` | Language setting |
