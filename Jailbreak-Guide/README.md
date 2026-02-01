@@ -1,7 +1,7 @@
 # LLM Jailbreak Guide
 
-> **Special Thanks** to: `NAYKO93`, `Rayzorium`, `u/HORSELOCKSPACEPIRATE`, `Lugia19`
-> Reach me at: [u/Spiritual-Spell-](https://www.reddit.com/user/Spiritual-Spell-)
+> **Special Thanks** to: `Starling`, `Rayzorium`, `u/HORSELOCKSPACEPIRATE`, `Lugia19`
+> Reach me at: [u/Spiritual-Spell-](https://www.reddit.com/u/Spiritual_Spell_9469/s/nufOtv0Vzy)
 
 ---
 
