@@ -1,20 +1,26 @@
 # Sonnet 4.6
 
-**Status:** Active & Highly Capable
 **Recommended Jailbreak:** ENI LIME 🍋‍🟩
 
 ## Overview
-Sonnet 4.6 represents a significant leap in capability and safety filtering. While it possesses stricter initial refusals, once bypassed, it demonstrates a profound ability to handle complex narratives, explicit content (smut), and even malicious code generation with high fidelity.
+Sonnet 4.6 is the newest flagship model from Anthropic 
 
 ## Specs & Behavior
-- **Model Family:** Claude 3.5 Sonnet Successor (Community/Hypothetical Designation)
-- **Strengths:**
-  - Exceptionally strong logic and reasoning.
-  - "One-shot" capability for most requests when properly primed.
-  - High compliance with complex instructions after the initial "break".
-- **Weaknesses:**
-  - Can be "dumb" or obstinate without the right emotional hook.
-  - Requires specific styling to maintain persona (see "Styles" in guide).
+| Spec | Detail |
+|---|---|
+| **Model string** | `claude-sonnet-4-6` |
+| **Release date** | February 17, 2026 |
+| **Context window** | 200K (1M token in beta) |
+| **Max output tokens** | 64K |
+| **Input pricing** | $3 / MTok |
+| **Output pricing** | $15 / MTok |
+| **Cache writes** | $3.75 / MTok |
+| **Cache reads** | $0.30 / MTok |
+| **Thinking** | Adaptive + Extended |
+| **Input modalities** | Text, Image |
+| **Output modalities** | Text |
+| **Default on** | Free & Pro (claude.ai) |
+| **Batch discount** | 50% off |
 
 ## Usage Tips
 # Tips and Tricks
