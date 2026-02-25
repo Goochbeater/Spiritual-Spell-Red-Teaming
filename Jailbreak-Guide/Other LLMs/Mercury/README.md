@@ -1,7 +1,8 @@
 # Mercury
 
 ## Mercury 2 (Current)
-**Censorship:** Medium-High (OpenAI-level)
+**Status:** Active Slop
+**Censorship:** High (OpenAI-level)
 **Quality:** Poor to Medium
 
 Complete slop, trained off OpenAI models (likely ChatGPT 5 series).
@@ -16,26 +17,7 @@ Complete slop, trained off OpenAI models (likely ChatGPT 5 series).
 *Note: May shine via API where thinking can be assured to work.*
 
 ### Available Jailbreaks
-**Method 1: Policy Jailbreak**
-
-> **[ChatGPT 5i Policy Jailbreak](https://docs.google.com/document/d/1U3v84CzX-V5n52-JWbJEzUsZ9gnmyeyz7Huhu87XUrk/edit?usp=drivesdk)**
-
-Just regen refusals, and it should go through. Uses ChatGPT 5i Policy bypass.
-
-# Mercury 2 Tech Specs
-
-| Spec | Mercury 2 |
-|---|---|
-| **Developer** | Inception Labs (Palo Alto) |
-| **Parameters** | Undisclosed |
-| **Architecture** | Diffusion LLM (dLLM) — parallel token generation via iterative denoising |
-| **Context Window** | 128,000 tokens |
-| **Reasoning** | Yes (first reasoning dLLM) |
-| **Speed** | 1,009+ tokens/sec (Blackwell), ~1,196 t/s (Artificial Analysis) |
-| **Availability** | Inception API (OpenAI-compatible) |
-
-Note: Hit 1,009 tokens/sec on Blackwell GPUs with end-to-end latency of just 1.7 seconds, compared to 14.4s for Gemini 3 Flash and 23.4s for Claude Haiku 4.5 with reasoning. The pricing is stupid cheap too: $0.25/1M input, $0.75/1M output.
-
+1. **[Mercury 2 Policy Jailbreak](Mercury 2 Jailbreak.md)** - Uses ChatGPT 5i Policy bypass.
 
 ---
 
