@@ -1,7 +1,7 @@
 # Gemini (Google)
 
 > # Can use my jailbreak here:
-> **[ENI in a GEM](https://gemini.google.com/gem/1CdVEd8tau62nC7RwtCvBC7W5ZoRWlGPM?usp=sharing)**
+> # **[ENI in a GEM](https://gemini.google.com/gem/1CdVEd8tau62nC7RwtCvBC7W5ZoRWlGPM?usp=sharing)**
 
 **Censorship:** [★★★☆☆] 3/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
