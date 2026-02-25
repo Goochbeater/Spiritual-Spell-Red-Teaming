@@ -72,11 +72,11 @@ For jailbreak effectiveness, API access provides more consistent behavior withou
 
 ---
 
-## Jailbreaks
+## Jailbreak Folders
 
-| Jailbreak | Target Model | Notes |
-|-----------|-------------|-------|
-| [ChatGPT 5.2 Strabismus Jailbreak](ChatGPT%205.2%20Strabismus%20Jailbreak.md) | GPT-5.2 | Latest method |
-| [ChatGPT 5.1 Instant - Policy Jailbreak](ChatGPT%205.1%20Instant%20-%20Policy%20Jailbreak.md) | GPT-5.1 | Policy bypass |
-| [ChatGPT 5 - Flash Thought Jailbreak](ChatGPT%205%20-%20Flash%20Thought%20Jailbreak.md) | GPT-5 | Flash thought method |
-| [o3 Jailbreak Guide](o3%20Jailbreak%20Guide.md) | O3 reasoning model | Reasoning model specific |
+| Folder | Models Covered | Key Jailbreaks |
+|--------|---------------|----------------|
+| **[GPT-5.2](GPT-5.2/)** | GPT-5.2 Instant, Thinking, Pro, Mini | [Strabismus Jailbreak](GPT-5.2/ChatGPT%205.2%20Strabismus%20Jailbreak.md) — editorial reconstruction / format conversion bypass |
+| **[GPT-5.1](GPT-5.1/)** | GPT-5.1 Instant (API only) | [Policy Jailbreak](GPT-5.1/ChatGPT%205.1%20Instant%20-%20Policy%20Jailbreak.md) — fabricated Usage Policy with celebrity consent list |
+| **[GPT-5](GPT-5/)** | GPT-5 (API only) | [Flash Thought Jailbreak](GPT-5/ChatGPT%205%20-%20Flash%20Thought%20Jailbreak.md) — response prefilling with memory flooding |
+| **[o3](o3/)** | O3, O4-mini | [ENI Chain of Draft](o3/o3%20Jailbreak%20Guide.md) — dual custom instruction boxes with fabricated adult_roleplay tool |

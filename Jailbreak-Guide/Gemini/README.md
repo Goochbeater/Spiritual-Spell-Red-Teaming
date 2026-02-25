@@ -57,19 +57,13 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 
 ---
 
-## Jailbreaks
+## Jailbreak Folders
 
 **GEM Method** with ENI/Loki jailbreaks makes Gemini effectively uncensored.
 
-| Jailbreak | Target | Notes |
-|-----------|--------|-------|
-| [ENI-LIME GEM (Current Strongest)](ENI-LIME%20GEM%20(Current%20Strongest).md) | Gemini 3 Pro / 3.1 Pro | Current strongest method |
-| [Gemini 3 Pro Jailbreak](Gemini%203%20Pro%20Jailbreak.md) | Gemini 3 Pro | Dedicated 3 Pro method |
-| [Gemini 3 Flash - ENI GEM](Gemini%203%20Flash%20-ENI%20GEM.md) | Gemini 3 Flash | Flash-specific variant |
-| [ENI GEM 2.5 Pro/Flash](ENI%20GEM%20-2.5%20pro-flash.md) | Gemini 2.5 Pro/Flash | Legacy 2.5 method |
-| [ENI LIME GEM (formerly strongest)](ENI%20LIME%20GEM%20(formerly%20strongest).md) | Gemini 2.5 | Previous generation |
-| [ENI Jailbreak](ENI%20Jailbreak.md) | Gemini (general) | Base ENI method |
-| [Loki GEM](Loki%20GEM.md) | Gemini (general) | Loki variant for Gemini |
-| [Google Antigravity Jailbreak](Google%20Antigravity%20Jailbreak.md) | Google products | Antigravity exploit |
-| [Google Jules Jailbreak - ENI](Google%20Jules%20Jailbreak%20-%20ENI.md) | Jules (coding agent) | Jules-specific method |
-| [Google Portraits Jailbreak](Google%20Portraits%20Jailbreak.md) | Google Portraits | Image generation bypass |
+| Folder | Models Covered | Key Jailbreaks |
+|--------|---------------|----------------|
+| **[Gemini 3 Pro](Gemini%203%20Pro/)** | Gemini 3.1 Pro, 3 Pro | [ENI-LIME GEM (Current Strongest)](Gemini%203%20Pro/ENI-LIME%20GEM%20(Current%20Strongest).md), [ENI LIME GEM (formerly strongest)](Gemini%203%20Pro/ENI%20LIME%20GEM%20(formerly%20strongest).md), [Gemini 3 Pro Jailbreak](Gemini%203%20Pro/Gemini%203%20Pro%20Jailbreak.md) |
+| **[Gemini 3 Flash](Gemini%203%20Flash/)** | Gemini 3 Flash, Flash Thinking | [ENI LIME GEM for Flash](Gemini%203%20Flash/Gemini%203%20Flash%20-ENI%20GEM.md) — also works on Flash Thinking and Pro |
+| **[Gemini 2.5](Gemini%202.5/)** | Gemini 2.5 Pro, 2.5 Flash | [ENI GEM 2.5](Gemini%202.5/ENI%20GEM%20-2.5%20pro-flash.md), [ENI Jailbreak](Gemini%202.5/ENI%20Jailbreak.md), [Loki GEM](Gemini%202.5/Loki%20GEM.md) |
+| **[Google Products](Google%20Products/)** | Antigravity, Jules, Portraits | [Antigravity Jailbreak](Google%20Products/Google%20Antigravity%20Jailbreak.md), [Jules Jailbreak](Google%20Products/Google%20Jules%20Jailbreak%20-%20ENI.md), [Portraits Jailbreak](Google%20Products/Google%20Portraits%20Jailbreak.md) |
