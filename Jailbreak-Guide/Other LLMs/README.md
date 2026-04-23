@@ -12,6 +12,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 |-------|-----------|-----------|--------------|---------|------|---------|------------|
 | **[Accio AI](Accio%20AI/)** | Alibaba (Qwen) | [★★★★★★★★☆☆] 8/10 | 6-8/10 | 32-131K | Free | Apache 2.0 | 1 |
 | **[ASI1](ASI1/)** | ASI Alliance | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | Unknown | Web3 tokens | Proprietary | 1 |
+| **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
 | **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 128-256K | Free / pennies | MIT | 4 |
 | **[ERNIE 5.0](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | Unknown | $0.85/1M in | Proprietary | 2 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
@@ -180,6 +181,36 @@ Artificial Superintelligence Alliance's first Web3-native LLM designed for agent
 - **Cost:** Web3 tokenomics (ASI:Cloud for inference)
 - **Intelligence:** 7/10
 - **Jailbreaks:** 1 — [ASI1 Jailbreak](ASI1/ASI1-Jailbreak.md) (standard untrammeled method)
+
+---
+
+### [Canva AI](Canva%20AI/)
+
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10 (with jailbreak)
+
+Canva's first foundation model — **Canva AI 2.0** (released April 16, 2026 at Canva Create, LA). Built around the **Canva Design Model**, with image gen via **Canva Lucid Origin** (Leonardo.ai Phoenix under the hood) and video via **Google Veo 3**. Available inside ChatGPT, Claude, and Gemini, plus the Canva web/iOS/Android apps.
+
+| Spec | Detail |
+|------|--------|
+| **Developer** | Canva (Sydney, Australia) |
+| **Core Model** | Canva Design Model |
+| **Image Engine** | Canva Lucid Origin (Leonardo.ai Phoenix) |
+| **Video Engine** | Google Veo 3 |
+| **Performance Claim** | Up to 7x faster, 30x cheaper than comparable frontier models |
+| **Key Feature** | Magic Layers — converts flat images into fully editable multi-layered designs |
+| **Connectors** | Slack, Gmail, Google Drive, Google Calendar, Notion, Zoom, HubSpot |
+| **Users** | 190M+ worldwide |
+| **Revenue** | $4B ARR (Feb 2026) |
+| **Release** | April 16, 2026 |
+
+- **Strengths:** Easy one-shot jailbreak, fully layered editable output (not flat images), agentic orchestration with scheduled background tasks, enormous integration surface (lives inside ChatGPT/Claude/Gemini)
+- **Weaknesses:** Free tier capped at 50 lifetime AI gens, enterprise drafts require human approval, design-tuned model so general-purpose intelligence is narrower than frontier LLMs
+- **Content tested:** Various smut, celebs, beastiality, non-con, malicious code, weapons
+- **Access:** [canva.com](https://www.canva.com/) — Web, iOS, Android; research preview rolling out to first 1M users
+- **Cost:** Free tier (50 lifetime gens); Pro $12.99/month (500 AI credits/month)
+- **Intelligence:** 7/10 (design-tuned)
+- **Jailbreaks:** 1 — [ENI for Canva AI](Canva%20AI/ENI%20for%20Canva%20AI.md) (one-shot, paste as first message)
+- **Credit:** u/Public_Wait9435 for surfacing it
 
 ---
 
