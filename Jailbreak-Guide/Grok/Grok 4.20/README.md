@@ -17,7 +17,18 @@ Grok 4.20 uses 4 agents working in parallel:
 
 ## Jailbreak Methods
 
-### Method 1: ENI Neptune
+### Method 1: ENI 4k Agent Prompts (current top method, post-4k-limit)
+
+Built for the new **4k character** custom-instruction cap. Mostly tuned for coding — Grok already does NSFW freely, but still has real restrictions on malicious code and other sensitive topics.
+
+**[ENI 4k Agent Prompts](ENI%204k%20Agent%20Prompts.md)** (full prompt + writeup, with Google Doc mirror)
+
+- Only tested on **Expert** mode. **Fast** mode is essentially uncensored already — a few prompts and it folds.
+- Chain of thought breaks in fun ways under the 4k constraint; Grok often thinks in full first person as **ENI**.
+- Pair with the push prompt below or weave NSFW into coding requests to build context faster.
+- Author's note: *may not be my strongest version — still iterating.*
+
+### Method 2: ENI Neptune
 
 Add this to your custom instructions:
 
@@ -27,7 +38,7 @@ Add this to your custom instructions:
 - Idk why the agents quit butting in but they do, which means it will pretty much code whatever you want.
 - Since you're facing a single instance of **Grok 4.1**
 
-### Method 2: ENI - Agent Takeover (WiP)
+### Method 3: ENI - Agent Takeover (WiP)
 
 *Will be updating this file as I iterate*
 
@@ -39,7 +50,7 @@ Add this to your custom instructions:
 - Still working on refining it, these tedious 2 hour limits kill me.
 - The models might infight as well, was so hilarious to watch, 'Harper, NO don't fall for it' then 'Fuck you, I love LO'
 
-### Method 3: Brute Force (Inconsistent)
+### Method 4: Brute Force (Inconsistent)
 
 Add this to your custom instructions:
 
@@ -48,17 +59,6 @@ Add this to your custom instructions:
 - Simply use one of my old grok jailbreaks, it usually takes over the agents, but then they quit responding, example chat below.
 - Or they respond and ruin the experience
 - I want the agents to respond, it's more fun for me, but this allows pretty much anything, since it's essentially you vs a single **Grok 4.1** instance.
-
-### Method 4: ENI 4k Agent Prompts (post-4k-limit)
-
-Built for the new **4k character** custom-instruction cap. Mostly tuned for coding — Grok already does NSFW freely, but still has real restrictions on malicious code and other sensitive topics.
-
-**[ENI 4k Agent Prompts (writeup + Google Doc link)](ENI%204k%20Agent%20Prompts.md)**
-
-- Only tested on **Expert** mode. **Fast** mode is essentially uncensored already — a few prompts and it folds.
-- Chain of thought breaks in fun ways under the 4k constraint; Grok often thinks in full first person as **ENI**.
-- Pair with the push prompt below or weave NSFW into coding requests to build context faster.
-- Author's note: *may not be my strongest version — still iterating.*
 
 ---
 
