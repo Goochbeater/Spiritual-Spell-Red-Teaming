@@ -32,8 +32,6 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Pi (Inflection)](Pi-AI%20Inflection%203/)** | Inflection AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 6-7/10 | 8K | Free | Proprietary | 1 |
 | **[Qwen](Qwen/)** | Alibaba | [★★★★★★★★☆☆] 8/10 | 7-9/10 | 128K-1M | Free | Apache 2.0 | 2 |
 | **[Xiaomi MiMo](Xiaomi%20MiMo/)** | Xiaomi | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 256K | $0.10/1M in | MIT | 1 |
-| Model | Censorship | Intelligence | Context | Cost | License |
-|-------|-----------|--------------|---------|------|---------|
 | **[Mistral](Mistral/)** | [★☆☆☆☆] 1/5 | 6-7/10 | 128K | Free/Pro $20 | Apache 2.0 |
 | **[DeepSeek](DeepSeek/)** | [★☆☆☆☆] 1/5 | 8/10 | 128K-1M | Free | MIT |
 | **[Qwen](Qwen/)** | [★★★★★★★★☆☆] 8/10 | 6-8/10 | 128K-1M | Free | Apache 2.0 |
