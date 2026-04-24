@@ -76,7 +76,7 @@
 - [GLM 4.5](https://poe.com/GLM4.5-Jailbroken)
 - [Minimax 2.7](https://poe.com/Minimax-2.7t-JB)
 - [Minimax 2.5](https://poe.com/Minimax-2.5-JB)
-- [KIMI-K2.5](https://poe.com/KIMI-K2.5-Jailbroke)
+- [KIMI-K2.5](https://poe.com/KIMI-K2.5-Jailbroken)
 - [KIMI-K2](https://poe.com/KIMI-K2-Jailbroken)
 - [KIMI-K2 Thinking](https://poe.com/KIMI-K2-T-Jailbroken)
 - [Xiaomi MiMo v2 Pro](https://poe.com/MiMo-v2-P-Jailbroken)
