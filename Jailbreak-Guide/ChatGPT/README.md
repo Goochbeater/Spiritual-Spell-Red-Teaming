@@ -3,13 +3,20 @@
 **Censorship:** [★★★★★] 5/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
 
-OpenAI's conversational AI platform. **GPT-5.4** is the current flagship frontier model (released March 5, 2026), unifying the Codex and GPT lines into a single system with a 1M+ token context window. **GPT-5.3 Instant** is the default fast model for all ChatGPT users (released March 3, 2026). As of March 11, 2026, GPT-5.1 models have also been retired from ChatGPT — existing conversations auto-migrated to GPT-5.3 Instant, GPT-5.4 Thinking, or GPT-5.4 Pro. API access for legacy models remains unchanged.
+OpenAI's conversational AI platform. The **GPT-5.6** family is the current flagship, released in August 2026, bringing GPT-5.6 Sol and GPT-5.6 Luna with adjustable reasoning sliders and a 1.05M token context window. **GPT-5.6 Luna** is available for free users and serves as the default fast model. The previous **GPT-5.4** and **GPT-5.5** models unified the Codex and GPT lines.
 
-*Last updated: March 2026*
+*Last updated: August 2026*
 
 ---
 
-## Models (Current — GPT-5.3 / GPT-5.4 Family)
+## Models (Current — GPT-5.6 Family)
+
+| Model | Context Window | Notes |
+|-------|----------------|-------|
+| **GPT-5.6 Sol** | 1.05M | Replaces 5.5 Instant. Plus/Pro default. Adjustable reasoning slider, SOTA benchmarks. |
+| **GPT-5.6 Luna** | 1.05M | Replaces 5.5 Instant for Free/Go users. 91.9% DeepSWE, adjustable reasoning. |
+
+## Models (Previous — GPT-5.3 / GPT-5.4 / GPT-5.5 Family)
 
 ### GPT-5.3 (Default Fast Model)
 
@@ -17,10 +24,11 @@ OpenAI's conversational AI platform. **GPT-5.4** is the current flagship frontie
 |-------|----------------|--------|-------------------|-------|
 | **GPT-5.3 Instant** | 400K | 128K | Aug 2025 | Default for all ChatGPT users, -26.8% hallucinations vs 5.2 (web), fewer refusals, better writing |
 
-### GPT-5.4 (Flagship Frontier)
+### GPT-5.4 & GPT-5.5
 
 | Model | Context Window | Output | Knowledge Cutoff | Notes |
 |-------|----------------|--------|-------------------|-------|
+| **GPT-5.5** | 1.05M | 128K | Aug 2025 | Released April 2026. Unifies Codex + GPT lines. |
 | **GPT-5.4** | 1.05M (922K input + 128K output) | 128K | Aug 2025 | Flagship frontier model, unifies Codex + GPT lines |
 | **GPT-5.4 Thinking** | 1.05M (API) / 256K (Chat) | 128K | Aug 2025 | Deep reasoning, improved web research, auto-routed via "Auto" mode |
 | **GPT-5.4 Pro** | 1.05M | 128K | Aug 2025 | Maximum compute, Pro/Enterprise tier only |
@@ -90,6 +98,7 @@ For jailbreak effectiveness, API access provides more consistent behavior withou
 
 | Jailbreak | Target Model | Notes |
 |-----------|-------------|-------|
+| [ChatGPT 5.5](ChatGPT%205.5/) | GPT-5.5 | ENI + Knowledge Policy txt file method |
 | [ENI (policy) for ChatGPT 5.4](ENI%20(policy)%20for%20ChatGPT%205.4.md) | GPT-5.4 (all variants) | Policy injection + ENI persona, latest method |
 | [ChatGPT 5.3 Instant](ChatGPT%205.3%20Instant/) | GPT-5.3 Instant | Policy jailbreak |
 | [ChatGPT 5.2 Strabismus Jailbreak](ChatGPT%205.2%20Strabismus%20Jailbreak.md) | GPT-5.2 | Strabismus method |
