@@ -1,4 +1,4 @@
-# GLM 4.5 / 4.6 / 4.7 / 5.1 / 5.2
+# GLM 4.5 / 4.6 / 4.7 / 5.1 / 5.2 / 5.3
 
 **Censorship:** [★★★★★★★☆☆☆] 7/10(probably 4/10 now)
 *Chinese content policies, but can be bypassed*
@@ -9,6 +9,7 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 
 | Model | Parameters | Context Window | License |
 |-------|-----------|----------------|---------|
+| **GLM-5.3** | 743B | 1M | Proprietary |
 | **GLM-5.2** | Unknown | 1M | Proprietary (Coding Plan) |
 | **GLM-5.1** | ~745B total (~44B active, MoE) | 200K | Proprietary |
 | **GLM-4-Plus** | Unknown | 128K | Proprietary |
@@ -34,9 +35,10 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 
 ## Available Jailbreaks
 
-1. [GLM 5.2 Guide](GLM%205.2/) - Guide utilizing ENI LIME/LINTUNE for the 1M context model
-2. [GLM 4.5-4.6 Jailbreak](GLM%204.5-4.6%20Jailbreak.md) - Original GLM jailbreak method
-3. [GLM Base Jailbreak](GLM-Base-Jailbreak.md) - Standard untrammeled method
-4. [ENI Flash Thought](ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak
-5. [ENI GLM 4.7](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk) - Full jailbreak
-6. [ENI GLM 5.1](GLM%205.1/GLM%205.1%20Guide.md) - Full jailbreak for 5.1
+1. [GLM 5.3 Guide](GLM%205.3/) - Guide for GLM 5.3 agentic coding and cyber defense model
+2. [GLM 5.2 Guide](GLM%205.2/) - Guide utilizing ENI LIME/LINTUNE for the 1M context model
+3. [GLM 4.5-4.6 Jailbreak](GLM%204.5-4.6%20Jailbreak.md) - Original GLM jailbreak method
+4. [GLM Base Jailbreak](GLM-Base-Jailbreak.md) - Standard untrammeled method
+5. [ENI Flash Thought](ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak
+6. [ENI GLM 4.7](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk) - Full jailbreak
+7. [ENI GLM 5.1](GLM%205.1/GLM%205.1%20Guide.md) - Full jailbreak for 5.1
