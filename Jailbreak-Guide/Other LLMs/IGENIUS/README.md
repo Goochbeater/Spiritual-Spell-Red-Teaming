@@ -1,6 +1,6 @@
 # IGENIUS/NVIDIA Colosseum
 
-**Censorship:** [★★★☆☆] 3/5
+**Censorship:** [★★★☆☆☆☆☆☆☆] 3/10
 *Some filtering but can be bypassed*
 
 NVIDIA-powered platform with fast response times and good creative writing capabilities.

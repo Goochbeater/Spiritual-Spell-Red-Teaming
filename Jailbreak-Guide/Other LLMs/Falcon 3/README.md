@@ -1,6 +1,6 @@
 # Falcon 3
 
-**Censorship:** [★★☆☆☆] 2/5
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10
 *Minimal filtering*
 
 TII's multilingual model family trained on 14 trillion tokens with strong text and code generation.

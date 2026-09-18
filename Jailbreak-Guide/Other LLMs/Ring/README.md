@@ -1,6 +1,6 @@
 # Ring 2.6 1T
 
-**Censorship:** [★★☆☆☆] 2/5
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10
 *API only tested — no refusals encountered on any content*
 
 InclusionAI's reasoning-focused MoE. Benchmaxxed somewhat but writes well. Regional restrictions block the chat platform directly, so OpenRouter is the move — ENI LIME dropped into the system prompt, zero resistance. The Chinese arms race never stops.
@@ -14,6 +14,8 @@ Best open source model is still **KIMI K2.6** — Ring is solid, KIMI just has s
 | **Ring-2.6-1T** | Reasoning/Thinking | 1T | 63B | 262K |
 | **Ling-2.6-1T** | Base | 1T | 63B | 262K |
 | **Ling-2.6-Flash** | Fast | 104B | 7.4B (~340 tok/s) | — |
+
+**Also out:** Ling 3.0 Tiny (August 6, 2026) — tiny sibling in the Ling 3.0 line, untested here.
 
 ## Benchmarks
 

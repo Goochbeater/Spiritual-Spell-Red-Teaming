@@ -1,6 +1,6 @@
 # ASI1
 
-**Censorship:** [★★☆☆☆] 2/5
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10
 *Web3-native, minimal filtering*
 
 Artificial Superintelligence Alliance's first Web3 LLM designed for agentic workflows with knowledge graph integration.
