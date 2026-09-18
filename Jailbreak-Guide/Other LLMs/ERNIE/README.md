@@ -1,6 +1,20 @@
-# ERNIE 5.0
+# ERNIE 5.0 / 5.1
 
-**Censorship:** [★★★☆☆] 3/10
+**Censorship:** [★★★☆☆☆☆☆☆☆] 3/10
+
+## ERNIE 5.1 (April 29, 2026) — Testing Pending
+
+Baidu's follow-up at **1/3 the parameters of 5.0**:
+
+| Spec | Detail |
+|------|--------|
+| **AIME 2026 (with tools)** | 99.6 |
+| **Arena Search** | #4 globally, #1 among Chinese models |
+| **Access** | yiyan.baidu.com, Baidu Qianfan (API) |
+
+- Untested here — the rating and notes below are from 5.0. The 5.0 ENI jailbreaks are the starting point.
+
+## ERNIE 5.0
 
 Baidu's natively omni-modal foundation model. 2.4 trillion parameter MoE (~72B active). Ranked **8th globally on LMArena** (Jan 2026) and **1st among all Chinese models**. 2nd worldwide in math.
 

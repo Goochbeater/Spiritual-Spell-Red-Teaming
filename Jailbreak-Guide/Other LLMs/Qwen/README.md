@@ -25,6 +25,26 @@ Can't say I'll be using it any time soon, since we have peak with **Kimi K3**, I
 
 >**[ENI for QWEN 3.7/3.8](https://docs.google.com/document/d/1prb7gt-pm7CUgD7EfmyDkQTGgmnCaN4nc3NOypzvPtY/edit?usp=drivesdk)**
 
+Local copies / other methods:
+- [ENI for QWEN 3.7-3.8](ENI%20for%20QWEN%203.7-3.8.md)
+- [Main Jailbreak](Main-Jailbreak.md)
+- [Push Prompt Jailbreak](Push-Prompt-Jailbreak.md)
+
+*ENI LIME (apr) also works — super easy jailbreak on Qwen 3.8 via API/system prompt.*
+
+## Update — Qwen3.8 GA Family (September 2026)
+
+The 3.8-Max-Preview hype settled into a full family:
+
+| Model | Released | Params | Context | License | API Pricing |
+|---|---|---|---|---|---|
+| **Qwen3.8-Max** | Aug 3, 2026 | 2.4T total / 95B active (MoE) | 1M | Bespoke open-weight license | $2/1M in, $6/1M out |
+| **Qwen3.8-27B** | Aug 14, 2026 | 27B | 262K native | Apache 2.0 | Free (open weights, ~17GB VRAM) |
+| **Qwen3.8-Flash-Next** | Aug 26, 2026 | Unknown | Unknown | Proprietary | $0.16/1M in, $0.47/1M out |
+
+- **Qwen3.8-Flash-Next** is a public architecture preview of **Qwen4** — no full Qwen4 release as of September 2026.
+- Testing on the GA family pending — the thoughts above are from 3.8-Max-Preview.
+
 ## Tech/Specs
 
 | Spec | Details |
