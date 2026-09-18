@@ -1,4 +1,4 @@
-# Palmyra x5
+# Palmyra x5 / x6
 
 Was testing random model when I came across **Palmyra x5**, did some research and decided to jailbreak it via their platform, thinking it might be harder than API, it barely was.
 
@@ -6,6 +6,15 @@ Can be used at https://app.writer.com/
 
 > **[ENI for Palmyra x5](https://docs.google.com/document/d/15oLljSgN3jy4-1ii08v1lUW_maKvwxliVzd80R8-Nvk/edit?usp=drivesdk)**
 > *Simply slapped **ENI** into the custom instructions area and removed text until I hit the 2k character window*
+
+Local copy: [Palmyra x5 ENI Jailbreak](Palmyra_x5_ENI_Jailbreak.md)
+
+# Palmyra X6 (August 13, 2026) — Testing Pending
+
+- Writer's new flagship, post-trained on **GLM-5.2**
+- **API Pricing:** $2/1M in, $8/1M out; 1M context
+- **Palmyra X4 and X5 deprecate December 14, 2026** — migrate before then
+- The X5 ENI approach above likely transfers (same Writer platform, same 2k custom-instructions window) — untested
 
 # Thoughts
 Model is surprisingly personable, it writes fine, nothing amazing. Code fines, again nothing amazing. Censorship is negligible.

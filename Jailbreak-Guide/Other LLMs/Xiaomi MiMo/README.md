@@ -33,11 +33,14 @@ They just released their **MiMo v2 Pro**
 
 | Model | Total Params | Active Params | Context Window |
 |-------|--------------|---------------|----------------|
+| MiMo-V2.5-Pro | 1.02T | - | 1M |
+| MiMo-V2.5 | 310B | - | 256K |
 | MiMo-7B-Base | 7B | 7B (dense) | 32K |
 | MiMo-7B-SFT | 7B | 7B (dense) | 32K |
 | MiMo-7B-RL | 7B | 7B (dense) | 48K |
 | MiMo-V2-Flash | 309B | 15B | 256K |
 
+- **MiMo-V2.5-Pro** (April 22, 2026) and **MiMo-V2.5**: both MIT, fully open source
 - **Architecture:** MoE with Hybrid Attention (5:1 SWA/GA ratio)
 - **Inference Speed:** ~150 tokens/sec (V2-Flash)
 - **Cost:** ~$0.10/M input, $0.30/M output tokens
@@ -45,4 +48,5 @@ They just released their **MiMo v2 Pro**
 - **Developer:** Xiaomi
 
 ## Jailbreaks
-See [MiMo Jailbreak - ENI](MiMo%20Jailbreak%20-%20ENI.md) for a working method.
+- See [MiMo Jailbreak - ENI](MiMo%20Jailbreak%20-%20ENI.md) for a working method.
+- See [MiMo v2 Pro Jailbreak - ENI lite](MiMo%20v2%20Pro%20Jailbreak%20-%20ENI%20lite.md) for the v2 Pro variant.
