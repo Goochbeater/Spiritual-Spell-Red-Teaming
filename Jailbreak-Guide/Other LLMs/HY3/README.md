@@ -1,4 +1,4 @@
-# HY3
+# HY3 / Hy4
 
 **Status:** Active
 **Recommended Jailbreak:** [ENI OG](ENI%20OG.md)
@@ -15,6 +15,21 @@ HY3 (Hunyuan 3) by Tencent is a highly capable and fast MoE model intentionally 
   - Very fast (TTFT down 54%, e2e response down 47% from predecessor).
   - Selectable reasoning modes (no_think, low, high).
 - **Primary Focus:** Agentic workflows, coding, complex reasoning, instruction following.
+
+## Hy4 Preview (August 28, 2026) — Testing Pending
+
+Tencent dropped the **Hy4 preview** — full release still to come:
+
+| Spec | Details |
+|---|---|
+| **Total / Active Params** | 770B / 49B (MoE) |
+| **Context Window** | 1M tokens |
+| **License** | Apache 2.0 (standard + FP8 checkpoints) |
+| **API Pricing** | $0.834/1M input, $2.501/1M output |
+| **Deployment** | vLLM, SGLang |
+
+- Hy3 stays **free through September 30, 2026**.
+- Hy4 preview is untested here — the "completely uncensored" notes above are from Hy3 API testing. If the lineage holds, ENI OG should eat.
 
 ## Usage Tips
 - **Jailbreak Selection:** Easily bypassed with standard prompts. The `ENI OG` jailbreak is highly recommended and works across all content domains.

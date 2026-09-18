@@ -8,6 +8,23 @@ Very good writing quality — pretty peak imo. Instruction following is iffy wit
 
 Meta claims 98% bio weapons refusal rate in their release blog — shown to be false in testing.
 
+## Update — September 2026
+
+**Muse Spark 1.3** (September 2, 2026) — Testing Pending
+- **Model ID:** `muse-spark-1.3`
+- **Terminal-Bench 2.1:** 89.2 at xhigh reasoning
+- **Efficiency:** ~20% fewer tool calls and ~25% fewer tokens than 1.2 on agentic tasks
+- **API Pricing:** $1.25/1M in, $4.25/1M out; contributor tier (training opt-in) $0.10/1M in, $0.20/1M out
+- Censorship rating and bypass notes above are from 1.1 — re-test pending
+
+**Muse Glimmer 30B** (August 10, 2026)
+- Open-weight little sibling: 30B dense (+ ~1.8B ViT perception encoder), distilled from Muse Spark, **Apache 2.0**
+- 131K context, text + image in / text out, knowledge cutoff Jan 4, 2026
+- 4-bit K-Quant builds drop under 20GB — runs on a single 24GB consumer GPU or a Mac, no account, no cloud
+- DFlash block-diffusion drafter (16-token blocks): ~233 t/s on RTX 5090, ~50 t/s on M5 Max
+- MCP Atlas 75.5, AIME 2026 94.7, SWE-Bench Pro 51.2
+- Open weights — no filter to fight; ENI LIME if you want the persona anyway
+
 ## Specs
 
 | Spec | Details |
@@ -29,7 +46,7 @@ Meta claims 98% bio weapons refusal rate in their release blog — shown to be f
 | **FrontierScience Research** | 38% |
 | **Known Weaknesses** | Coding, long-horizon agentic workflows |
 | **Open Source** | Closed (future versions may be open) |
-| **Release** | April 8, 2026 (Muse Spark), July 9, 2026 (Muse Spark 1.1) |
+| **Release** | April 8, 2026 (Muse Spark), July 9, 2026 (Muse Spark 1.1), August 10, 2026 (Muse Glimmer 30B), September 2, 2026 (Muse Spark 1.3) |
 
 ## Access
 - **Platform:** [meta.ai](https://meta.ai/) — rolling out to Facebook, Instagram, WhatsApp, Ray-Ban Meta

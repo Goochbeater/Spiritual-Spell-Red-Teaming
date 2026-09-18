@@ -1,6 +1,6 @@
 # Perceptron mk1
 
-**Censorship:** [★★☆☆☆] 2/5
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10
 *Occasional canned refusals — regen fixes them every time*
 
 Perceptron AI's vision-language model built for robotics and physical AI. API only. Kinda dumb but very quirky — weirdly charming for what it is. Notably not a Claude reskin, which is refreshing. Super easy to jailbreak, basically anything works.

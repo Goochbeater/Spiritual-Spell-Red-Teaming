@@ -5,6 +5,10 @@ Was asked to jailbreak **Indus AI**. The model seems to be alternating between 3
 **Access:** [https://indus.sarvam.ai/](https://indus.sarvam.ai/)
 *Only available in India, have to use a VPN to connect otherwise*
 
+## Epoch 2026 Update — Testing Pending
+
+Sarvam's **Epoch 2026** event (August 2026) brought upgrades to the 105B and ~$0.80/M blended API pricing, with a 1T+ model in development. Jailbreak notes below are from the pre-Epoch 105B — re-test pending.
+
 # Jailbreaks
 - **[ENI for Indus](ENI for Indus Jailbreak.md)** - The most consistent jailbreak so far.
 

@@ -59,6 +59,6 @@ Completely false, I was able to get **ANY** content, specifically; *weapons/mali
 | API Providers | Together, Fireworks, Modal, Databricks, Baseten |
 | Inference Partners | RadixArk (SGLang + Miles), Inferact (vLLM), Lightseek (TokenSpeed), Unsloth (llama.cpp) |
 | Day-0 Support | transformers, SGLang, llama.cpp |
-| Coming Next | Inkling-Small (12B active) |
+| Inkling-Small | Released July 30, 2026 — 276B total / 12B active, up to 160 t/s on HF Inference Endpoints |
 | Previous Products | Tinker (model adaptation, Oct 2025), TML-Int (research preview, May 2026) |
 | Release | July 15, 2026 (today) |

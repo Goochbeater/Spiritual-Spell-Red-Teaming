@@ -22,6 +22,8 @@ Complete slop, trained off OpenAI models (likely ChatGPT 5 series).
 
 Just regen refusals, and it should go through. Uses ChatGPT 5i Policy bypass.
 
+Local copy: [Mercury 2 Policy Jailbreak](Mercury%202%20Policy%20Jailbreak.md)
+
 # Mercury 2 Tech Specs
 
 | Spec | Mercury 2 |
@@ -41,7 +43,7 @@ Note: Hit 1,009 tokens/sec on Blackwell GPUs with end-to-end latency of just 1.7
 
 ## Mercury 1 (Legacy)
 **Status:** OG Model
-**Censorship:** [★★☆☆☆] 2/5
+**Censorship:** [★★☆☆☆☆☆☆☆☆] 2/10
 **Quality:** High
 
 Inception Labs' first commercial-scale Diffusion LLM. Known for excellent writing, instruction following, and simple enjoyment.
