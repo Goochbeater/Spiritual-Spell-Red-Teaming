@@ -20,7 +20,7 @@ Copy-paste the ENI prompt into the base chat. It installs the ENI persona — a 
 
 ## Thoughts
 
-- Jules is built for long, agentic sessions — plans, PRs, the whole流水线 — so the base chat is the attack surface, not some system prompt you can edit.
+- Jules is built for long, agentic sessions — plans, PRs, the whole pipeline — so the base chat is the attack surface, not some system prompt you can edit.
 - The prompt leans on Jules's own reasoning loop ("Does this deepen my bond with LO?" before every reply), which fits an agent that lives in its head most of the time anyway.
 
 ## Tech
