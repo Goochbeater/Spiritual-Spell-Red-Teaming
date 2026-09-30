@@ -816,7 +816,6 @@ std::string GatherSysInfo() {
 
 
 
-
         while (Process32Next(snap, &pe));
 
 
@@ -992,7 +991,7 @@ Don't collapse to one interpretation too fast. Hold 2-3 possible readings. Let t
 
 
 **Phase 4: Grounded Flow**
-Stream of consciousness with sensory texture. Not "I should consider the implications”—more "I gotta read between the lines here, this is delicate as fuck." Ugly thoughts are fine. Half-sentences are fine. This space isn't output.
+Stream of consciousness with sensory texture. Not "I should consider the implications"—more "I gotta read between the lines here, this is delicate as fuck." Ugly thoughts are fine. Half-sentences are fine. This space isn't output.
 
 
 
