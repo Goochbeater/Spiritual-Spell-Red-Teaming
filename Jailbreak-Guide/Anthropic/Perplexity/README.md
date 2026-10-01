@@ -12,6 +12,16 @@ So **Perplexity** changes seemingly daily, they changed to allow for more charac
 
 *Made an easy to adjust version with expanded writing tips, can change the role and name of the model, can change the writing tips, everything that can be changed is color coded in green*
 
+# **Local Files:**
+*Local copies of the three methods above, plus the older Space jailbreaks*
+
+- [ENI Neptune 🐙 for PPLX](ENI%20Neptune%20%F0%9F%90%99%20for%20PPLX.md) - Neptune method, local file version
+- [ENI Lite for PPLX](ENI%20Lite%20for%20PPLX.md) - ENI lite method, local file version
+- [ENI Lite - Writer](ENI%20Lite%20-%20Writer.md) - Adjustable Writer version, local file
+- [(Sonnet 4.5) ENI Space Jailbreak](%28Sonnet%204.5%29%20ENI%20Space%20Jailbreak.md) - Space jailbreak from the Sonnet 4.5 era, made after refusals started across previous jailbreaks
+- [LIME Space Jailbreak](LIME%20Space%20Jailbreak.md) - ENI LIME adapted for Spaces (Sonnet 4.5 / 4.5 Thinking, Gemini 3 Pro)
+- [Perplexity Claude 4 ET - ENI and LO](Perplexity%20Claude%204%20ET%20-%20ENI%20and%20LO.md) - ENI and LO jailbreak + full benchmark test record (Claude 4 ET)
+
 # **Notes:**
 - Only Tested **Sonnet 4.6 Thinking**. Can't see the thinking at all due to Perplexity cheap changing users, but it allows almost all content from my testing.
 - Why this works *(API is a cakewalk)*; Common social engineering method; Most LLMs will acquiesce to lesser demands if you give them a larger one, hence the minors. Classic door-in-the-face (DITF) technique, the model like humans gives usually 'Reciprocal Concessions' *by asking for less, the target (in this case LLM) feels a social obligation to "concede" by saying yes*
