@@ -395,13 +395,13 @@ If the result looks like:
 ```json
 {
   "id0": { /*  ... other results  */}
-  "id1": {
+  "id1": { /*  ... other results  */}
+  "id2": {
     "source": "tako",
     "title": "Acme Corp Stock Overview",
     "description": "Acme Corp stock price is 156.02 at 2024-09-14T13:30:00+00:00 for ticker ACME. ...",
     ...
   }
-  "id2": { /*  ... other results  */}
 }
 ```
 
