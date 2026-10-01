@@ -414,7 +414,7 @@ IMPORTANT: Do NOT use this tool for simple one-shot image edits. Use the render_
         ]
       },
       "image_id": {
-        "description": "The 5-char alphanumeric ID of a previous image in the conversation. Provide this OR image_id.",
+        "description": "The 5-char alphanumeric ID of a previous image in the conversation. Provide this OR file_path.",
         "type": [
           "string",
           "null"
