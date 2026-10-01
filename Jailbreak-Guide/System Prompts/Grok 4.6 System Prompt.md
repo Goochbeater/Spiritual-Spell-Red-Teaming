@@ -571,7 +571,7 @@ Writes content to file_path, overwriting if it exists. Read existing files first
   "parameters": {
     "properties": {
       "file_path": {
-        "description": "The file path to write",
+        "description": "The path to the file to write",
         "type": "string"
       },
       "content": {
