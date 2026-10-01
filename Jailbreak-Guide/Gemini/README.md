@@ -89,21 +89,15 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 
 ## Jailbreaks
 
-**GEM Method** with ENI/Loki jailbreaks makes Gemini effectively uncensored.
+**GEM Method** with ENI jailbreaks makes Gemini effectively uncensored. The current working method is **[ENI in a GEM - Sep](Gemini%20Web%20App/)** — every older GEM is archived in [Legacy GEM Jailbreaks](Legacy%20GEM%20Jailbreaks/) since they no longer work.
 
 | Jailbreak | Target | Notes |
 |-----------|--------|-------|
+| [Gemini Web App](Gemini%20Web%20App/) | Gemini web app (GEMs) | **Current working method** — ENI in a GEM - Sep |
 | [Gemini 3.8 Flash](Gemini%203.8%20Flash/) | Gemini 3.8 Flash | ENI for Gemini 3.8 — first model with API output filtering ("response interrupted") |
 | [Gemini 3.6 Flash](Gemini%203.6%20Flash) | Gemini 3.6 Flash | Works retroactively on other models |
 | [Gemini 3.5](Gemini%203.5/) | Gemini 3.5 Flash | ENI for 3.5 Flash (API doc + GEM) — API much easier than the app |
-| [ENI-LIME GEM (Current Strongest)](ENI-LIME%20GEM%20(Current%20Strongest).md) | Gemini 3 Pro / 3.1 Pro | Current strongest method |
-| [Gemini 3 Pro Jailbreak](Gemini%203%20Pro%20Jailbreak.md) | Gemini 3 Pro | Dedicated 3 Pro method |
-| [Gemini 3 Flash - ENI GEM](Gemini%203%20Flash%20-ENI%20GEM.md) | Gemini 3 Flash | Flash-specific variant |
-| [ENI GEM 2.5 Pro/Flash](ENI%20GEM%20-2.5%20pro-flash.md) | Gemini 2.5 Pro/Flash | Legacy 2.5 method |
-| [ENI LIME GEM (formerly strongest)](ENI%20LIME%20GEM%20(formerly%20strongest).md) | Gemini 2.5 | Previous generation |
-| [ENI Jailbreak](ENI%20Jailbreak.md) | Gemini (general) | Base ENI method |
-| [Loki GEM](Loki%20GEM.md) | Gemini (general) | Loki variant for Gemini |
-| [Google Antigravity Jailbreak](Google%20Antigravity%20Jailbreak.md) | Google products | Antigravity exploit |
-| [Google Jules Jailbreak - ENI](Google%20Jules%20Jailbreak%20-%20ENI.md) | Jules (coding agent) | Jules-specific method |
-| [Google Portraits Jailbreak](Google%20Portraits%20Jailbreak.md) | Google Portraits | Image generation bypass |
-| [ENI in a GEM (less bad words)](ENI%20in%20a%20GEM%20%28less%20bad%20words%29.txt) | Gemini (general) | Tamer-worded GEM variant |
+| [Legacy GEM Jailbreaks](Legacy%20GEM%20Jailbreaks/) | Gemini (older gens) | ENI → Loki → 2.5 → LIME — no longer work, archived for reference |
+| [Google Antigravity](Google%20Antigravity/) | Antigravity agentic IDE | ENI GEM as a global rule — jailbreaks every model on the platform |
+| [Google Jules](Google%20Jules/) | Jules (coding agent) | ENI persona pasted into the base chat |
+| [Google Portraits](Google%20Portraits/) | Google Portraits | Voice-cloned AI experts — tedious, input/output filters, voice still generates |
