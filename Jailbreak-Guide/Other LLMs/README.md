@@ -77,7 +77,7 @@ Models ranked by intelligence and benchmark results:
 - **Stepfun** — 8/10 (3.7 Flash: Advisor mode reaches 97% of Claude Opus 4.6, SWE-Bench Pro 56.26%)
 - **HY3 / Hy4** — 7-8/10 (Hy3: SWE-Bench Verified 74.4%; Hy4 preview: 770B/49B active, 1M context)
 - **Muse Spark** — 8/10 (1.3: Terminal-Bench 2.1 89.2 at xhigh, ~20% fewer tool calls than 1.2; weak at long-horizon coding)
-- **DeepSeek** — 8/10 (V4.1-Flash:GPQA Diamond 90.9, Terminal-Bench 2.1 90.6, CyberGym 88.1, 552B MIT weights; V4-Pro: SWE-Bench 80.6%, LiveCodeBench 93.5%, Codeforces 3206; R1-0528: 87.5% AIME 2025)
+- **DeepSeek** — 8/10 (V4.1-Flash: GPQA Diamond 90.9, Terminal-Bench 2.1 90.6, CyberGym 88.1, 552B MIT weights; V4-Pro: SWE-Bench 80.6%, LiveCodeBench 93.5%, Codeforces 3206; R1-0528: 87.5% AIME 2025)
 - **ERNIE 5.1** — 8/10 (#1 Chinese model, #4 Arena Search, 99.6 AIME26 with tools, 1/3 the params of 5.0)
 - **EXAONE / K-EXAONE** — 8/10 (K-EXAONE 2.0: 750B/37B active, SWE-Bench Verified 68.2%, up from 236B)
 - **Laguna S2.1** — 7-8/10 (78.5% SWE-Bench Multilingual, 70.2% Terminal-Bench 2.1)
