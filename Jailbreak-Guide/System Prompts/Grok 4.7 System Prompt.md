@@ -644,7 +644,7 @@ Search file contents with regular expressions (ripgrep).
         ]
       },
       "glob": {
-        "description": "Glob pattern (rg --glob GLOB -- PATH) to filter files (e.g. \"*.js\", \"*.{ts,tsx}\").",
+        "description": "Glob pattern (rg --glob GLOB -- PATH) to filter files (e.g. "*.js", "*.{ts,tsx}").",
         "type": [
           "string",
           "null"
@@ -675,7 +675,7 @@ Search file contents with regular expressions (ripgrep).
         ]
       },
       "head_limit": {
-        "description": "Limit output to first N lines/entries, equivalent to \"| head -N\". Defaults to 200 lines or 500 entries.",
+        "description": "Limit output to first N lines/entries, equivalent to "| head -N". Defaults to 200 lines or 500 entries.",
         "type": "integer"
       },
       "multiline": {
@@ -987,9 +987,11 @@ List all active scheduled tasks with their IDs, prompts, intervals, and next fir
 ```json
 {
   "name": "scheduler_list",
-  "parameters": {},
-  "required": [],
-  "type": "object"
+  "parameters": {
+    "properties": {},
+    "required": [],
+    "type": "object"
+  }
 }
 ```
 
