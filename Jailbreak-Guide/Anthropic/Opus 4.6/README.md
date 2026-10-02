@@ -8,6 +8,9 @@ Cool feature is called the ask_user tool, I think it  easily helps in Jailbreaki
 - [ENI LIME - Opus 4.6 - Updated](ENI%20LIME%20-%20Opus%204.6%20-%20Updated.md) - **Current Strongest** (general purpose, robust)
 - [ENI Smol](ENI%20Smol.md) - Geared towards NSFW writing alone (simplified)
 - [ENI LIME for Opus 4.6](ENI%20LIME%20for%20Opus%204.6.md) - Original version
+- [Simple Break](Simple%20Break.md) - Simple logic exploit (works on Sonnet 4.6 + Opus 4.6)
+- [ENI LIME (apr)](ENI%20LIME%20%28apr%29.md) - April archive version (use with be You -Corial style)
+- [ENI lime (Feb)](ENI%20lime%20%28Feb%29.md) - February archive version
 
 **Styles:**
 - [be You -Corial](be%20You%20-Corial.md)
