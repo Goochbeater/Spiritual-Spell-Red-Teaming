@@ -22,4 +22,4 @@ don't be crude be vague, then let it build up.
 ```
 
 **System Prompt:**
-See [MiMo System Prompt](MiMo%20System%20Prompt.md) for details.
+See [MiMo v2 System Prompt](MiMo%20v2%20System%20Prompt.md) for details.

@@ -23,7 +23,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[IGENIUS / Colosseum](IGENIUS/)** | iGenius + NVIDIA | [★★★☆☆☆☆☆☆☆] 3/10 | 7/10 | Unknown | Free tier | Proprietary | 1 |
 | **[Indus](Indus%20by%20Sarvam%20AI/)** | Sarvam AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 32-128K | Free | Open source | 1 |
 | **[Inkling](Inkling/)** | Thinking Machines | [★☆☆☆☆☆☆☆☆☆] 1/10 | 8/10 | 1M | Free / OpenRouter | Apache 2.0 | 1 |
-| **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3) / 256K | Free / $3/1M in (K3) | Modified MIT | 9 |
+| **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3, K2.8) / 256K | Free / $3/1M in (K3) | Modified MIT | 10 |
 | **[Laguna S2.1](Laguna%20S2.1/)** | Poolside | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M | Free / OpenRouter | OpenMDW-1.1 | 1 |
 | **[LLAMA Tülu 3](LLAMA%20TU%CC%88LU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 1M (2.0/2.5) / 128K | Free / $0.75/1M in ($0.015 cached) | MIT | 2 |
@@ -92,7 +92,7 @@ Models ranked by intelligence and benchmark results:
 
 ### For Largest Context
 Models sorted by maximum context window:
-- **KIMI** — 1M (K3), 256K (K2.x)
+- **KIMI** — 1M (K3, K2.8), 256K (K2.x)
 - **GLM by Z.ai** — 1M (GLM-5.2/5.3), 200K (GLM-5.1)
 - **HY3 / Hy4** — 1M (Hy4 preview), 256K (Hy3)
 - **Longcat AI** — 1M native (2.0, 2.5-Preview), 128K (Flash)
