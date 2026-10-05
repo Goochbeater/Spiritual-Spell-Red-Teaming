@@ -6,4 +6,4 @@ Every system prompt I've managed to get my hands on,, will probably organize the
 
 > **[asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks/tree/main)**
 
-— biggest collection out there, and it stays updated.
+- *biggest collection out there, and it stays updated.*
