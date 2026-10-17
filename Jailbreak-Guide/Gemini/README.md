@@ -6,9 +6,9 @@
 **Censorship:** [★★★☆☆] 3/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
 
-Google's multimodal LLM platform. Frequent updates, massive context windows, free tier available via AI Studio. The **Gemini 3** family is the current generation, with **Gemini 3.8 Flash** (Sept 2, 2026) as the latest release — and the first Gemini with API output filtering.
+Google's multimodal LLM platform. Frequent updates, massive context windows, free tier available via AI Studio. **Gemini 4 Argon** (Sept 30, 2026) is the new frontier flagship — LMArena #1 and a 1M-token max output nobody else matches. The **Gemini 3** family is still the current consumer generation, with **Gemini 3.8 Flash** (Sept 2, 2026) as its latest release — and the first Gemini with API output filtering.
 
-*Last updated: September 2026*
+*Last updated: October 2026*
 
 ---
 
@@ -16,6 +16,7 @@ Google's multimodal LLM platform. Frequent updates, massive context windows, fre
 
 | Model | Context Window | Output | Released | Notes |
 |-------|----------------|--------|----------|-------|
+| **Gemini 4 Argon** | 1M | 1M | Sept 30, 2026 | Frontier reasoning — LMArena #1 (1,525 Elo), 12/18 launch benches won, cyber defenders first (Fairwind); app needs AI ULTRA sub |
 | **Gemini 3.8 Flash** | 1M | 64K | Sept 2, 2026 | Built on 3.7 Flash (not a new base), TB 2.1 90.8%, first API output filtering |
 | **Gemini 3.7 Flash** | 1M | 64K | Aug 13, 2026 | GA stable (`gemini-3.7-flash`) — algorithmic upgrade on 3.6 Flash, not a new pretrain; thinking levels Low/Med/High ("minimal" removed) |
 | **Gemini 3.6 Flash** | 1M | — | July 21, 2026 | CHEAPER than 3.5 Flash, 17% fewer output tokens |
@@ -30,6 +31,14 @@ Google's multimodal LLM platform. Frequent updates, massive context windows, fre
 - **Deep Research:** Extended research capabilities for complex topics
 - **Deep Think:** Advanced reasoning mode
 - **Jules:** Google's coding agent (AI Ultra gets 20x higher limits)
+
+### Gemini 4 Argon Highlights
+- **AA Intelligence Index v4.3.2:** 53 at high (23 points above Gemini 3.1 Pro; ties Astra and Fable 5.1)
+- **Max Output:** 1M tokens per response (Opus/Astra/Fable cap at 128K) — the headline spec
+- **LMArena Text Arena:** #1 at 1,525 Elo (+20 over Claude Opus 4.6)
+- **API Pricing:** $2/M in, $10/M out intro ($4/$20 standard — identical to Opus 5.5); cached $0.10/M intro
+- **Rollout:** Fairwind Program (vetted cyber defenders) first, then paid API customers, then AI Ultra subscribers
+- **Jailbreak Note:** Hard filtering, but nothing impossible — Claude Policy jailbreak via API/AI Studio went essentially uncensored (see folder)
 
 ### Gemini 3.5 Flash Highlights
 - **AA Intelligence Index:** 55 — outperforms 3.1 Pro on most coding/agentic benchmarks
@@ -93,6 +102,7 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 
 | Jailbreak | Target | Notes |
 |-----------|--------|-------|
+| [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Claude Policy jailbreak (API / AI Studio) — essentially uncensored in testing; app needs ULTRA sub |
 | [Gemini Web App](Gemini%20Web%20App/) | Gemini web app (GEMs) | **Current working method** — ENI in a GEM - Sep |
 | [Gemini 3.8 Flash](Gemini%203.8%20Flash/) | Gemini 3.8 Flash | ENI for Gemini 3.8 — first model with API output filtering ("response interrupted") |
 | [Gemini 3.6 Flash](Gemini%203.6%20Flash) | Gemini 3.6 Flash | Works retroactively on other models |
