@@ -9,6 +9,7 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 
 | Model | Parameters | Context Window | License |
 |-------|-----------|----------------|---------|
+| **Mistral Large 4 (Le Chonk)** | 1.05T (49B active, granular MoE) | 1M (524K tested) | Open — license TBD, weights late Oct |
 | **Mistral Large 3** | 675B (MoE) | 256K | API-only |
 | **Mistral Medium 3.5** | - | 256K | API-only |
 | **Mistral Small 4** | 119B (~6B active, MoE) | 256K | Apache 2.0 |
@@ -19,6 +20,7 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 
 ## Key Features
 
+- **Mistral Large 4 "Le Chonk"** (October 6, 2026): first European trillion-parameter model; granular MoE, 1.05T total / 49B active per token; API preview live now, weights due end of October
 - **Mistral Small 4** (March 16, 2026): merges Magistral reasoning + Pixtral vision + Devstral coding into one open model; $0.15/1M in, $0.60/1M out
 - **Mistral Medium 3.5** (April 29, 2026): SWE-Bench Verified 77.6%
 - **Mistral Large 3** (December 2, 2025): 675B MoE flagship
@@ -40,3 +42,4 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 2. [Mistral System Prompt Exploit](Mistral-System-Prompt-Jailbreak.md) - Easiest method
 3. [Mistral Alternative](Mistral-Alternative-Jailbreak.md) - Alternative system prompt method
 4. [ENI Flash Thought](ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak
+5. [Mistral 4 Large (Le Chonk)](Mistral%204%20Large/) - Claude Policy jailbreak (Bad Boy / Smut-only variants), goes in the system prompt

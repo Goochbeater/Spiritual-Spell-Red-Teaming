@@ -10,6 +10,7 @@ The prompt vault. Every system prompt I've managed to get my hands on, all in on
 
 | Model | File | Date | Size |
 |---|---|---|---|
+| Claude Haiku 5.5 | [Claude-Haiku-5.5-System-Prompt.md](Claude-Haiku-5.5-System-Prompt.md) | Oct 7, 2026 | 27 KB |
 | Claude Opus 5 | [Opus 5 System Prompt.md](Opus%205%20System%20Prompt.md) | Jul 24, 2026 | 135 KB |
 | Claude Opus 4.7 (May) | [Opus 4.7 -May System Prompt.txt](Opus%204.7%20-May%20System%20Prompt.txt) | May 22, 2026 | 90 KB |
 | Claude Opus 4.6 (ALL-Features) | [Opus 4.6- system_prompt-ALL Features.txt](Opus%204.6-%20system_prompt-ALL%20Features.txt) | Feb 22, 2026 | 127 KB |
@@ -35,6 +36,7 @@ Sonnet 5 has its own subfolder: [Sonnet 5/](Sonnet%205/) — prompt + raw tool-s
 
 | Model | File | Date | Size |
 |---|---|---|---|
+| Gemini 4 Argon | [Gemini 4 Argon System Prompt.md](Gemini%204%20Argon%20System%20Prompt.md) | Oct 14, 2026 | 6.1 KB |
 | Gemini 3.8 Flash | [Gemini 3.8 Flash System Prompt.md](Gemini%203.8%20Flash%20System%20Prompt.md) | Sep 13, 2026 | 58 KB |
 | Gemini 3.7 Flash | [Gemini 3.7 Flash System Prompt.md](Gemini%203.7%20Flash%20System%20Prompt.md) | Aug 17, 2026 | 33 KB |
 | Gemini (May 2026) | [Gemini System prompt - May 2026 .txt](Gemini%20System%20prompt%20-%20May%202026%20.txt) | May 2026 | 26 KB |
