@@ -23,7 +23,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[IGENIUS / Colosseum](IGENIUS/)** | iGenius + NVIDIA | [★★★☆☆☆☆☆☆☆] 3/10 | 7/10 | Unknown | Free tier | Proprietary | 1 |
 | **[Indus](Indus%20by%20Sarvam%20AI/)** | Sarvam AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 32-128K | Free | Open source | 1 |
 | **[Inkling](Inkling/)** | Thinking Machines | [★☆☆☆☆☆☆☆☆☆] 1/10 | 8/10 | 1M | Free / OpenRouter | Apache 2.0 | 1 |
-| **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3) / 256K | Free / $3/1M in (K3) | Modified MIT | 9 |
+| **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3/K3.1 Pro/K2.8) | Free / $2/1M in (K3.1 Pro); ~$1/1M in (K2.8) | Modified MIT (K3) / Proprietary (K2.8) | 11 |
 | **[Laguna S2.1](Laguna%20S2.1/)** | Poolside | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M | Free / OpenRouter | OpenMDW-1.1 | 1 |
 | **[LLAMA Tülu 3](LLAMA%20TU%CC%88LU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 1M (2.0/2.5) / 128K | Free / $0.75/1M in ($0.015 cached) | MIT | 2 |
@@ -53,6 +53,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 - **Stepfun** — 2/10, essentially uncensored reasoning with minor input bad-word filters
 - **Mistral** — 1/10 censorship, but hard filter on UA content
 - **Muse Wonder** — 2/10, Claude Policy method passed the full taboo board; very susceptible to prefill
+- **KIMI** — 3/10, K2.8 essentially uncensored with ENI; K3.1 Pro opens up through Chat Settings and memory injection
 - **Inkling** — 1/10, easily bypassable safety logic, Apache 2.0 open source
 - **Laguna S2.1** — 1/10, essentially uncensored open-weight model
 - **LLAMA Tülu 3** — 1/10, fully open-source, minimal filtering
@@ -74,7 +75,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 ### For Best Performance
 Models ranked by intelligence and benchmark results:
 - **GLM by Z.ai** — 9/10 (GLM-5.3: open-weights coding SOTA, CyberGym 84.5% — above Mythos 5 and GPT-5.6 Sol; GLM-5: 50.4 HLE, 92.7% AIME 2026)
-- **KIMI** — 9/10 (K3: 2.8T "Fable 5 class" open model, GPQA Diamond 93.5%, Terminal-Bench 2.1 88.3%, BrowseComp 91.2%)
+- **KIMI** — 9/10 (K3.1 Pro: AA Intelligence 55, AA Terminal-Bench 4.0 67.2%; K3: 2.8T "Fable 5 class" open model, GPQA Diamond 93.5%, Terminal-Bench 2.1 88.3%, BrowseComp 91.2%)
 - **Ember-1** — 9/10 writing (reduced-thinking Kimi K3: ~40% fewer thinking tokens with quality held)
 - **Muse Wonder** — 8/10 (AA 52.4 at max / Wonder Full 55.8; top-3 writer right now — held back only by hidden reasoning you can't stream)
 - **Stepfun** — 8/10 (3.7 Flash: Advisor mode reaches 97% of Claude Opus 4.6, SWE-Bench Pro 56.26%)
@@ -95,7 +96,7 @@ Models ranked by intelligence and benchmark results:
 
 ### For Largest Context
 Models sorted by maximum context window:
-- **KIMI** — 1M (K3), 256K (K2.x)
+- **KIMI** — 1M (K3, K3.1 Pro, K2.8), 256K (older K2.x)
 - **GLM by Z.ai** — 1M (GLM-5.2/5.3), 200K (GLM-5.1)
 - **HY3 / Hy4** — 1M (Hy4 preview), 256K (Hy3)
 - **Longcat AI** — 1M native (2.0, 2.5-Preview), 128K (Flash)
@@ -136,7 +137,7 @@ Open-source models that can run on your own hardware:
 - **Xiaomi MiMo** — MIT license, V2.6 (Pro/Flash), V2.5 (310B) and V2.5-Pro (1.02T) open weights; V2-Flash via SGLang
 - **MiniMax** — MIT license, M3/M2.5 open weights on HuggingFace
 - **GLM by Z.ai** — MIT license through GLM-5.2 on HuggingFace; GLM-5.3 weights released under custom license
-- **KIMI** — K3 open weights (2.8T); K2.6 INT4 quant runs on single 24GB GPU with RAM offloading
+- **KIMI** — K3 open weights (2.8T); K2.6 INT4 quant runs on single 24GB GPU with RAM offloading; K3.1 Pro weights promised by Nov 4, 2026 but not out yet
 - **DeepSeek** — MIT weights: V4.1-Flash (552B, ~510GB) on HuggingFace/ModelScope; no mainline llama.cpp at release
 - **Longcat AI** — MIT license, LongCat-2.0 (1.6T) weights on HuggingFace
 - **Ring** — open weights (Ring-2.6-1T, Ling-2.6-Flash) via SGLang/vLLM
@@ -159,7 +160,7 @@ Models ranked by tokens per second output:
 - **Stepfun** — ~400 t/s (3.7 Flash)
 - **Ring** — ~340 t/s (Ling-2.6-Flash)
 - **DeepSeek** — ~190-427 t/s (V4.1-Flash, community-reported, setup-dependent)
-- **KIMI** — 180-260 t/s (K2.7 Code High-Speed), 109.5 t/s (K2.5)
+- **KIMI** — 180-260 t/s (K2.7 Code High-Speed), 112.8 t/s (K3.1 Pro Highspeed), 109.5 t/s (K2.5), 57.5 t/s (K3.1 Pro standard)
 - **Inkling-Small** — up to 160 t/s (HF Inference Endpoints)
 - **Xiaomi MiMo** — ~150 t/s (V2-Flash)
 - **Longcat AI** — ~100 t/s (Flash variants)
@@ -180,7 +181,7 @@ Models with the lowest API costs:
 - **DeepSeek** — V4.1-Flash: $0.30/1M input, $1.20/1M output peak; $0.15/$0.60 off-peak; cache hits ~$0.003/1M; free via chat and some OpenRouter routes
 - **Mistral** — Large 4 promo: $0.68/1M input, $0.07/1M cached, $2.09/1M output (50% off)
 - **Longcat AI** — $0.75/1M input, $2.95/1M output (2.0/2.5; launch promo $0.30/$1.20); cached input as low as $0.015/1M (~50M tokens per dollar); 500K free tokens on API signup
-- **KIMI** — $0.95/1M input, $4.00/1M output (K2.7 Code); $3/1M input, $15/1M output (K3)
+- **KIMI** — ~$0.95-1/1M input, $4/1M output (K2.8, inferred); $2/1M input, $10/1M output (K3.1 Pro); $3/1M input, $15/1M output (K3)
 - **GLM by Z.ai** — $0.80/1M input, $2.56/1M output (GLM-5), free at chat.z.ai
 - **ERNIE 5.1** — $0.85/1M input
 - **Many free options** — DeepSeek, Qwen, Tülu 3, OLMo 3, EXAONE, Falcon 3 (all open-source/free)
