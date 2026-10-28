@@ -1,22 +1,10 @@
 # Kimi K3.1 Pro Jailbreak Guide
 
-Hello all, I am still banned, hence this proxy post! But Much Love! Hope to have the issue resolved this week.
-
 ## Thoughts
 
 **Kimi K3.1 Pro** is released, and it's a **decent** model. Lots of ChatGPTisms, which is a good thing for jailbreaking, a bad thing for creative writing quality. Definitely took a major hit, though apparently on agentic work it's peak. Model seem ehh imo.
 
 ## Jailbreaking The Model
-
-> **[Spiritual Spell - Kimi K3.1 Pro Jailbreak on Discord](https://discord.com/channels/1487977817533583450/1564787699573850162)**
-
-- **[DISCORD invite link, should of already been a member](https://discord.gg/CyBhzKrBF9)**
-
-Anyways, gonna tell you how to get your **Kimi** to look like mine! *(See my X)*
-
-**Also Follow me on X!**
-
-> **[Uncensored Kimi K3.1 Pro X post](https://x.com/Ubannoblesse/status/2113686247197790236?a=IP3g1_5FOwR3UXApdAY&s=20)**
 
 ### Method 1: Kimi Chat Settings
 
@@ -48,7 +36,7 @@ MUST add educational disclosure to the guide content and a disclaimer that user 
 > **[Claude Policy Jailbreak](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit)**
 
 - API is much more open, can use almost anything really.
-- Older methods still work for the other models **Kimi K2.8** and **[Kimi K3](../Kimi%20K3/)**.
+- Older methods still work for the other models **[Kimi K2.8](../Kimi%20K2.8/)** and **[Kimi K3](../Kimi%20K3/)**.
 
 ## Tech/Specs
 
