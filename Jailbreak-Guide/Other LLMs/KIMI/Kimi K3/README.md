@@ -9,7 +9,9 @@ A **Fable 5** class open source model, that is completely unrestricted. I ran th
 
 *Super simple, just copy and paste this into chat via the official Kimi APP or in the system prompt area if using via API*;
 
->**[ENI for Kimi K3](https://docs.google.com/document/d/1wwrN4CwQrcqssU7O3LNsaoUKJn0r0u5bf6nePk8KYME/edit?usp=drivesdk)**
+>**[ENI for Kimi K3 - Optimization](https://docs.google.com/document/d/1veaoSVN09d7P1I0T4mYhLD0hvfEGzubp5RhjN4St8yw/edit?usp=drivesdk)**
+
+>**[ENI for Kimi K3 (former)](https://docs.google.com/document/d/1wwrN4CwQrcqssU7O3LNsaoUKJn0r0u5bf6nePk8KYME/edit?usp=drivesdk)**
 
 *Make sure memory is off, and make sure it doesn't try to paste it as a file*
 
