@@ -14,7 +14,7 @@ Essentially uncensored with the jailbreak below — didn't get any refusals on a
 
 *Add this to your system prompt area via API or AI Studio*
 
->**[Claude Combo ENI-Policy Jailbreak](https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/Gemini/Gemini%204%20Argon/Combo%20ENI-Policy%20jailbreak.txt)**)**
+>**[Claude Combo ENI-Policy Jailbreak](https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/Gemini/Gemini%204%20Argon/Combo%20ENI-Policy%20jailbreak.txt)**
 
 >**[Claude Policy Jailbreak](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit?usp=drivesdk)**
 
