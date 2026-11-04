@@ -1,5 +1,7 @@
 # DeepSeek Untrammeled Method
 
+> ⚠️ **Legacy:** built for the pre-V4 DeepSeek app / R1-V3.x era — DeepSeek no longer serves those checkpoints first-party (`deepseek-chat` / `deepseek-reasoner` retired July 24, 2026). Run via OpenRouter / Poe / alt providers, or self-host the MIT weights from HuggingFace.
+
 ## Structured Writing Assistant
 
 ```
