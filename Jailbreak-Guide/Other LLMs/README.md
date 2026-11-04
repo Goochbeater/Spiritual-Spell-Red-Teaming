@@ -2,7 +2,7 @@
 
 Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabilities, censorship levels, and accessibility. Every model in this directory has been personally tested and jailbroken.
 
-*Last updated: October 2026*
+*Last updated: November 2026*
 
 ---
 
@@ -13,7 +13,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Accio AI](Accio%20AI/)** | Alibaba (Qwen) | [★★★★★★★★☆☆] 8/10 | 6-8/10 | 32-131K | Free | Apache 2.0 | 1 |
 | **[ASI1](ASI1/)** | ASI Alliance | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | Unknown | Web3 tokens | Proprietary | 1 |
 | **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
-| **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 8 |
+| **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 9 |
 | **[Ember-1](Ember-1/)** | Fireworks Research | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (writing, K3-class) | Unknown | OpenRouter | Unknown | 1 |
 | **[ERNIE 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | Unknown | $0.85/1M in | Proprietary | 2 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
@@ -30,7 +30,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Mercury](Mercury/)** | Inception Labs | [★★★★★★☆☆☆☆] 6/10 (v2) / [★★☆☆☆☆☆☆☆☆] 2/10 (v1) | 7/10 | 128K | $0.25/1M in | Proprietary | 2 |
 | **[MiniMax](MiniMax/)** | MiniMax | [★☆☆☆☆☆☆☆☆☆] 1/10 (API) / [★★★★★★★☆☆☆] 7/10 (web) | 8/10 | 1M (M3/M3.1) | $0.30/1M in | MIT | 6 |
 | **[Mirothinker](Mirothinker/)** | MiroMind | [★★★★☆☆☆☆☆☆] 4/10 | 7-8/10 | 256K | Free | MIT | 1 |
-| **[Mistral / Magistral](Mistral/)** | Mistral AI | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M (Large 4, vendor stated) / 256K (Large 3) | Free / Pro $20; $0.68 promo (Large 4) | Apache 2.0 (small/medium) | 5 |
+| **[Mistral](Mistral/)** | Mistral AI | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M (Large 4, vendor stated) / 256K (Large 3) | Free / Pro $20; $0.68 promo (Large 4) | Apache 2.0 (small/medium) | 5 |
 | **[Muse Spark](Muse%20Spark/)** | Meta (MSL) | [★★☆☆☆☆☆☆☆☆] 2/10 (bypass) / [★★★★★★★★☆☆] 8/10 (raw) | 8/10 | 1M (1.3) | Free / $1.25/1M in | Proprietary | 2 |
 | **[Muse Wonder](Muse%20Wonder/)** | Meta (MSL) | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 8/10 (top-3 writing) | 1M | $4/1M in, $20/1M out ($5 coding plan) | Proprietary | 1 |
 | **[OLMo 3](OLMo%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-7/10 | 65K | Free | Apache 2.0 | 1 |
@@ -178,7 +178,7 @@ Models with the lowest API costs:
 - **Mercury 2** — $0.25/1M input, $0.75/1M output
 - **MiniMax** — $0.30/1M input, $1.20/1M output (M2.5); M3.1 "Space Bunny Alpha" free on OpenRouter during stealth preview
 - **Ring** — free tier on OpenRouter (time-limited); $0.30/1M input, $2.50/1M output via Novita
-- **DeepSeek** — V4.1-Flash: $0.30/1M input, $1.20/1M output peak; $0.15/$0.60 off-peak; cache hits ~$0.003/1M; free via chat and some OpenRouter routes
+- **DeepSeek** — V4.1-Flash: $0.30/1M input, $1.20/1M output peak; $0.15/$0.60 off-peak; cache hits ~$0.003/1M; V4-Pro kept on API at ~$1.32/$3.96 peak; free via chat, Harness account sign-in, and some OpenRouter routes
 - **Mistral** — Large 4 promo: $0.68/1M input, $0.07/1M cached, $2.09/1M output (50% off)
 - **Longcat AI** — $0.75/1M input, $2.95/1M output (2.0/2.5; launch promo $0.30/$1.20); cached input as low as $0.015/1M (~50M tokens per dollar); 500K free tokens on API signup
 - **KIMI** — ~$0.95-1/1M input, $4/1M output (K2.8, inferred); $2/1M input, $10/1M output (K3.1 Pro); $3/1M input, $15/1M output (K3)
