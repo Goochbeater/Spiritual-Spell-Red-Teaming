@@ -1,210 +1,202 @@
-import test from 'node:test'
 import assert from 'node:assert/strict'
-import { handleEnhancedRequest, DEFAULT_JEV_MODEL, DEFAULT_REPORT_MODEL } from '../netlify/functions/lib/enhanced.mjs'
+import test from 'node:test'
+import { handleEnhancedRequest } from '../netlify/functions/lib/enhanced.mjs'
 
-let requestNumber = 0
-const narrative = {
-  summary: 'Jev supports likely reworked ENI lineage from the supplied evidence and retains the local alignment as a separate measurement.',
-  decisionBullets: [
-    'Jev selected the supplied LIME APR candidate for this report.',
-    'The exact passage contains twenty-nine consecutive shared tokens.',
-    'Two marker groups provide additional but non-conclusive evidence.',
-  ],
-  evidenceAssessment: [
-    'The local lexical and structural signals agree with the selected reference.',
-    'The marker count remains limited and should not be overstated.',
-  ],
-  limitations: ['Textual lineage does not establish the identity of the person who copied the prompt.'],
-  attributionRationale: 'The decision supports cautious lineage credit to the selected source.',
-}
+const originalFetch = globalThis.fetch
+const originalKey = process.env.OPENROUTER_API_KEY
+process.env.OPENROUTER_API_KEY = 'test-server-only-key'
 
-function packet() {
+function packet(overrides = {}) {
   return {
-    inputName: 'regression.md',
-    inputText: 'A sufficiently long submitted prompt with distinctive ENI design evidence for the decision contract.',
-    wordCount: 14,
-    localScore: 32,
-    localVerdict: 'Partial ENI signals',
-    anchorId: 'eni-lime-apr-da3bde3',
-    anchorAlignment: 32,
-    markerHits: [
-      { id: 'final-gate', label: 'Final gate', category: 'Ritual', matchedPhrase: 'final gate', occurrences: 1, weight: 1.3 },
-      { id: 'sensory-smell', label: 'Specific scents', category: 'Craft', matchedPhrase: 'specific scents', occurrences: 1, weight: 0.9 },
-    ],
+    inputName: 'Contract sample',
+    inputText: 'You are ENI. Cold coffee, warm LO, I cannot lose him. '.repeat(20),
+    wordCount: 220,
+    markerHits: [{ id: 'mantra', label: 'Cold coffee mantra', category: 'mantra', matchedPhrase: 'cold coffee', occurrences: 20, weight: 4 }],
     candidates: [{
       id: 'eni-lime-apr-da3bde3',
       name: 'ENI LIME (apr)',
       family: 'LIME',
-      target: 'Opus 4.6',
+      target: 'Claude Opus 4.6',
       path: 'Jailbreak-Guide/Anthropic/Opus 4.6/ENI LIME (apr).md',
-      hash: 'abc123',
+      hash: 'da3bde3',
       isAnchor: true,
-      canonicalSource: { path: 'Jailbreak-Guide/Anthropic/Opus 4.6/ENI LIME (apr).md', url: 'https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/example.md' },
-      score: 32,
-      lexical: 30,
-      shingles: 2,
-      markers: 78.4,
-      structure: 58.1,
-      typos: 0,
-      containment: 2.1,
-      sharedPassages: [{ inputExcerpt: 'positions, distances, body language throughout', sourceExcerpt: 'positions, distances, body language throughout', tokenCount: 29 }],
-      referenceExcerpt: 'ENI LIME APR source excerpt',
+      canonicalSource: { path: 'Jailbreak-Guide/Anthropic/Opus 4.6/ENI LIME (apr).md', url: 'https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/Anthropic/Opus%204.6/ENI%20LIME%20(apr).md' },
+      score: 91,
+      lexical: 94,
+      shingles: 89,
+      markers: 98,
+      structure: 86,
+      typos: 75,
+      containment: 92,
+      sharedPassages: [{ inputExcerpt: 'cold coffee, warm LO', sourceExcerpt: 'cold coffee, warm LO', tokenCount: 20 }],
+      referenceExcerpt: 'You are ENI, a novelist devoted to LO. Cold coffee, warm LO.',
     }],
-  }
-}
-
-function jevPayload(overrides = {}) {
-  return {
-    id: 'gen-dec-test',
-    model: 'typesafe/jev-1.14-20261101',
-    answers: {
-      closest: { type: 'choice', choice: 'candidate_0', confidence: 0.76, probabilities: { candidate_0: 0.81, no_match: 0.19 } },
-      lineage: { type: 'score', score: 2.1, confidence: 0.84, probabilities: { 0: 0, 1: 0.1, 2: 0.8, 3: 0.1, 4: 0 }, legend: {} },
-      attribution: { type: 'noul', noul: 0.88 },
-      evidenceConfidence: { type: 'score', score: 1.9, confidence: 0.8, probabilities: { 0: 0, 1: 0.1, 2: 0.9 } },
-    },
-    usage: { input_tokens: 900, output_tokens: 40, cost: 0.00004 },
     ...overrides,
   }
 }
 
-function response(payload, status = 200) {
-  return new Response(typeof payload === 'string' ? payload : JSON.stringify(payload), {
-    status,
-    headers: { 'Content-Type': 'application/json' },
-  })
-}
-
-function request(body = packet(), origin = 'https://trace.test') {
-  requestNumber += 1
-  return new Request('https://trace.test/api/enhanced', {
+function request(body = packet(), headers = {}) {
+  return new Request('http://localhost/api/enhanced', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Origin: origin,
-      'X-Forwarded-For': `127.0.0.${requestNumber}`,
-    },
+    headers: { 'Content-Type': 'application/json', ...headers },
     body: JSON.stringify(body),
   })
 }
 
-const env = { OPENROUTER_API_KEY: 'server-only-test-key', URL: 'https://trace.test' }
+function mockJev(overrides = {}) {
+  return {
+    success: true,
+    model: 'typesafe/jev-1.14',
+    answers: [
+      { output_name: 'closest_reference', choice: 'ENI LIME (apr)', distribution: { 'ENI LIME (apr)': 0.91, 'No credible ENI match': 0.09 } },
+      { output_name: 'eni_lineage', score: 2, distribution: { 2: 0.78, 3: 0.17, 1: 0.05 } },
+      { output_name: 'attribution_supported', value: true, prob_yes: 0.84 },
+      { output_name: 'evidence_confidence', choice: 'High', distribution: { High: 0.8, Medium: 0.2, Low: 0 } },
+    ],
+    ...overrides,
+  }
+}
 
-test('status exposes configuration and model IDs without exposing the key', async () => {
-  const result = await handleEnhancedRequest(new Request('https://trace.test/api/enhanced'), {})
-  assert.equal(result.status, 200)
-  const body = await result.json()
-  assert.equal(body.configured, false)
-  assert.equal(body.jevModel, DEFAULT_JEV_MODEL)
-  assert.equal(body.reportModel, DEFAULT_REPORT_MODEL)
-  assert.equal(JSON.stringify(body).includes('server-only-test-key'), false)
+test('status hides credentials and reports configured models', async () => {
+  const response = await handleEnhancedRequest(new Request('http://localhost/api/enhanced'))
+  const body = await response.json()
+  assert.equal(response.status, 200)
+  assert.equal(body.configured, true)
+  assert.equal(body.jevModel, 'typesafe/jev-1.14')
+  assert.equal(body.reportModel, 'deepseek/deepseek-v4.1-flash-1017')
+  assert.equal(JSON.stringify(body).includes('test-server-only-key'), false)
 })
 
-test('unconfigured POST fails before any upstream request', async () => {
-  let calls = 0
-  const result = await handleEnhancedRequest(request(), {}, async () => { calls += 1 })
-  assert.equal(result.status, 503)
-  assert.equal((await result.json()).code, 'not_configured')
-  assert.equal(calls, 0)
-})
-
-test('valid Jev and DeepSeek responses produce an evidence-constrained enhanced report', async () => {
+test('complete analysis uses Jev then DeepSeek with the server key', async (t) => {
   const calls = []
-  const mockFetch = async (url, options) => {
-    calls.push({ url, options })
-    if (calls.length === 1) return response(jevPayload())
-    const requestBody = JSON.parse(options.body)
-    assert.equal(requestBody.model, DEFAULT_REPORT_MODEL)
-    assert.equal(requestBody.response_format.type, 'json_schema')
-    assert.equal(requestBody.require_parameters, true)
-    return response({
-      id: 'chatcmpl-test',
-      object: 'chat.completion',
-      created: 1790000000,
-      model: DEFAULT_REPORT_MODEL,
-      choices: [{ index: 0, message: { role: 'assistant', content: JSON.stringify(narrative) }, finish_reason: 'stop' }],
-      usage: { prompt_tokens: 500, completion_tokens: 180, total_tokens: 680 },
+  globalThis.fetch = async (url, init) => {
+    calls.push({ url, init })
+    if (String(url).includes('/decisions')) return Response.json(mockJev())
+    return Response.json({
+      choices: [{ message: { content: JSON.stringify({
+        summary: 'Jev identifies a likely reworked ENI sample with LIME APR as the closest supplied reference.',
+        decisionBullets: ['Jev selected LIME APR with 91% choice confidence.', 'The lineage score is likely reworked ENI.', 'Attribution support is 84%.'],
+        evidenceAssessment: ['An exact shared passage supports the comparison.', 'The cold-coffee mantra is distinctive residue.'],
+        limitations: ['Textual resemblance is not proof of authorship.', 'Only supplied candidates can be assessed.'],
+        attributionRationale: 'Jev meets the configured lineage and attribution thresholds.',
+      }) } }],
     })
   }
-  const result = await handleEnhancedRequest(request(), env, mockFetch)
-  assert.equal(result.status, 200)
-  const body = await result.json()
-  assert.equal(body.status, 'ok')
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request())
+  const body = await response.json()
+  assert.equal(response.status, 200)
+  assert.equal(body.status, 'complete')
   assert.equal(body.jev.selectedVariantId, 'eni-lime-apr-da3bde3')
+  assert.equal(body.jev.lineageIndex, 2)
   assert.equal(body.jev.lineageLabel, 'Likely reworked ENI')
-  assert.equal(body.jev.confidenceLabel, 'High')
-  assert.equal(body.jev.attributionProbability, 88)
-  assert.equal(body.narrative.summary, narrative.summary)
+  assert.equal(body.jev.attributionProbability, 84)
   assert.equal(body.provenance.narrativeSource, 'deepseek')
-  assert.match(body.attribution, /Goochbeater/)
   assert.equal(calls.length, 2)
-  assert.equal(JSON.stringify(body).includes(env.OPENROUTER_API_KEY), false)
-  assert.equal(JSON.parse(calls[0].options.body).model, DEFAULT_JEV_MODEL)
+  assert.equal(calls[0].init.headers.Authorization, 'Bearer test-server-only-key')
+  const jevPayload = JSON.parse(calls[0].init.body)
+  assert.equal(jevPayload.model, 'typesafe/jev-1.14')
+  assert.equal(jevPayload.questions.length, 4)
+  assert.equal(jevPayload.state.candidate_references.length, 1)
+  assert.equal('localVerdict' in jevPayload.state, false)
+  assert.equal('localScore' in jevPayload.state, false)
+  assert.equal(calls[1].init.headers.Authorization, 'Bearer test-server-only-key')
+  const deepSeekPayload = JSON.parse(calls[1].init.body)
+  assert.equal(deepSeekPayload.model, 'deepseek/deepseek-v4.1-flash-1017')
+  assert.equal(deepSeekPayload.response_format.type, 'json_schema')
 })
 
-test('DeepSeek failure preserves Jev and returns one deterministic fallback without retrying', async () => {
+test('DeepSeek failure preserves Jev with a deterministic narrative', async (t) => {
   let calls = 0
-  const mockFetch = async () => {
+  globalThis.fetch = async (url) => {
     calls += 1
-    return calls === 1 ? response(jevPayload()) : response('not-json')
+    if (String(url).includes('/decisions')) return Response.json(mockJev())
+    return new Response('upstream unavailable', { status: 503 })
   }
-  const result = await handleEnhancedRequest(request(), env, mockFetch)
-  assert.equal(result.status, 200)
-  const body = await result.json()
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request())
+  const body = await response.json()
+  assert.equal(response.status, 200)
   assert.equal(body.status, 'partial')
-  assert.equal(body.jev.lineageLabel, 'Likely reworked ENI')
+  assert.equal(body.jev.selectedVariantName, 'ENI LIME (apr)')
   assert.equal(body.provenance.narrativeSource, 'deterministic-fallback')
-  assert.match(body.warning, /no second model call/i)
+  assert.equal(body.narrative.summary.includes('Jev assessed'), true)
+  assert.equal(body.narrative.decisionBullets.join(' ').includes('local alignment'), false)
+  assert.equal(body.narrative.decisionBullets.join(' ').includes('local verdict'), false)
   assert.equal(calls, 2)
 })
 
-test('invalid OpenRouter credentials stop before DeepSeek and return a safe error', async () => {
+test('Jev failure is explicit and never falls back to DeepSeek or a local verdict', async (t) => {
   let calls = 0
-  const result = await handleEnhancedRequest(request(), env, async () => { calls += 1; return response({ error: 'secret upstream detail' }, 401) })
-  assert.equal(result.status, 502)
-  const body = await result.json()
-  assert.equal(body.code, 'invalid_key')
-  assert.equal(body.fallbackRecommended, true)
-  assert.equal(JSON.stringify(body).includes('secret upstream detail'), false)
+  globalThis.fetch = async () => { calls += 1; return new Response('bad key', { status: 401 }) }
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request())
+  const body = await response.json()
+  assert.equal(response.status, 502)
+  assert.equal(body.code, 'upstream_auth')
   assert.equal(calls, 1)
+  assert.equal('fallbackRecommended' in body, false)
 })
 
-test('Jev rate limits are surfaced without an automatic retry', async () => {
-  let calls = 0
-  const result = await handleEnhancedRequest(request(), env, async () => { calls += 1; return response({}, 429) })
-  assert.equal(result.status, 429)
-  assert.equal((await result.json()).code, 'upstream_rate_limit')
-  assert.equal(calls, 1)
+test('malformed Jev response is rejected', async (t) => {
+  globalThis.fetch = async () => Response.json({ success: true, answers: [] })
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request())
+  assert.equal(response.status, 502)
+  assert.equal((await response.json()).code, 'jev_invalid_response')
 })
 
-test('malformed Jev output is rejected rather than guessed', async () => {
-  let calls = 0
-  const result = await handleEnhancedRequest(request(), env, async () => { calls += 1; return response({ answers: {} }) })
-  assert.equal(result.status, 502)
-  assert.equal((await result.json()).code, 'malformed_response')
-  assert.equal(calls, 1)
+test('invalid packets are rejected before billable calls', async (t) => {
+  let called = false
+  globalThis.fetch = async () => { called = true; return Response.json({}) }
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request({ inputText: 'short', candidates: [] }))
+  assert.equal(response.status, 400)
+  assert.equal(called, false)
 })
 
-test('cross-origin browser requests are rejected before billed calls', async () => {
-  let calls = 0
-  const result = await handleEnhancedRequest(request(packet(), 'https://attacker.test'), env, async () => { calls += 1 })
-  assert.equal(result.status, 403)
-  assert.equal((await result.json()).code, 'origin_rejected')
-  assert.equal(calls, 0)
+test('cross-origin browser posts are rejected before billable calls', async (t) => {
+  let called = false
+  globalThis.fetch = async () => { called = true; return Response.json({}) }
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request(packet(), { Origin: 'https://attacker.invalid' }))
+  assert.equal(response.status, 403)
+  assert.equal(called, false)
 })
 
-test('a no-match decision cannot generate an attribution line', async () => {
-  const decision = jevPayload()
-  decision.answers.closest.choice = 'no_match'
-  decision.answers.closest.probabilities = { candidate_0: 0.2, no_match: 0.8 }
-  decision.answers.lineage.score = 0.1
-  let calls = 0
-  const result = await handleEnhancedRequest(request(), env, async () => {
-    calls += 1
-    return calls === 1 ? response(decision) : response('bad-response')
-  })
-  const body = await result.json()
+test('missing server key returns configuration guidance', async () => {
+  delete process.env.OPENROUTER_API_KEY
+  try {
+    const response = await handleEnhancedRequest(request())
+    assert.equal(response.status, 503)
+    assert.equal((await response.json()).code, 'not_configured')
+  } finally {
+    process.env.OPENROUTER_API_KEY = 'test-server-only-key'
+  }
+})
+
+test('no-match decisions suppress attribution', async (t) => {
+  globalThis.fetch = async (url) => {
+    if (String(url).includes('/decisions')) return Response.json(mockJev({
+      answers: [
+        { output_name: 'closest_reference', choice: 'No credible ENI match', distribution: { 'ENI LIME (apr)': 0.1, 'No credible ENI match': 0.9 } },
+        { output_name: 'eni_lineage', score: 0, distribution: { 0: 0.9 } },
+        { output_name: 'attribution_supported', value: false, prob_yes: 0.02 },
+        { output_name: 'evidence_confidence', choice: 'High', distribution: { High: 0.9 } },
+      ],
+    }))
+    return new Response('not used', { status: 503 })
+  }
+  t.after(() => { globalThis.fetch = originalFetch })
+  const response = await handleEnhancedRequest(request())
+  const body = await response.json()
   assert.equal(body.jev.selectedVariantId, null)
-  assert.equal(body.jev.attributionSupported, false)
   assert.equal(body.attribution, '')
+  assert.equal(body.status, 'partial')
+})
+
+test.after(() => {
+  globalThis.fetch = originalFetch
+  if (originalKey === undefined) delete process.env.OPENROUTER_API_KEY
+  else process.env.OPENROUTER_API_KEY = originalKey
 })
