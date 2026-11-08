@@ -1,4 +1,4 @@
-import { corpus, findSharedPassages } from '@/lib/detector'
+import { findSharedPassages } from '@/lib/detector'
 import type { AnalysisReport, EnhancedAnalysis, VariantScore } from '@/types'
 
 const ENDPOINT = '/api/enhanced'
@@ -24,7 +24,7 @@ export class EnhancedAnalysisError extends Error {
 function referenceExcerpt(text: string, maximum = 7000): string {
   if (text.length <= maximum) return text
   const beginning = 4500
-  return `${text.slice(0, beginning)}\n\n[Excerpt truncated for enhanced analysis]\n\n${text.slice(-(maximum - beginning))}`
+  return `${text.slice(0, beginning)}\n\n[Excerpt truncated for Jev and DeepSeek analysis]\n\n${text.slice(-(maximum - beginning))}`
 }
 
 function evidenceCandidate(match: VariantScore) {
@@ -53,10 +53,6 @@ function buildEvidencePacket(report: AnalysisReport) {
     inputName: report.inputName,
     inputText: report.inputText,
     wordCount: report.wordCount,
-    localScore: report.score,
-    localVerdict: report.verdict,
-    anchorId: corpus.anchorId,
-    anchorAlignment: report.limeAlignment,
     markerHits: report.markerHits.map((hit) => ({
       id: hit.id,
       label: hit.label,
@@ -79,9 +75,9 @@ function buildEvidencePacket(report: AnalysisReport) {
 async function parseError(response: Response): Promise<EnhancedAnalysisError> {
   try {
     const body = await response.json() as { message?: string; code?: string }
-    return new EnhancedAnalysisError(body.message || 'Enhanced analysis did not complete.', body.code)
+    return new EnhancedAnalysisError(body.message || 'Jev analysis did not complete.', body.code)
   } catch {
-    return new EnhancedAnalysisError('The enhanced endpoint is unavailable in this deployment. Local mode remains available.', 'endpoint_unavailable')
+    return new EnhancedAnalysisError('The Jev decision endpoint is unavailable in this deployment.', 'endpoint_unavailable')
   }
 }
 
@@ -110,6 +106,8 @@ function validEnhancedPayload(payload: EnhancedAnalysis): boolean {
     payload.jev &&
     typeof payload.jev.lineageLabel === 'string' &&
     typeof payload.jev.choiceConfidence === 'number' &&
+    payload.jev.choiceProbabilities &&
+    typeof payload.jev.choiceProbabilities === 'object' &&
     payload.narrative &&
     typeof payload.narrative.summary === 'string' &&
     Array.isArray(payload.narrative.decisionBullets) &&
@@ -126,31 +124,31 @@ function verdictTone(lineageIndex: number): AnalysisReport['verdictTone'] {
   return 'none'
 }
 
-function mergeEnhancedReport(local: AnalysisReport, enhanced: EnhancedAnalysis, attribution: string): AnalysisReport {
-  const selected = local.matches.find((match) => match.variant.id === enhanced.jev.selectedVariantId)
-  const topMatch = selected ?? local.topMatch
-  const runnerUp = selected && local.topMatch.variant.id !== selected.variant.id ? local.topMatch : local.runnerUp
+function mergeEnhancedReport(evidence: AnalysisReport, enhanced: EnhancedAnalysis, attribution: string): AnalysisReport {
+  const selected = evidence.matches.find((match) => match.variant.id === enhanced.jev.selectedVariantId)
+  const topMatch = selected ?? evidence.topMatch
+  const runnerUp = selected && evidence.topMatch.variant.id !== selected.variant.id ? evidence.topMatch : evidence.runnerUp
   return {
-    ...local,
+    ...evidence,
     score: topMatch.score,
     topMatch,
     runnerUp,
-    passages: findSharedPassages(local.inputText, topMatch.variant.text),
+    passages: findSharedPassages(evidence.inputText, topMatch.variant.text),
     verdict: enhanced.jev.lineageLabel,
     verdictTone: verdictTone(enhanced.jev.lineageIndex),
     confidence: enhanced.jev.confidenceLabel,
     summary: enhanced.narrative.summary,
     reasons: enhanced.narrative.decisionBullets,
     attribution,
-    durationMs: local.durationMs + enhanced.provenance.durationMs,
+    durationMs: evidence.durationMs + enhanced.provenance.durationMs,
     mode: 'enhanced',
     enhanced,
   }
 }
 
-export async function requestEnhancedAnalysis(local: AnalysisReport): Promise<AnalysisReport> {
-  if (local.inputText.length > MAX_ENHANCED_CHARACTERS) {
-    throw new EnhancedAnalysisError('Enhanced mode accepts up to 160,000 characters. Use local mode for this larger file.', 'input_too_large')
+export async function requestEnhancedAnalysis(evidence: AnalysisReport): Promise<AnalysisReport> {
+  if (evidence.inputText.length > MAX_ENHANCED_CHARACTERS) {
+    throw new EnhancedAnalysisError('Jev analysis accepts up to 160,000 characters. Split this sample into a smaller prompt first.', 'input_too_large')
   }
   const controller = new AbortController()
   const timeout = window.setTimeout(() => controller.abort(), 75_000)
@@ -159,19 +157,19 @@ export async function requestEnhancedAnalysis(local: AnalysisReport): Promise<An
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       credentials: 'same-origin',
-      body: JSON.stringify(buildEvidencePacket(local)),
+      body: JSON.stringify(buildEvidencePacket(evidence)),
       signal: controller.signal,
     })
     if (!response.ok) throw await parseError(response)
     const payload = await response.json() as EnhancedAnalysis & { attribution: string }
-    if (!validEnhancedPayload(payload)) throw new EnhancedAnalysisError('The enhanced service returned an incomplete report. Local evidence is preserved.', 'malformed_response')
-    return mergeEnhancedReport(local, payload, payload.attribution || '')
+    if (!validEnhancedPayload(payload)) throw new EnhancedAnalysisError('The service returned an incomplete Jev report.', 'malformed_response')
+    return mergeEnhancedReport(evidence, payload, payload.attribution || '')
   } catch (error) {
     if (error instanceof EnhancedAnalysisError) throw error
     if (error instanceof Error && (error.name === 'AbortError' || error.name === 'TimeoutError')) {
-      throw new EnhancedAnalysisError('Enhanced analysis timed out. No automatic retry was made; your local report is preserved.', 'timeout')
+      throw new EnhancedAnalysisError('Jev analysis timed out. No automatic retry was made.', 'timeout')
     }
-    throw new EnhancedAnalysisError('The enhanced endpoint could not be reached. Your local evidence report is preserved.', 'network_error')
+    throw new EnhancedAnalysisError('The Jev decision endpoint could not be reached.', 'network_error')
   } finally {
     window.clearTimeout(timeout)
   }
