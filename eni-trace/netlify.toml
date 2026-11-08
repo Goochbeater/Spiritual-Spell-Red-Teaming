@@ -3,6 +3,9 @@
   publish = "dist"
   functions = "netlify/functions"
 
+[build.environment]
+  NPM_CONFIG_REGISTRY = "https://registry.npmjs.org/"
+
 [functions]
   node_bundler = "esbuild"
 
