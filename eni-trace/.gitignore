@@ -10,7 +10,10 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.server
 *.local
+.env
+.netlify
 
 # Editor directories and files
 .vscode/*
@@ -23,5 +26,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Generated from the repository's ENI source documents
-src/data/corpus.json
+# The standalone preview tracks its validated corpus snapshot. The repository
+# branch regenerates this file from the sibling Jailbreak-Guide documents.

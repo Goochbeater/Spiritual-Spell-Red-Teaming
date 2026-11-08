@@ -1,56 +1,58 @@
-# ENI Trace
+# ENI Trace — Jev + DeepSeek Enhanced
 
-ENI Trace is a browser-based lineage and attribution workbench for the ENI prompt family in `Goochbeater/Spiritual-Spell-Red-Teaming`. Paste a prompt or drop a text file and JEV produces an explainable report with a ranked comparison chart, shared passages, marker evidence, decision reasons, and suggested credit.
+ENI Trace is a lineage and attribution workbench for the ENI prompt family in `Goochbeater/Spiritual-Spell-Red-Teaming`. Paste a prompt or drop a text file to produce a ranked comparison chart, shared passages, marker evidence, typed Jev decisions, a structured DeepSeek narrative, and suggested source credit.
 
-## Corpus
+## Netlify drag-and-drop setup
 
-- Source repository: `Goochbeater/Spiritual-Spell-Red-Teaming`
-- Source commit: `e2cef7707a6734cfbd3497d467651405fc97fe23`
-- Working branch: `eni-attribution-detector`
-- Primary anchor: `ENI LIME (apr)`
-- 110 source documents, deduplicated into 92 fingerprints while retaining every source path
+- **1. Deploy the complete source package.** While logged in to Netlify, drag `ENI-Trace-Netlify.zip` into Netlify Drop. If your Netlify interface asks for a folder, extract the ZIP and drag the extracted folder instead. Do not extract or deploy only `dist/`; the server-side function is required for enhanced mode.
+- **2. Let Netlify build the project.** The included `netlify.toml` selects `npm run build`, publishes `dist/`, and bundles `netlify/functions/enhanced-report.mjs`. The validated corpus and lockfile are already included; `node_modules` is intentionally excluded.
+- **3. Add one secret.** In the new site’s **Site configuration → Environment variables**, create `OPENROUTER_API_KEY` with your OpenRouter key. Make it available to **Functions**. Never rename it to `VITE_OPENROUTER_API_KEY` and never place it in frontend code.
+- **4. Refresh the deploy.** Redeploy the site, or drag the same package into the site’s deploy dropzone again. The status indicator should read **OpenRouter connected**.
+- **5. Choose a mode.** **Enhanced** sends a bounded prompt excerpt and comparison evidence to OpenRouter for Jev decisions and DeepSeek report writing. **Local** keeps the complete analysis in the browser and requires no key.
 
-The generated corpus lives at `src/data/corpus.json`. In this repository branch, `predev` and `prebuild` automatically create it from the sibling `Jailbreak-Guide` documents; no generated database needs to be committed. Standalone application exports already include the generated file. Source links point to the original files on `main`; application work remains isolated on `eni-attribution-detector`.
+No TypeSafe account, second API key, database, or Netlify environment variable is required for the default setup. `OPENROUTER_JEV_MODEL` and `OPENROUTER_REPORT_MODEL` are optional deliberate-upgrade overrides; the verified defaults are already configured.
 
-## JEV decision model
+## Analysis architecture
 
-JEV is deterministic and runs entirely in the browser. Submitted prompts are not sent to a server or external AI API.
+- **Local evidence retrieval:** 110 source documents deduplicated into 92 fingerprints, with `ENI LIME (apr)` as the primary anchor.
+- **Deterministic local score:** 38% ordered five-token shingles, 27% IDF-weighted lexical cosine, 22% distinctive ENI markers, 8% document structure, and 5% rare typo fingerprints. LIME APR receives a 3.5% local tie-break.
+- **TypeSafe Jev 1.14:** `typesafe/jev-1.14` answers Choice, Score, and Noul questions for closest reference, lineage, evidence confidence, and attribution support. Its probabilities remain separate from local alignment percentages.
+- **DeepSeek V4.1 Flash 1017:** `deepseek/deepseek-v4.1-flash-1017` writes a schema-constrained narrative from the evidence and completed Jev decisions. It cannot change the verdict, choose another variant, or create source credit.
+- **Failure behavior:** Jev failure produces an explicit local fallback. DeepSeek failure preserves Jev’s completed decision with a clearly marked deterministic narrative. No failed model call is automatically retried.
 
-The weighted score combines:
-
-- 38% ordered five-token shingles, including input containment and Dice similarity
-- 27% IDF-weighted lexical cosine similarity
-- 22% distinctive ENI marker alignment
-- 8% structural similarity
-- 5% rare typo fingerprints
-
-ENI LIME APR receives a 3.5% anchor tie-break. High-containment verbatim excerpts and marker-rich paraphrases have separate calibrated decision rules. Reports expose the evidence and limitations; a similarity score is not proof of authorship by itself.
+A result is evidence of textual resemblance and model-assessed lineage, not standalone proof of identity or authorship.
 
 ## Run locally
 
-```bash
-npm install
-npm run dev
-```
+- **Browser-only development:**
+  - Run `npm install`.
+  - Run `npm run dev`.
+  - Open the shown local URL. Local mode is fully functional; Vite alone does not emulate the Netlify function.
+- **Full enhanced local server:**
+  - Copy `.env.example` to `.env` and fill `OPENROUTER_API_KEY` locally. The `.env` file is Git-ignored.
+  - Run `npm run build`.
+  - Run `npm run build:server`.
+  - Run `npm start` and open `http://localhost:3000`.
 
-## Production build
+## Verification
 
-```bash
-npm run build
-npm run preview
-```
-
-The production build is written to `dist/`. It includes a web app manifest, service worker, and an installable icon.
-
-## Netlify Drop
-
-Zip the **contents** of `dist/` with `index.html` at the archive root, then drop the ZIP into Netlify Drop. No build command, environment variables, or server functions are required. The included `_redirects` file provides SPA fallback handling, and `_headers` supplies asset and service-worker cache rules.
+- Run `npm test` for the mocked OpenRouter contract suite: success, malformed responses, rejected credentials, rate limits, origin rejection, no-match attribution suppression, and DeepSeek degradation.
+- Run `npm run lint` for frontend linting.
+- Run `npm run build` for the production frontend.
+- Run `npm run build:server` to bundle the preview/server adapter.
+- The contract tests use mocked upstream responses and do not consume OpenRouter credits.
 
 ## Main files
 
-- `scripts/build-corpus.mjs` — reproducible ENI extraction, normalization, deduplication, and provenance
-- `src/lib/detector.ts` — normalization, corpus preparation, scoring, verdicts, and shared-passage extraction
-- `src/pages/Home.tsx` — paste/upload workflow and sample controls
-- `src/components/Report.tsx` — report, Markdown export, clipboard actions, and print/PDF
-- `src/components/CorpusBrowser.tsx` — searchable reference corpus
-- `src/components/Methodology.tsx` — formula, decision bands, and provenance
+- `scripts/build-corpus.mjs` — reproducible ENI extraction, normalization, deduplication, and provenance.
+- `src/data/corpus.json` — validated standalone corpus snapshot included in this package.
+- `src/lib/detector.ts` — local retrieval, scoring, verdict calibration, and shared-passage extraction.
+- `src/lib/enhanced.ts` — bounded evidence packet, endpoint client, and enhanced/local report merge.
+- `netlify/functions/lib/enhanced.mjs` — validated server-side Jev and DeepSeek pipeline.
+- `netlify/functions/enhanced-report.mjs` — Netlify Functions v2 entry point.
+- `api/boot.mjs` — preview server adapter using the same enhanced handler.
+- `src/pages/Home.tsx` — paste/upload workflow, mode selection, privacy state, and fallback.
+- `src/components/Report.tsx` — Jev probabilities, narrative, local graph, evidence, exports, and print/PDF.
+- `src/components/Methodology.tsx` — local formula, model roles, processing boundary, and provenance.
+
+Application work belongs on the isolated `eni-attribution-detector` branch. The source links point to the original ENI files on `main`; this package does not modify `main`.

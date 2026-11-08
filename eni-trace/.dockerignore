@@ -1,0 +1,8 @@
+node_modules
+dist
+.server
+.git
+.netlify
+.env
+*.log
+ENI-Trace-Netlify.zip
