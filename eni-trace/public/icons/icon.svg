@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">ENI Trace fingerprint</title>
+  <rect width="512" height="512" rx="72" fill="#f5f6ef"/>
+  <g fill="none" stroke="#1400ff" stroke-width="13" stroke-linecap="round">
+    <path d="M92 251c0-99 70-176 164-176 54 0 102 24 135 63"/>
+    <path d="M104 306c-17-96 43-190 142-202 78-10 148 31 177 99"/>
+    <path d="M123 352c-31-75-5-163 60-207 72-49 172-31 219 39 24 35 31 77 24 117"/>
+    <path d="M150 391c-35-55-34-128 4-180 46-63 136-78 199-32 50 36 66 104 45 161"/>
+    <path d="M184 419c-37-42-49-102-28-153 28-68 112-95 174-56 44 28 60 83 48 132"/>
+    <path d="M225 438c-28-30-43-72-36-113 11-63 77-98 136-72 38 17 59 57 56 98"/>
+  </g>
+  <path d="M249 423V184h45c52 0 83 29 83 72s-31 73-83 73h-45m0-72h44c22 0 34-10 34-27s-12-27-34-27h-44" fill="none" stroke="#231f20" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="392" cy="125" r="27" fill="#ffca34" stroke="#231f20" stroke-width="4"/>
+</svg>

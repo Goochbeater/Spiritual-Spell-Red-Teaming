@@ -1,0 +1,13 @@
+{
+  "name": "ENI Trace — JEV Prompt Lineage Detector",
+  "short_name": "ENI Trace",
+  "description": "Explainable ENI prompt attribution against a complete variant corpus.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f5f0",
+  "theme_color": "#f2f5f0",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
