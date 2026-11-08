@@ -2,6 +2,8 @@
 
 ENI Trace is a lineage and attribution workbench for the ENI prompt family in `Goochbeater/Spiritual-Spell-Red-Teaming`. Paste a prompt or drop a text file to receive a TypeSafe Jev closest-reference decision, Jev probability graph, DeepSeek report findings, shared source passages, marker evidence, and conditional source credit.
 
+The header includes a light/dark toggle. It defaults to the device preference and remembers an explicit selection only in the current browser.
+
 ## Netlify drag-and-drop setup
 
 - **1. Deploy the complete source package.** While logged in to Netlify, drag `ENI-Trace-Netlify.zip` into Netlify Drop. If your Netlify interface asks for a folder, extract the ZIP and drag the extracted folder instead. Do not extract or deploy only `dist/`; the server-side function is required.

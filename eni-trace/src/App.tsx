@@ -3,6 +3,7 @@ import { ArrowUpRight, Fingerprint, GitBranch } from 'lucide-react'
 import Home from '@/pages/Home'
 import { CorpusBrowser } from '@/components/CorpusBrowser'
 import { Methodology } from '@/components/Methodology'
+import { ThemeToggle } from '@/components/ThemeToggle'
 import { corpus } from '@/lib/detector'
 
 type View = 'detector' | 'corpus' | 'method'
@@ -27,6 +28,7 @@ export default function App() {
           <button type="button" onClick={() => navigate('corpus')} aria-current={view === 'corpus' ? 'page' : undefined}>Corpus <span>{corpus.variantCount}</span></button>
           <button type="button" onClick={() => navigate('method')} aria-current={view === 'method' ? 'page' : undefined}>Method</button>
         </nav>
+        <ThemeToggle />
         <a className="branch-link" href={`https://github.com/${corpus.repository}/tree/eni-attribution-detector`} target="_blank" rel="noreferrer">
           <GitBranch size={15} aria-hidden="true" /><span>eni-attribution-detector</span><ArrowUpRight size={13} aria-hidden="true" />
         </a>

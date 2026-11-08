@@ -46,18 +46,18 @@ export function MatchChart({ probabilities, selectedVariantName }: MatchChartPro
             width={132}
             axisLine={false}
             tickLine={false}
-            tick={{ fill: '#44413f', fontSize: 11, fontFamily: 'IBM Plex Mono, monospace' }}
+            tick={{ fill: 'var(--muted)', fontSize: 11, fontFamily: 'IBM Plex Mono, monospace' }}
             tickFormatter={(value: string) => value.length > 20 ? `${value.slice(0, 19)}…` : value}
           />
-          <Tooltip content={<ChartTooltip />} cursor={{ fill: 'rgba(35,31,32,0.045)' }} />
+          <Tooltip content={<ChartTooltip />} cursor={{ fill: 'var(--surface-muted)' }} />
           <Bar dataKey="probability" radius={[0, 3, 3, 0]} barSize={22} isAnimationActive={false}>
             {data.map((entry) => (
               <Cell
                 key={entry.name}
-                fill={isSelected(entry.name) ? '#1400ff' : entry.name === 'ENI LIME (apr)' ? '#ffca34' : '#b9bdb7'}
+                fill={isSelected(entry.name) ? 'var(--primary)' : entry.name === 'ENI LIME (apr)' ? 'var(--accent)' : 'var(--chart-bar)'}
               />
             ))}
-            <LabelList dataKey="probability" position="right" formatter={(value: number) => `${value}%`} fill="#231f20" fontSize={11} fontFamily="IBM Plex Mono, monospace" />
+            <LabelList dataKey="probability" position="right" formatter={(value: number) => `${value}%`} fill="var(--foreground)" fontSize={11} fontFamily="IBM Plex Mono, monospace" />
           </Bar>
         </BarChart>
       </ResponsiveContainer>
