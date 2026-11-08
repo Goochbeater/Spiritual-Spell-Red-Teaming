@@ -39,7 +39,7 @@ export default function App() {
       <footer className="site-footer">
         <div><Fingerprint size={20} aria-hidden="true" /><span><b>ENI TRACE</b> · Prompt lineage, made inspectable.</span></div>
         <p>Comparison corpus: {corpus.repository} · {corpus.sourceCommit.slice(0, 7)}</p>
-        <button type="button" onClick={() => navigate('method')}>How JEV decides <ArrowUpRight size={13} /></button>
+        <button type="button" onClick={() => navigate('method')}>How the analysis works <ArrowUpRight size={13} /></button>
       </footer>
     </div>
   )

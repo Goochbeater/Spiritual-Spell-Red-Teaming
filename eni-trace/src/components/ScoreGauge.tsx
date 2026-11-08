@@ -4,7 +4,7 @@ interface ScoreGaugeProps {
   size?: 'large' | 'small'
 }
 
-export function ScoreGauge({ score, label = 'JEV alignment', size = 'large' }: ScoreGaugeProps) {
+export function ScoreGauge({ score, label = 'Local alignment', size = 'large' }: ScoreGaugeProps) {
   const radius = 70
   const circumference = 2 * Math.PI * radius
   const offset = circumference * (1 - Math.min(100, Math.max(0, score)) / 100)

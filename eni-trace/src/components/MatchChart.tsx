@@ -3,6 +3,7 @@ import type { VariantScore } from '@/types'
 
 interface MatchChartProps {
   matches: VariantScore[]
+  selectedVariantId?: string | null
 }
 
 interface ChartTooltipProps {
@@ -22,7 +23,7 @@ function ChartTooltip({ active, payload }: ChartTooltipProps) {
   )
 }
 
-export function MatchChart({ matches }: MatchChartProps) {
+export function MatchChart({ matches, selectedVariantId }: MatchChartProps) {
   const data = matches.slice(0, 6).reverse()
   const accessibleSummary = matches.slice(0, 6).map((match, index) => `${index + 1}. ${match.variant.name}, ${match.score}%`).join('; ')
   return (
@@ -44,7 +45,7 @@ export function MatchChart({ matches }: MatchChartProps) {
             {data.map((entry) => (
               <Cell
                 key={entry.variant.id}
-                fill={entry.variant.isAnchor ? '#ffca34' : entry === data[data.length - 1] ? '#1400ff' : '#b9bdb7'}
+                fill={entry.variant.isAnchor ? '#ffca34' : selectedVariantId !== undefined ? (entry.variant.id === selectedVariantId ? '#1400ff' : '#b9bdb7') : entry === data[data.length - 1] ? '#1400ff' : '#b9bdb7'}
               />
             ))}
             <LabelList dataKey="score" position="right" formatter={(value: number) => `${value}%`} fill="#231f20" fontSize={11} fontFamily="IBM Plex Mono, monospace" />

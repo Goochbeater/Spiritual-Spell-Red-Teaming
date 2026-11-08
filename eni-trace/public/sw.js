@@ -1,4 +1,4 @@
-const CACHE = 'eni-trace-v1'
+const CACHE = 'eni-trace-v2'
 const PAGE = new URL('./index.html', self.location.href).toString()
 
 self.addEventListener('install', () => self.skipWaiting())
@@ -16,6 +16,8 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return
   const url = new URL(request.url)
   if (url.origin !== self.location.origin) return
+  // Configuration and model status must always reflect the current function environment.
+  if (url.pathname.startsWith('/api/')) return
 
   if (request.mode === 'navigate') {
     event.respondWith(

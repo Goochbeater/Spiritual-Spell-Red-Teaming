@@ -71,6 +71,55 @@ export interface VariantScore {
   containment: number
 }
 
+export type AnalysisMode = 'local' | 'enhanced'
+
+export interface JevDecision {
+  requestId: string | null
+  model: string
+  selectedVariantId: string | null
+  selectedVariantName: string
+  choiceConfidence: number
+  choiceProbabilities: Record<string, number>
+  lineageIndex: number
+  lineageLabel: string
+  lineagePosition: number
+  lineageConfidence: number
+  lineageProbabilities: Record<string, number>
+  attributionProbability: number
+  attributionSupported: boolean
+  confidenceLabel: 'Low' | 'Medium' | 'High'
+  confidenceDistribution: Record<string, number>
+  usage: {
+    inputTokens: number | null
+    outputTokens: number | null
+    costUsd: number | null
+  } | null
+}
+
+export interface EnhancedNarrative {
+  summary: string
+  decisionBullets: string[]
+  evidenceAssessment: string[]
+  limitations: string[]
+  attributionRationale: string
+}
+
+export interface EnhancedProvenance {
+  provider: 'OpenRouter'
+  jevModel: string
+  reportModel: string
+  narrativeSource: 'deepseek' | 'deterministic-fallback'
+  generatedAt: string
+  durationMs: number
+}
+
+export interface EnhancedAnalysis {
+  jev: JevDecision
+  narrative: EnhancedNarrative
+  provenance: EnhancedProvenance
+  warning: string
+}
+
 export interface AnalysisReport {
   id: string
   createdAt: string
@@ -92,4 +141,7 @@ export interface AnalysisReport {
   reasons: string[]
   attribution: string
   durationMs: number
+  mode: AnalysisMode
+  enhanced?: EnhancedAnalysis
+  fallbackReason?: string
 }
