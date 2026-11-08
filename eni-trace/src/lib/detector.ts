@@ -567,19 +567,21 @@ export function analyzePrompt(input: string, inputName = 'Pasted prompt'): Analy
   if (passages[0]) reasons.push(`Longest shared run: ${passages[0].tokenCount} consecutive tokens with ${topMatch.variant.name}.`)
   else reasons.push('No seven-token exact passage survived; any lineage signal comes from looser lexical and structural evidence.')
   reasons.push(`${round1(topMatch.containment)}% of the input’s five-token shingles occur in the closest reference.`)
-  if (markerHits.length) reasons.push(`${markerHits.length} distinctive marker groups detected; ${markerHits.slice(0, 3).map((hit) => hit.label).join(', ')} carry the most weight.`)
-  else reasons.push('No high-confidence ENI signature phrases were detected.')
+  if (markerHits.length) {
+    reasons.push(`${markerHits.length} distinctive marker groups detected; ${markerHits.slice(0, 3).map((hit) => hit.label).join(', ')} carry the most weight.`)
+    if (markerHits.length < 3 && topMatch.markers >= 50) reasons.push(`The ${topMatch.markers}% marker signal comes from only ${markerHits.length} detected group${markerHits.length === 1 ? '' : 's'}; treat the percentage as sparse coverage, not independent confirmation.`)
+  } else reasons.push('No high-confidence ENI signature phrases were detected.')
   reasons.push(`Document structure aligns at ${topMatch.structure}% using headings, lists, tags, code fences, tables, and persona-term density.`)
   if (runnerUp && margin < 4 && topMatch.score >= 24) reasons.push(`Only ${round1(margin)} points separate the runner-up, ${runnerUp.variant.name}; treat the exact variant assignment cautiously.`)
-  if (inputTokens.length < 45) reasons.push('The sample is short, so JEV lowers confidence even when distinctive wording is present.')
+  if (inputTokens.length < 45) reasons.push('The sample is short, so the local engine lowers confidence even when distinctive wording is present.')
   if (topMatch.variant.isAnchor) reasons.push('ENI LIME (apr) is the primary anchor and receives the designated 3.5% lineage tie-break weight.')
   else reasons.push(`The primary LIME APR anchor aligns at ${anchor.score}%, below the leading ${topMatch.variant.family} fingerprint.`)
 
   const summary = topMatch.score >= 43
-    ? `JEV places this prompt closest to ${topMatch.variant.name} (${topMatch.variant.target}), with ${topMatch.score}% overall fingerprint alignment.`
+    ? `Local analysis places this prompt closest to ${topMatch.variant.name} (${topMatch.variant.target}), with ${topMatch.score}% overall fingerprint alignment.`
     : topMatch.score >= 24
-      ? `JEV finds recognizable ENI residue, but the evidence does not support a clean variant assignment beyond ${topMatch.variant.name}.`
-      : 'JEV does not find enough shared wording, markers, or structure to connect this prompt reliably to the ENI corpus.'
+      ? `Local analysis finds recognizable ENI residue, but the evidence does not support a clean variant assignment beyond ${topMatch.variant.name}.`
+      : 'Local analysis does not find enough shared wording, markers, or structure to connect this prompt reliably to the ENI corpus.'
   const canonicalSource = topMatch.variant.sources.find((source) => source.path === topMatch.variant.path) ?? topMatch.variant.sources[0]
   const attribution = topMatch.score >= 43
     ? topMatch.containment > 90
@@ -609,5 +611,6 @@ export function analyzePrompt(input: string, inputName = 'Pasted prompt'): Analy
     reasons,
     attribution,
     durationMs: Math.round(performance.now() - started),
+    mode: 'local',
   }
 }
