@@ -22,10 +22,13 @@ export function ScoreGauge({ score, label = 'Jev choice confidence', size = 'lar
         />
       </svg>
       <div className="score-gauge__content">
-        <span className="score-gauge__number">{Math.round(score)}</span>
-        <span className="score-gauge__percent">%</span>
+        <div className="score-gauge__reading">
+          <span className="score-gauge__number">{Math.round(score)}</span>
+          <span className="score-gauge__percent">%</span>
+        </div>
         <span className="score-gauge__label">{label}</span>
       </div>
     </div>
   )
 }
+

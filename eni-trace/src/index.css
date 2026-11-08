@@ -327,10 +327,11 @@
 .score-gauge circle { fill: none; stroke-width: 9; }
 .score-gauge__track { stroke: var(--surface-muted); }
 .score-gauge__value { stroke: var(--primary); stroke-linecap: butt; transition: stroke-dashoffset 240ms ease-out; }
-.score-gauge__content { position: absolute; inset: 0; display: grid; place-content: center; grid-template-columns: auto auto; align-items: baseline; text-align: center; }
+.score-gauge__content { position: absolute; inset: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.score-gauge__reading { display: flex; align-items: baseline; justify-content: center; gap: 4px; }
 .score-gauge__number { font-family: var(--font-display); font-size: 57px; line-height: 1; letter-spacing: -0.06em; font-variant-numeric: tabular-nums; }
-.score-gauge__percent { font-family: var(--font-mono); font-size: 15px; color: var(--primary); }
-.score-gauge__label { grid-column: 1 / -1; margin-top: 6px; font-family: var(--font-mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.score-gauge__percent { font-family: var(--font-mono); font-size: 15px; line-height: 1; color: var(--primary); }
+.score-gauge__label { margin-top: 9px; font-family: var(--font-mono); font-size: 8px; line-height: 1.25; white-space: nowrap; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .verdict-badge { display: inline-flex; align-items: center; min-height: 28px; padding: 3px 9px; border: 1px solid var(--border-strong); border-radius: 3px; font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
 .verdict-badge--exact { background: var(--accent); color: var(--foreground); border-color: var(--foreground); }
 .verdict-badge--strong { background: var(--primary); color: var(--primary-foreground); border-color: var(--primary); }
@@ -632,3 +633,4 @@
   .attribution-block { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   a { text-decoration: none; }
 }
+
