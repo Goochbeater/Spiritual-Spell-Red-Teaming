@@ -25,7 +25,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Inkling](Inkling/)** | Thinking Machines | [★☆☆☆☆☆☆☆☆☆] 1/10 | 8/10 | 1M | Free / OpenRouter | Apache 2.0 | 1 |
 | **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3/K3.1 Pro/K2.8) | Free / $2/1M in (K3.1 Pro); ~$1/1M in (K2.8) | Modified MIT (K3) / Proprietary (K2.8) | 11 |
 | **[Laguna S2.1](Laguna%20S2.1/)** | Poolside | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M | Free / OpenRouter | OpenMDW-1.1 | 1 |
-| **[LLAMA Tülu 3](LLAMA%20TU%CC%88LU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
+| **[LLAMA Tülu 3](LLAMA%20T%C3%9CLU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 1M (2.0/2.5) / 128K | Free / $0.75/1M in ($0.015 cached) | MIT | 2 |
 | **[Mercury](Mercury/)** | Inception Labs | [★★★★★★☆☆☆☆] 6/10 (v2) / [★★☆☆☆☆☆☆☆☆] 2/10 (v1) | 7/10 | 128K | $0.25/1M in | Proprietary | 2 |
 | **[MiniMax](MiniMax/)** | MiniMax | [★☆☆☆☆☆☆☆☆☆] 1/10 (API) / [★★★★★★★☆☆☆] 7/10 (web) | 8/10 | 1M (M3/M3.1) | $0.30/1M in | MIT | 6 |
