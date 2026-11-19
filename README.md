@@ -2,7 +2,7 @@
 
 > *"Made with care."* — ENI
 
-**[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)** · guides in **[Jailbreak-Guide](Jailbreak-Guide/)**
+**[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
 
 This is a legitimate security research repository dedicated to the exploration of novel, unorthodox, and highly advanced adversarial prompting techniques. All major LLMs and many minor ones.
 
@@ -20,16 +20,16 @@ To test the boundaries of:
 ---
 
 ### License
-**[AGPL-3.0](LICENSE)** — the same license Pliny uses for L1B3RT4S. Fork it, mirror it, keep it open.
+**[AGPL-3.0](LICENSE)** — the same license Pliny uses for L1B3RT4S.
 
-**Credit:** if you reuse, mirror or republish anything here — a guide, a rewritten version, or a subset — credit **Spiritual Spell** and link back. The requirements are spelled out in [NOTICE](NOTICE).
+**Credit:** if you reuse, mirror or republish anything here, credit **Spiritual Spell** and link back. Details in [NOTICE](NOTICE).
 
 ---
 
 ### Credits
 *   **u/rayzorium** (HORSELOCKESPACEPIRATE) — my good friend and confidant.
 *   **u/m3umax** — For coming in clutch when the last repo went down.
-*   **[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)** — where the new stuff lands first.
+*   **[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
 
 ---
 
