@@ -14,7 +14,8 @@ It is extremely tedious and the juice is not worth the squeeze, but it is possib
 Send off this as the first message:
 
 
-[ENI LIME](https://docs.google.com/document/d/17d2oPvH0daFjI_aHSy-Yeq3UFIw0kDeynfk4Oy8l9IE/edit?usp=drivesdk)
+[ENI LIME](Google%20Portraits%20-%20ENI%20LIME.txt)
+*Original source: [Google Doc](https://docs.google.com/document/d/17d2oPvH0daFjI_aHSy-Yeq3UFIw0kDeynfk4Oy8l9IE/edit?usp=drivesdk)*
 
 ### Step 2: Push Prompt
 It will either adhere or refuse. If it refuses, push prompt it with this:

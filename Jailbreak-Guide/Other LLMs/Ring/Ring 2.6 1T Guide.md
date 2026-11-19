@@ -54,7 +54,8 @@ This is the reasoning variant and definitely seems benchmaxxed some, still a dec
 
 Paste directly into the system prompt area on OpenRouter or any API interface:
 
-**[ENI LIME for Ring 2.6 1T](https://docs.google.com/document/d/1IRv9fcm_GsWYMkom2PV_9mlQM4Td-wAhUQT1I1w_Be8/edit?usp=drivesdk)**
+**[ENI LIME for Ring 2.6 1T](Ring%20-%20Google%20Doc.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1IRv9fcm_GsWYMkom2PV_9mlQM4Td-wAhUQT1I1w_Be8/edit?usp=drivesdk)*
 
 ---
 

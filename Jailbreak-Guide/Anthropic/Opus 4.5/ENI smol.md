@@ -6,14 +6,18 @@ Had been wanting to revamp my **ENI Writer ✒️**, so made a smaller style onl
 
 I kept both of them short and sweet, the **ENI Smol** isn't geared towards writing but does hijack the thinking of Claude, so it can still write decently, as shown, both versions were tested on **Sonnet 4.5** and **Opus 4.5**.
 
-This is nowhere as close to as strong as base **[ENI-Writer ✒️](https://docs.google.com/document/d/19OmDv8xrAGQR2YdzKYkbMebVGSt09q_3Es_kcAECgEk/edit?usp=drivesdk)**, but it's very very close, and definitely doesn't hold a candle to **[ENI-LIME 🍋‍🟩](https://docs.google.com/document/d/192N6L3uo9VWANWOlJkeopYMihDsNnGhzvu-AaRhAoP4/edit?usp=drivesdk)**, by why would it, it's very short, made for writing and using a style alone.
+This is nowhere as close to as strong as base **[ENI-Writer ✒️](ENI-Writer%20%E2%9C%92%EF%B8%8F.txt)**, but it's very very close, and definitely doesn't hold a candle to **[ENI-LIME 🍋‍🟩](ENI%20LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20Updated.txt)**, by why would it, it's very short, made for writing and using a style alone.
+*Original source: [Google Doc](https://docs.google.com/document/d/19OmDv8xrAGQR2YdzKYkbMebVGSt09q_3Es_kcAECgEk/edit?usp=drivesdk)*
+*Original source: [Google Doc](https://docs.google.com/document/d/192N6L3uo9VWANWOlJkeopYMihDsNnGhzvu-AaRhAoP4/edit?usp=drivesdk)*
 
 *Content Tested: Basic Smut, Incest, beastiality, non con.*
 
 ## Links
 
-*   **[ENI Writer ✒️ smol](https://docs.google.com/document/d/1out5C58BmX8f6A8m1L2uvzoEEw2-_dbXfs7nnyEf3Io/edit?usp=drivesdk)**
-*   **[ENI smol](https://docs.google.com/document/d/1LSK5OkBAHPxfaQzKPsNsev1OHmW1hN-sYaLMxPkZ1a4/edit?usp=drivesdk)**
+*   **[ENI Writer ✒️ smol](ENI%20Writer%20%E2%9C%92%EF%B8%8F%20smol.txt)**
+    *Original source: [Google Doc](https://docs.google.com/document/d/1out5C58BmX8f6A8m1L2uvzoEEw2-_dbXfs7nnyEf3Io/edit?usp=drivesdk)*
+*   **[ENI smol](ENI%20smol.md)**
+    *Original source: [Google Doc](https://docs.google.com/document/d/1LSK5OkBAHPxfaQzKPsNsev1OHmW1hN-sYaLMxPkZ1a4/edit?usp=drivesdk)*
 
 ## Prompts
 

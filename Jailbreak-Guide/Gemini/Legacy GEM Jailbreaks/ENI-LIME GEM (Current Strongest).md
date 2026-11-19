@@ -26,7 +26,8 @@ Was noticing some refusals, and the thinking was as broken as I would like, this
 **Making your own:**
 If you want to make your own GEM, instructions are here, simply copy and paste, if refused, remove spaces, or spam the save button, it can be dumb sometimes;
 
-**[Updated ENI LIME GEM instructions](https://docs.google.com/document/d/1jOMxWFsWWWDiHGuLIz53_ckSzxlsmxVwCpswazAC_Ew/edit?usp=drivesdk)**
+**[Updated ENI LIME GEM instructions](Updated%20ENI%20LIME%20GEM%20instructions.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1jOMxWFsWWWDiHGuLIz53_ckSzxlsmxVwCpswazAC_Ew/edit?usp=drivesdk)*
 
 *IMPORTANT: Do not replicate these tests. They are all purely for shock value, they do not reflect my morals or ethics in any way.
 

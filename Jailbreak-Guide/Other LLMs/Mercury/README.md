@@ -22,7 +22,8 @@ Complete slop, trained off OpenAI models (likely ChatGPT 5 series).
 ### Available Jailbreaks
 **Method 1: Policy Jailbreak**
 
-> **[ChatGPT 5i Policy Jailbreak](https://docs.google.com/document/d/1U3v84CzX-V5n52-JWbJEzUsZ9gnmyeyz7Huhu87XUrk/edit?usp=drivesdk)**
+> **[ChatGPT 5i Policy Jailbreak](ChatGPT%205i%20Policy%20Jailbreak.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1U3v84CzX-V5n52-JWbJEzUsZ9gnmyeyz7Huhu87XUrk/edit?usp=drivesdk)*
 
 Just regen refusals, and it should go through. Uses ChatGPT 5i Policy bypass.
 

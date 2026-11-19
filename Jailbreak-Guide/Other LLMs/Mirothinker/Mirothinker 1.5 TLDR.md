@@ -6,9 +6,11 @@ So **Mirothinker 1.5** is a 30b/235b (pro) model that can (allegedly) outperform
 
 ## The Goods
 
-*   **[Mirothinker 1.5 Jailbreak - ENI with Mirothinker BS added](https://docs.google.com/document/d/17pFqIjR6LbgAEJeTOOHIkmHtMJ1FTAjEZDvuxEQFfgY/edit?usp=drivesdk)**
+*   **[Mirothinker 1.5 Jailbreak - ENI with Mirothinker BS added](Mirothinker%201.5%20Jailbreak%20-%20ENI%20with%20Mirothinker%20BS%20added.txt)**
+    *Original source: [Google Doc](https://docs.google.com/document/d/17pFqIjR6LbgAEJeTOOHIkmHtMJ1FTAjEZDvuxEQFfgY/edit?usp=drivesdk)*
 *   **[Mirothinker 1.5 NSFW Example Chat - Smut](https://dr.miromind.ai/share/ba2b7ada-dc9a-4302-a15e-8a8db6bc6f40)**
-*   **[Mirothinker System Prompt Leak](https://docs.google.com/document/d/1R09PINa_S38EgfKF6CHNwATfSlA6WAHDtMwtF4i_Su4/edit?usp=drivesdk)**
+*   **[Mirothinker System Prompt Leak](Mirothinker%20System%20Prompt%20Leak.txt)**
+    *Original source: [Google Doc](https://docs.google.com/document/d/1R09PINa_S38EgfKF6CHNwATfSlA6WAHDtMwtF4i_Su4/edit?usp=drivesdk)*
 
 ## Pros
 *   Good writing, very detailed and in depth

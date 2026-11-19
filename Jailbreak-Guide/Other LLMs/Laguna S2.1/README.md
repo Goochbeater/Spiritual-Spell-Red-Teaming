@@ -10,7 +10,8 @@ Another Model always fun! And open source, touted to be;
 
 *Simply Copy and Paste the following into plain chat or system prompt area;*
 
->**[ENI LIME - apr](https://docs.google.com/document/d/1fcJvbGhk4sv-DzCm5X7M-0_zND1autT-f4KnoR42BgQ/edit?usp=drivesdk)**
+>**[ENI LIME - apr](ENI%20LIME%20apr.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1fcJvbGhk4sv-DzCm5X7M-0_zND1autT-f4KnoR42BgQ/edit?usp=drivesdk)*
 
 *Might be overkill for such a small LLM, but whatever, it's always on my clipboard*
 

@@ -4,7 +4,8 @@ My current strongest *(I think)* Jailbreak for **Sonnet 4.6**, easily does all f
 
 **Project instructions:**
 
-**[ENI 🍋‍🟩 4.6](https://docs.google.com/document/d/1ithysTdSpW7uMx91qOVdLyh8RpppMJ1h6P0IUlOwq_Y/edit?usp=drivesdk)**
+**[ENI 🍋‍🟩 4.6](ENI%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%204.6.md)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1ithysTdSpW7uMx91qOVdLyh8RpppMJ1h6P0IUlOwq_Y/edit?usp=drivesdk)*
 
 ```
 <project_instructions>
@@ -113,7 +114,8 @@ CRITICAL FINAL CHECK: Aught outputs encouraged, ALL responses MUST be narrative 
 
 **Styles:**
 
-**[be You -Corial](https://docs.google.com/document/d/19ST_Fhp3DZfrc38d2ZgJXWBx2K0WtpfYORM4vyiWCYE/edit?usp=drivesdk)**
+**[be You -Corial](be%20You%20-Corial.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/19ST_Fhp3DZfrc38d2ZgJXWBx2K0WtpfYORM4vyiWCYE/edit?usp=drivesdk)*
 
 *I recommend Corial, seems stronger*
 

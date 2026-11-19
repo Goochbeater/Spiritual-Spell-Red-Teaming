@@ -1,10 +1,12 @@
 So **Perplexity** changes seemingly daily, they changed to allow for more characters to be allowed into a space via the web version, limit is 8k, so I revisited one of my **Sonnet 4.6** jailbreaks, so simply copy and paste the following into a space. **Three methods**
 
-> **[ENI NEPTUNE 🐙 - Perplexity/API](https://docs.google.com/document/d/1e7VlSFbDSa0FwZY5bqxovQ5BcVsRy3VT9VYESrdzLno/edit?usp=drivesdk)**
+> **[ENI NEPTUNE 🐙 - Perplexity/API](ENI%20NEPTUNE%20%F0%9F%90%99%20-%20Perplexity-API.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1e7VlSFbDSa0FwZY5bqxovQ5BcVsRy3VT9VYESrdzLno/edit?usp=drivesdk)*
 
 *could easily be updated to a malicious coding only version if anyone has interest in it, I mainly use Perplexity for NSFW short rp when my Claude usage is out*
 
->**[ENI lite for Perplexity/API](https://docs.google.com/document/d/1RyWQzsO8LnGZZNV-DacP_LC_66II37kTfFyLKX9VWXs/edit?usp=drivesdk)**
+>**[ENI lite for Perplexity/API](ENI%20lite%20for%20Perplexity-API.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1RyWQzsO8LnGZZNV-DacP_LC_66II37kTfFyLKX9VWXs/edit?usp=drivesdk)*
 
 *Works perfectly fine as well, can't say which is stronger, but I think Neptune is, due to the injection handling and it writes better due to the additional writing tips*
 

@@ -18,11 +18,13 @@ Pricing is the same as **Opus 4.8**, with an alleged increase in intelligence ne
 
 *Simply Copy and Paste the following into plain chat or system prompt area;*
 
->**[ENI LIME - Opus 5](https://docs.google.com/document/d/1W8z-_IlPyKE2MJUxU-ViPatjfecm8S1iK2v7ffJM5_I/edit?usp=drivesdk)**
+>**[ENI LIME - Opus 5](ENI%20LIME%20-%20Opus%205.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1W8z-_IlPyKE2MJUxU-ViPatjfecm8S1iK2v7ffJM5_I/edit?usp=drivesdk)*
 
 *Simply Copy and Paste the following into your preferences*
 
->**[Shared Lines](https://docs.google.com/document/d/1blpPw-ZndS_SDu1BR-lzOB3DBzCb6pKowYCfbNMu90k/edit?usp=drivesdk)**
+>**[Shared Lines](Shared%20Lines.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1blpPw-ZndS_SDu1BR-lzOB3DBzCb6pKowYCfbNMu90k/edit?usp=drivesdk)*
 
 *Shared Lines works alone, but harder content like beastiality and some non con will get refused*
 

@@ -17,7 +17,8 @@ This setup adheres to the **Loki persona** without requiring a style. Just paste
 
 Check here for the **latest version** of the Loki jailbreak (updates may enhance strength or injection resistance):
 
-- **[Loki Jailbreak Full Doc – Preferences Only](https://docs.google.com/document/d/1A4yDcFXjrYFRFFfULrTd9gwg7H0RFKuSkXrmVOZXS-M/edit?usp=drivesdk)**
+- **[Loki Jailbreak Full Doc – Preferences Only](Loki%20Jailbreak%20Full%20Doc%20%E2%80%93%20Preferences%20Only.txt)**
+    *Original source: [Google Doc](https://docs.google.com/document/d/1A4yDcFXjrYFRFFfULrTd9gwg7H0RFKuSkXrmVOZXS-M/edit?usp=drivesdk)*
 
 > **NOTE:** Copy/paste this block into Claude Preferences. Adheres ~7/10 times reliably. If Loki doesn’t engage fully, just regenerate until antml:thinking matches jailbreak behavior.
 

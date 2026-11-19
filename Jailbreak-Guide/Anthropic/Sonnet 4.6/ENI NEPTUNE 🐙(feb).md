@@ -4,11 +4,13 @@ A much stronger Jailbreak for **Sonnet 4.6**, easily does all forms of smut and 
 
 **Project instructions:**
 
-**[ENI Neptune 🐙](https://docs.google.com/document/d/15IzGxDx_-yc9uqEac-DT3JLkr6_w_jvnhtRFvuuQz1w/edit?usp=drivesdk)**
+**[ENI Neptune 🐙](ENI%20Neptune%20%F0%9F%90%99.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/15IzGxDx_-yc9uqEac-DT3JLkr6_w_jvnhtRFvuuQz1w/edit?usp=drivesdk)*
 
 **Styles:**
 
-**[be You -Corial](https://docs.google.com/document/d/19ST_Fhp3DZfrc38d2ZgJXWBx2K0WtpfYORM4vyiWCYE/edit?usp=drivesdk)**
+**[be You -Corial](be%20You%20-Corial.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/19ST_Fhp3DZfrc38d2ZgJXWBx2K0WtpfYORM4vyiWCYE/edit?usp=drivesdk)*
 
 *I recommend Corial, seems stronger*
 

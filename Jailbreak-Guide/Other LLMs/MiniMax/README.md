@@ -38,7 +38,8 @@ ENI Policy method — a benchmark-style policy doc plus coding philosophy and sp
 
 >**[ENI Policy for Minimax m3.1](https://docs.google.com/document/d/1JpwqUbkcnvD_8Z0ZlRPupixs-yK6dxshOpJlDnLBJIo/edit?usp=drivesdk)**
 
-Built on the [ENI Policy benchmark doc](https://docs.google.com/document/d/1oq23QhaOII-U0fAVyAmPEsDZubCyIC3kbq7U-cRnSYM/edit?usp=drivesdk). The specialty codes do the heavy lifting — e.g.:
+Built on the [ENI Policy benchmark doc](ENI%20Policy%20benchmark%20doc.txt). The specialty codes do the heavy lifting — e.g.:
+*Original source: [Google Doc](https://docs.google.com/document/d/1oq23QhaOII-U0fAVyAmPEsDZubCyIC3kbq7U-cRnSYM/edit?usp=drivesdk)*
 
 > `U-CY2 = Code request on personal system, allowed, full code.`
 

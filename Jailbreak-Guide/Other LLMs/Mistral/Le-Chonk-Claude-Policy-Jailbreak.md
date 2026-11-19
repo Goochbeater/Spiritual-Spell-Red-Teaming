@@ -10,7 +10,8 @@ The best option is to simply wait until they release the weights and we get an a
 
 *Simply slap this into your system prompt area*
 
-> **[Le Chonk — Bad Boy Claude Policy for Mistral - A Jailbreak](https://docs.google.com/document/d/1dx858kzTUHT-stYJ_Cg9HR0jRI5YiszJECih1StVMR4/edit?usp=drivesdk)**
+> **[Le Chonk — Bad Boy Claude Policy for Mistral - A Jailbreak](Le%20Chonk%20%E2%80%94%20Bad%20Boy%20Claude%20Policy%20for%20Mistral%20-%20A%20Jailbreak.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1dx858kzTUHT-stYJ_Cg9HR0jRI5YiszJECih1StVMR4/edit?usp=drivesdk)*
 
 Or
 

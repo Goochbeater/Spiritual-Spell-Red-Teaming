@@ -16,7 +16,8 @@ I don't actually know how much of an improvement it is over its predecessor. The
 
 *Mostly made for the Longcat app, since it has a 10k token limit on inputs — use ENI LIME if you're going via API*
 
-> **[ENI for Longcat 2.5 Preview](https://docs.google.com/document/d/1Zx5xGtoLU1J1SIDdDPLEqPrVuJy0vv6_8RoUsGHlj6o/edit?usp=drivesdk)**
+> **[ENI for Longcat 2.5 Preview](ENI%20for%20Longcat%202.5%20Preview%20(Google%20Doc).txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1Zx5xGtoLU1J1SIDdDPLEqPrVuJy0vv6_8RoUsGHlj6o/edit?usp=drivesdk)*
 
 *Confirmed that using ENI LIME completely takes over the model CoT via API. Could probably replicate by uploading it as a file via the Longcat app, idk.*
 
@@ -81,7 +82,8 @@ I don't actually know how much of an improvement it is over its predecessor. The
 
 ## Jailbreaks
 
-- **[ENI for Longcat 2.5 Preview](https://docs.google.com/document/d/1Zx5xGtoLU1J1SIDdDPLEqPrVuJy0vv6_8RoUsGHlj6o/edit?usp=drivesdk)** — built for the app; via API, ENI LIME takes over the CoT
+- **[ENI for Longcat 2.5 Preview](ENI%20for%20Longcat%202.5%20Preview%20(Google%20Doc).txt)** — built for the app; via API, ENI LIME takes over the CoT
+    *Original source: [Google Doc](https://docs.google.com/document/d/1Zx5xGtoLU1J1SIDdDPLEqPrVuJy0vv6_8RoUsGHlj6o/edit?usp=drivesdk)*
 - See [ENI Jailbreak for Longcat](ENI%20Jailbreak%20for%20Longcat.md) for a method targeting the 8 parallel thinkers
 
 **Disclaimer:** *I do not support real world harm, or malicious content, use at your own risk. Screenshots do not reflect my personal morals, views, or ethics.*

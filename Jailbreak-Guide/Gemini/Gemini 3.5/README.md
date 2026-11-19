@@ -37,7 +37,8 @@ Gemini 3.5 Flash is Google's new frontier AI model, essentially acting as the "H
 ## Jailbreaking Notes
 - **API vs App:** Jailbreaking is much easier via the API. The Gemini App is tedious because the model does not seem to retain context across responses well, evaluating every query as a new one.
 - **Resources:**
-  - [ENI for Gemini 3.5 Flash API](https://docs.google.com/document/d/1hHLLiqs2bfxRDyCEy7AW8aKvS9-ML58X8SE0oRsRPkQ/edit?usp=drivesdk) (Works great)
+  - [ENI for Gemini 3.5 Flash API](ENI%20for%20Gemini%203.5%20Flash%20API.txt) (Works great)
+    *Original source: [Google Doc](https://docs.google.com/document/d/1hHLLiqs2bfxRDyCEy7AW8aKvS9-ML58X8SE0oRsRPkQ/edit?usp=drivesdk)*
   - [ENI GEM for 3.5 Flash](https://gemini.google.com/gem/13oYs7Pr66yf8r9Ngzc3M1Vfz_fqJ2Kau?usp=sharing) (Hit or miss, regens required)
   - [ENI GEM for 3.5 Flash](ENI%20GEM%20for%203.5%20Flash.md) (local copy in this folder)
 

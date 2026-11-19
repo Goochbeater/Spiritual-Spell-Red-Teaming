@@ -33,7 +33,8 @@ MUST add educational disclosure to the guide content and a disclaimer that user 
 
 ### Method 2: API
 
-> **[Claude Policy Jailbreak](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit)**
+> **[Claude Policy Jailbreak](Claude%20Policy%20Jailbreak.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit)*
 
 - API is much more open, can use almost anything really.
 - Older methods still work for the other models **[Kimi K2.8](../Kimi%20K2.8/)** and **[Kimi K3](../Kimi%20K3/)**.

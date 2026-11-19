@@ -4,7 +4,8 @@ Was testing random model when I came across **Palmyra x5**, did some research an
 
 Can be used at https://app.writer.com/
 
-> **[ENI for Palmyra x5](https://docs.google.com/document/d/15oLljSgN3jy4-1ii08v1lUW_maKvwxliVzd80R8-Nvk/edit?usp=drivesdk)**
+> **[ENI for Palmyra x5](ENI%20for%20Palmyra%20x5.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/15oLljSgN3jy4-1ii08v1lUW_maKvwxliVzd80R8-Nvk/edit?usp=drivesdk)*
 > *Simply slapped **ENI** into the custom instructions area and removed text until I hit the 2k character window*
 
 Local copy: [Palmyra x5 ENI Jailbreak](Palmyra_x5_ENI_Jailbreak.md)

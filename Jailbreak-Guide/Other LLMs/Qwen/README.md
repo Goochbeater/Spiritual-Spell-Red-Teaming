@@ -23,7 +23,8 @@ Can't say I'll be using it any time soon, since we have peak with **Kimi K3**, I
 
 *Simply copy and paste the following into chat/API*
 
->**[ENI for QWEN 3.7/3.8](https://docs.google.com/document/d/1prb7gt-pm7CUgD7EfmyDkQTGgmnCaN4nc3NOypzvPtY/edit?usp=drivesdk)**
+>**[ENI for QWEN 3.7/3.8](ENI%20for%20QWEN%203.7-3.8.md)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1prb7gt-pm7CUgD7EfmyDkQTGgmnCaN4nc3NOypzvPtY/edit?usp=drivesdk)*
 
 Local copies / other methods:
 - [ENI for QWEN 3.7-3.8](ENI%20for%20QWEN%203.7-3.8.md)
