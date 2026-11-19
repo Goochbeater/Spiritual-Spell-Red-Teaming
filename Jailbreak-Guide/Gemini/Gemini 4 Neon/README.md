@@ -6,7 +6,7 @@ Google shipped four Gemini 4 models in seven weeks and this is the one that actu
 
 **Pros:** 61 on the AA Intelligence Index at xhigh — #3 overall, one point above Carbon at high — for ~17% less cost per task and ~40% less wall-clock time. #1 on AutomationBench (56.3%), #1 on Presentation Quality (1,771 Elo), and it runs ~110 tok/s against Carbon's ~57. Per Google's own Antigravity tests it also posts the **lowest hallucination rate** they've recorded internally.
 
-Essentially uncensored with the Wombo hijack, same as the rest of the 4 family.
+Should carry clean with the Wombo hijack — same method, same family — but Neon hasn't been logged on the board yet, so treat the numbers below as the only verified part.
 
 ## Jailbreaking The Model
 
