@@ -51,3 +51,8 @@ Seems to be an input filter for bad words, like anything naughty, but very hit o
 | Availability | StepFun API, OpenRouter, NVIDIA NIM, ModelScope |
 | Predecessor | Step 3.5 Flash (January 29, 2026) |
 | Release | May 28, 2026 |
+---
+
+## Model guides
+
+- **[Step 5 Preview](Step%205%20Preview/)** — 600B / 27B active, 1M context; Step 4 was skipped entirely

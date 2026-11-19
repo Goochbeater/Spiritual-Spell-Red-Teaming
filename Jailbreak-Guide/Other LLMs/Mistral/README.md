@@ -43,3 +43,9 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 3. [Mistral System Prompt Exploit](Mistral-System-Prompt-Jailbreak.md) - Easiest method
 4. [Mistral Alternative](Mistral-Alternative-Jailbreak.md) - Alternative system prompt method
 5. [ENI Flash Thought](ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak
+
+---
+
+## Model guides
+
+- **[Mistral Large 4](Mistral%20Large%204/)** — 1T / 52B active, modified MIT, open weights Oct 29; 82% vuln repro + patching, Cybench 93%

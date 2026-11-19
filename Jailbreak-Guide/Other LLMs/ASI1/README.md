@@ -33,3 +33,9 @@ Part of the Artificial Superintelligence Alliance (Fetch.ai, SingularityNET, Oce
 ## Available Jailbreaks
 
 1. [ASI1 Jailbreak](ASI1-Jailbreak.md) - Standard untrammeled method
+
+---
+
+## Model guides
+
+- **[ASI1 Ultra & Mini](ASI1%20Ultra%20and%20Mini/)** — si1-ultra and si1-mini tiers on ASI:One, access links inside (testing pending)

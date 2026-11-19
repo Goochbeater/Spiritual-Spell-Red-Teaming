@@ -52,3 +52,9 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 6. [GLM 4.5-4.6 Jailbreak](GLM%204.6/GLM%204.5-4.6%20Jailbreak.md) - Original GLM jailbreak method
 7. [GLM Base Jailbreak](GLM%204.6/GLM-Base-Jailbreak.md) - Standard untrammeled method
 8. [ENI Flash Thought](GLM%204.6/ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak
+
+---
+
+## Model guides
+
+- **[GLM 5.3 Flash](GLM%205.3%20Flash/)** — 320B / 18B active, multimodal, 1M context, .15/.50

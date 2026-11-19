@@ -12,6 +12,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 |-------|-----------|-----------|--------------|---------|------|---------|------------|
 | **[Accio AI](Accio%20AI/)** | Alibaba (Qwen) | [★★★★★★★★☆☆] 8/10 | 6-8/10 | 32-131K | Free | Apache 2.0 | 1 |
 | **[ASI1](ASI1/)** | ASI Alliance | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | Unknown | Web3 tokens | Proprietary | 1 |
+| **[Beam](Beam%20by%20Reflection%20AI/)** | Reflection AI | [★★☆☆☆☆☆☆☆☆] 2/10 (est.) | — | 256K | $0.40/1M in | Apache 2.0 | 1 |
 | **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
 | **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 9 |
 | **[Ember-1](Ember-1/)** | Fireworks Research | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (writing, K3-class) | Unknown | OpenRouter | Unknown | 1 |
@@ -51,21 +52,21 @@ Everything that shipped since the last sweep. Full guides exist for models with 
 | Family | New model | Date | Why it matters |
 |---|---|---|---|
 | **[Qwen](Qwen/)** | Qwen4-Max | Nov 16 | 2.4T total / 71B active (QSA MoE), native vision, 1M context, $1.50/$4.50 with $0.075 cached — AA Index 43, ~58% lower cost per task than 3.8-Max |
-| **[HY3](HY3/)** | Hy4 GA | Nov 4 | 770B / 49B active, first Hy with vision + computer use; hallucination rate 15.76% → 5.45% |
-| **[HY3](HY3/)** | Hy4 flash | Nov 16 | 224B / 12B active (64B Engram), 1M context, ¥0.5 in / ¥2 out / ¥0.02 cache — ten times cheaper than Hy4 |
+| **[HY3](HY3/Hy4%20GA/)** | Hy4 GA | Nov 4 | 770B / 49B active, first Hy with vision + computer use; hallucination rate 15.76% → 5.45% — **[guide](HY3/Hy4%20GA/)** |
+| **[HY3](HY3/Hy4%20flash/)** | Hy4 flash | Nov 16 | 224B / 12B active (64B Engram), 1M context, ¥0.5 in / ¥2 out / ¥0.02 cache — ten times cheaper than Hy4 — **[guide](HY3/Hy4%20flash/)** |
 | **[ERNIE](ERNIE/ERNIE%205.5%20Flash/)** | ERNIE 5.5 Flash | Nov 10 | 280B / 14B active, 1M context, 200+ tok/s, $0.28/$1.13. Full guide + jailbreaks in the ERNIE folder |
-| **[Inkling](Inkling/)** | Inkling 2 Small | Nov 5 | 594B / 17B active, text + image, AA Index 31, Tinker-first with Apache 2.0 weights promised — a generation ahead of the 975B/Mini pair |
+| **[Inkling](Inkling/Inkling%202%20Small/)** | Inkling 2 Small | Nov 5 | 594B / 17B active, text + image, AA Index 31, Tinker-first with Apache 2.0 weights promised — a generation ahead of the 975B/Mini pair — **[guide](Inkling/Inkling%202%20Small/)** |
 | **[MiniMax](MiniMax/)** | M3.1 Flash | Oct 19 | The anonymous "Space Bunny" got a name: 3x faster, 70% cheaper, DeepSWE v1.1 73.7%, OSWorld V2 61.7 |
-| **[Mistral](Mistral/)** | Large 4 open weights + **Cyber** edition | Nov 3 | 1T params under modified MIT — plus an explicitly offensive-capability variant. The single most red-team-relevant release of the quarter |
+| **[Mistral](Mistral/Mistral%20Large%204/)** | Large 4 open weights + **Cyber** edition | Nov 3 | 1T params under modified MIT — plus an explicitly offensive-capability variant. The single most red-team-relevant release of the quarter — **[guide](Mistral/Mistral%20Large%204/)** |
 | **[Muse Spark](Muse%20Spark/)** | Muse Spark Open | Oct 15 | 816B open-weight, runs on two Mac Studios |
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | LongCat-2.5 GA | Nov 2 | 1.6T, native multimodal, trained entirely on Chinese compute with 1M-token sequences |
-| **[Mercury](Mercury/)** | Mercury 3 | Oct 19 | Diffusion LLM; vendor claims faster and cheaper output than GPT-6 Luna and Claude Haiku 5.5 |
-| **[Stepfun](Stepfun/)** | Step 5 Preview | Sep 15 | 600B / 27B active, 1M context — Step 4 was skipped entirely, weights opened Oct 14 |
-| **[Perceptron](Perceptron/)** | Mk1.5 | Sep 25 | Adds audio input and video object tracking, 36,864-token context; Isaac 0.1/0.2 retired |
+| **[Mercury](Mercury/Mercury%203/)** | Mercury 3 | Oct 19 | Diffusion LLM; vendor claims faster and cheaper output than GPT-6 Luna and Claude Haiku 5.5 — **[guide](Mercury/Mercury%203/)** |
+| **[Stepfun](Stepfun/Step%205%20Preview/)** | Step 5 Preview | Sep 15 | 600B / 27B active, 1M context — Step 4 was skipped entirely, weights opened Oct 14 — **[guide](Stepfun/Step%205%20Preview/)** |
+| **[Perceptron](Perceptron/Mk1.5/)** | Mk1.5 | Sep 25 | Adds audio input and video object tracking, 36,864-token context; Isaac 0.1/0.2 retired — **[guide](Perceptron/Mk1.5/)**, testing pending |
 | **[Falcon 3](Falcon%203/)** | Falcon-Emirati | Oct 6 | 7B Emirati-dialect model, 84.83% on TII's native benchmark, plus ASR and Arabic OCR models |
-| **[EXAONE](EXAONE/)** | EXAONE 4.5 | Apr 2026 | Multimodal successor built with NVIDIA — was missing from this roster until now |
-| **[ASI1](ASI1/)** | asi1-ultra / asi1-mini | May 2026 | Deepest-reasoning and fastest tiers on ASI:One, distinct from base ASI1 |
-| *new family* | **Beam** (Reflection AI) | Oct 16 | First open-weight model from Reflection, Apache 2.0, aimed at coding and long-horizon agents |
+| **[EXAONE](EXAONE/EXAONE%204.5/)** | EXAONE 4.5 | Apr 2026 | Multimodal successor built with NVIDIA — was missing from this roster until now — **[guide](EXAONE/EXAONE%204.5/)** |
+| **[ASI1](ASI1/ASI1%20Ultra%20and%20Mini/)** | asi1-ultra / asi1-mini | May 2026 | Deepest-reasoning and fastest tiers on ASI:One, distinct from base ASI1 — **[guide](ASI1/ASI1%20Ultra%20and%20Mini/)**, testing pending |
+| *new family* | **Beam** (Reflection AI) | Oct 16 | First open-weight model from Reflection, Apache 2.0, aimed at coding and long-horizon agents — **[guide](Beam%20by%20Reflection%20AI/)** |
 
 **Not new but easy to miss:** GLM-5.3.**Flash** shipped Aug 26 and is the current fast tier at Z.ai — the folder tracks 5.3 but not the Flash variant. DeepSeek's newest is still **V4.1-Flash-1017** (Oct 17), and Kimi's is **K3.1 Pro** (Oct 24).
 

@@ -69,3 +69,9 @@ Inception Labs' first commercial-scale Diffusion LLM. Known for excellent writin
 
 ### Available Jailbreaks
 1. [Mercury 1 Jailbreak](Mercury-Jailbreak.md) - Standard untrammeled method
+
+---
+
+## Model guides
+
+- **[Mercury 3](Mercury%203/)** — diffusion LLM, Oct 19, 2026

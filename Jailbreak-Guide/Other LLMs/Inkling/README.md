@@ -62,3 +62,9 @@ Completely false, I was able to get **ANY** content, specifically; *weapons/mali
 | Inkling-Small | Released July 30, 2026 — 276B total / 12B active, up to 160 t/s on HF Inference Endpoints |
 | Previous Products | Tinker (model adaptation, Oct 2025), TML-Int (research preview, May 2026) |
 | Release | July 15, 2026 (today) |
+
+---
+
+## Model guides
+
+- **[Inkling 2 Small](Inkling%202%20Small/)** — 594B / 17B active, 1M context, AA 31; Apache 2.0 weights promised
