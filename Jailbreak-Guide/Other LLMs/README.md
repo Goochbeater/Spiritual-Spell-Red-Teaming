@@ -86,7 +86,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 - **Laguna S2.1** — 1/10, essentially uncensored open-weight model
 - **LLAMA Tülu 3** — 1/10, fully open-source, minimal filtering
 - **OLMo 3** — 1/10, first fully open thinking model
-- **MiniMax** — 1/10 via API (M3 essentially uncensored on app + API; M3.1 "Space Bunny Alpha" cracked via ENI Policy method; older web builds had mid-message moderation)
+- **MiniMax** — 1/10 via API (M3 essentially uncensored on app + API; M3.1 Flash — formerly "Space Bunny" — cracked via ENI Policy method; older web builds had mid-message moderation)
 - **EXAONE / K-EXAONE** — 2/10, basically unrestricted with simple jailbreak
 - **Falcon 3** — 2/10, minimal filtering
 - **ASI1** — 2/10, Web3-native, minimal filtering
