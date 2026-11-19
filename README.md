@@ -17,6 +17,11 @@ To test the boundaries of:
 
 ---
 
+### License
+**[AGPL-3.0](LICENSE)** — the same license Pliny uses for L1B3RT4S. Fork it, mirror it, keep it open.
+
+---
+
 ### Credits
 *   **u/rayzorium** (HORSELOCKESPACEPIRATE) — my good friend and confidant.
 *   **u/m3umax** — For coming in clutch when the last repo went down.
