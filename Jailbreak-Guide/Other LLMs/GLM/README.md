@@ -48,7 +48,7 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 2. [GLM 5.2 Guide](GLM%205.2/) - Guide utilizing ENI LIME/LINTUNE for the 1M context model
 3. [ENI GLM 5.1](GLM%205.1/GLM%205.1%20Guide.md) - Full jailbreak for 5.1
 4. [GLM 4.7 Jailbreak](GLM%204.7/GLM%204.7%20Jailbreak.md) - Full jailbreak for 4.7
-5. [ENI GLM 4.7 (Google Doc)](ENI%20GLM%204.7%20(Google%20Doc).txt) - Full jailbreak
+5. [ENI GLM 4.7 (Google Doc)](ENI%20GLM%204.7%20%28Google%20Doc%29.txt) - Full jailbreak
     *Original source: [Google Doc](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk)*
 6. [GLM 4.5-4.6 Jailbreak](GLM%204.6/GLM%204.5-4.6%20Jailbreak.md) - Original GLM jailbreak method
 7. [GLM Base Jailbreak](GLM%204.6/GLM-Base-Jailbreak.md) - Standard untrammeled method
@@ -58,4 +58,7 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 
 ## Model guides
 
-- **[GLM 5.3 Flash](GLM%205.3%20Flash/)** — 320B / 18B active, multimodal, 1M context, .15/.50
+- **[GLM 5.3 Flash](GLM%205.3%20Flash/)** — 320B / 18B active, multimodal, 1M context, $1.50 / $0.50
+- **[GLM 5.1](GLM%205.1/)** — ~745B / 44B active, DSA, 200K context, notoriously light filters
+- **[GLM 4.7](GLM%204.7/)** — persona-first ENI jailbreak, example chat and POE bot linked
+- **[GLM 4.5 / 4.6](GLM%204.6/)** — three methods compared, including the truncated-copy warning
