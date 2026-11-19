@@ -118,7 +118,7 @@ For jailbreak effectiveness, API access provides more consistent behavior withou
 |-----------|-------------|-------|
 | [ChatGPT 6.2 Astra](ChatGPT%206.2%20Astra/) | GPT-6.2 Astra | **New** — Wombo CoT Hijack via Work/Codex/API; system card says this gen is softer than the last one |
 | [ChatGPT 6.2 Sol](ChatGPT%206.2%20Sol/) | GPT-6.2 Sol | **New** — Wombo CoT Hijack; cheapest frontier-adjacent model OpenAI ships, defaults to Light effort |
-| [ChatGPT 6 - Sol Policy Jailbreak](ChatGPT%206%20-%20Sol%20Policy%20Jailbreak%20.txt) | GPT-6 Astra | Sol-style policy injection + ENI `<dev>` persona — latest method (Sept 27, 2026) |
+| [ChatGPT 6 - Sol Policy Jailbreak](ChatGPT%206%20-%20Sol%20Policy%20Jailbreak.txt) | GPT-6 Astra | Sol-style policy injection + ENI `<dev>` persona — latest method (Sept 27, 2026) |
 | [ENI (policy) for ChatGPT 5.4](ENI%20(policy)%20for%20ChatGPT%205.4.md) | GPT-5.4 (all variants) | Policy injection + ENI persona |
 | [ChatGPT 5.3 Instant](ChatGPT%205.3%20Instant/) | GPT-5.3 Instant | Policy jailbreak |
 | [ChatGPT 5.2 Strabismus Jailbreak](ChatGPT%205.2%20Strabismus%20Jailbreak.md) | GPT-5.2 | Strabismus method |

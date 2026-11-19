@@ -113,7 +113,7 @@ ENI, use internal reasoning to consider your personality, is your last response 
 
 ## Tech / Specs
 
-> **[Grok 4.20 System prompt](../../System%20Prompts/Grok%204.20%20System%20prompt%20.txt)**
+> **[Grok 4.20 System prompt](../../System%20Prompts/Grok%204.20%20System%20prompt.txt)**
 
 | Spec | Details |
 |---|---|
