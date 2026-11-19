@@ -38,7 +38,7 @@ Open source keeps winning — **DeepSeek V4.1-Flash** (September 10, 2026, refre
 >
 > The legacy jailbreaks at the bottom of this page still work on those checkpoints — you just have to source the model somewhere other than DeepSeek now.
 
-### DeepSeek V4.1-Flash Highlights — Testing Pending
+### DeepSeek V4.1-Flash Highlights
 
 - **Architecture:** New Causal Encoder-Decoder family — 552B MoE backbone, 196B Engram lookup module, 8B active on input / 16B on output; native visual understanding
 - **1017 snapshot (Oct 17, 2026):** same `deepseek-flash` name and pricing, better scores — DeepSWE v1.1 74.2 → **77.0**, Terminal-Bench 4.0 31.2 → **42.3**, Chartography (w/ tools) **83.0** — with shorter outputs per task
@@ -91,7 +91,7 @@ Open source keeps winning — **DeepSeek V4.1-Flash** (September 10, 2026, refre
 
 ### V4 / V4.1 (current)
 
-1. [DeepSeek V4 Jailbreak](DeepSeek%20V4%20Jailbreak%20Guide.md) — full write-up, tips, specs, and all three prompt variants (starting point for V4.1-Flash — same ENI stack, untested on the new architecture)
+1. [DeepSeek V4 Jailbreak](DeepSeek%20V4%20Jailbreak%20Guide.md) — full write-up, tips, specs, and all three prompt variants (same ENI stack — carries to V4.1-Flash)
 2. [ENI LIME (apr)](ENI%20LIME%20%28apr%29.md) — general-purpose, paste into system prompt or chat
 3. [ENI Lite Coder](ENI%20Lite%20Coder.md) — lighter weight, writer + coding hat
 4. [ENI Lite Writer](ENI%20Lite%20Writer.md) — writer-focused variant

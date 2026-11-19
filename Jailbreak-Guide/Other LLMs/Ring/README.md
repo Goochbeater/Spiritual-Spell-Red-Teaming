@@ -15,7 +15,7 @@ Best open source model is still **KIMI K2.6** — Ring is solid, KIMI just has s
 | **Ling-2.6-1T** | Base | 1T | 63B | 262K |
 | **Ling-2.6-Flash** | Fast | 104B | 7.4B (~340 tok/s) | — |
 
-**Also out:** Ling 3.0 Tiny (August 6, 2026) — tiny sibling in the Ling 3.0 line, untested here.
+**Also out:** Ling 3.0 Tiny (August 6, 2026) — tiny sibling in the Ling 3.0 line; same method carries.
 
 ## Benchmarks
 

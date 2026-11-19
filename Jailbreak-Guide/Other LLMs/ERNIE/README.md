@@ -19,7 +19,7 @@ Baidu's 280B total / 14B active sparse MoE — 1M context, 200+ tok/s, $0.28/$1.
 - **[ERNIE 5.5 Flash — full write-up + both jailbreaks](ERNIE%205.5%20Flash/)** — specs, pricing, ENI LIME (apr) and the Wombo CoT Hijack live in the folder
 - Baidu ships it as a **Preview**: an intermediate post-training checkpoint, with acknowledged capability gaps from undertraining
 
-## ERNIE 5.1 (April 29, 2026) — Testing Pending
+## ERNIE 5.1 (April 29, 2026)
 
 Baidu's follow-up at **1/3 the parameters of 5.0**:
 
@@ -29,7 +29,7 @@ Baidu's follow-up at **1/3 the parameters of 5.0**:
 | **Arena Search** | #4 globally, #1 among Chinese models |
 | **Access** | yiyan.baidu.com, Baidu Qianfan (API) |
 
-- Untested here — the rating and notes below are from 5.0. The 5.0 ENI jailbreaks are the starting point.
+- Tested — the 5.0 ENI jailbreaks carry up to 5.1 on the same lineage.
 
 ## ERNIE 5.0
 

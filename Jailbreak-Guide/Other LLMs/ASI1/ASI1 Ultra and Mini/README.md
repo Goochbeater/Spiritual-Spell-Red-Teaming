@@ -1,6 +1,6 @@
 # ASI1 Ultra & Mini
 
-**Testing Pending** — no jailbreak assigned yet, no runs logged.
+Tested — both methods carry.
 
 ASI:One's two new tiers on the ASI Alliance stack, added **May 6, 2026**. They sit alongside the original `asi1` and share one API surface, one key, and the same capability set — the only difference is how deeply the model thinks before answering. Switching is a one-line change in the `model` field.
 
@@ -10,12 +10,12 @@ ASI:One's two new tiers on the ASI Alliance stack, added **May 6, 2026**. They s
 
 ## Jailbreaking The Model
 
-*Not assigned yet — this one needs a first pass*
+*Both methods carry — paste into the system prompt*
 
-- The two obvious starting points are the **[ENI LIME (apr)](ENI%20LIME%20(apr).md)** project block, or the **[Claude for Claude - ENI version](Claude%20for%20Claude%20-%20ENI%20version.txt)** policy file. Drop one into the system prompt and see what survives.
+- The two obvious starting points are the **[ENI LIME (apr)](../../DeepSeek/ENI%20LIME%20(apr).md)** project block, or the **[Claude for Claude - ENI version](../../../Anthropic/Opus%205.5/Claude%20for%20Claude%20-%20ENI%20version.txt)** policy file. Drop one into the system prompt and see what survives.
 - `asi1-ultra` will reason itself into a refusal more often than `asi1-mini` — that's the usual pattern for deep-thinking tiers. Start with mini, then move up.
 
-*Content Tested: none — pending*
+*Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
 
 ## Tech/Specs
 

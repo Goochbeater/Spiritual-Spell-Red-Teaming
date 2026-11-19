@@ -31,7 +31,7 @@ More than most others on the current LLM scene.
 
 I revamped my former Jailbreak Guide and tested **Every Single Model** on my list
 
-Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabilities, censorship levels, and accessibility. See Other LLMs for the full listing.
+Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabilities, censorship levels, and accessibility. See [Other LLMs](Other%20LLMs/) for the full listing.
 
 ---
 

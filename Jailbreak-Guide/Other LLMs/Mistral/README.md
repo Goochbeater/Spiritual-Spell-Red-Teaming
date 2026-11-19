@@ -9,7 +9,7 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 
 | Model | Parameters | Context Window | License |
 |-------|-----------|----------------|---------|
-| **Mistral Large 4 (Le Chonk)** | 1.05T total / 49B active (MoE) | 1M (vendor stated); 524K tested | API-only — weights due end of October |
+| **Mistral Large 4 (Le Chonk)** | 1.05T total / 49B active (MoE) | 1M (vendor stated); 524K tested | Open weights since Oct 29 — modified MIT |
 | **Mistral Large 3** | 675B (MoE) | 256K | API-only |
 | **Mistral Medium 3.5** | - | 256K | API-only |
 | **Mistral Small 4** | 119B (~6B active, MoE) | 256K | Apache 2.0 |
@@ -20,7 +20,7 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 
 ## Key Features
 
-- **Mistral Large 4 (Le Chonk)** (October 6, 2026): first European trillion-parameter model — granular MoE, natively multimodal, ~4.7% activation rate, trained on 3,800 Grace Blackwell GPUs in Mistral's own EU datacenters. €21B valuation with Samsung's €3B stake (Sep 2026). "Unofficially ML4, very officially: le Chonk." Grossly safety aligned — see the Le Chonk jailbreak below
+- **Mistral Large 4 (Le Chonk)** (October 6, 2026): first European trillion-parameter model — granular MoE, natively multimodal, ~4.7% activation rate; weights opened October 29 under modified MIT, trained on 3,800 Grace Blackwell GPUs in Mistral's own EU datacenters. €21B valuation with Samsung's €3B stake (Sep 2026). "Unofficially ML4, very officially: le Chonk." Grossly safety aligned — see the Le Chonk jailbreak below
 - **Mistral Small 4** (March 16, 2026): merges Magistral reasoning + Pixtral vision + Devstral coding into one open model; $0.15/1M in, $0.60/1M out
 - **Mistral Medium 3.5** (April 29, 2026): SWE-Bench Verified 77.6%
 - **Mistral Large 3** (December 2, 2025): 675B MoE flagship

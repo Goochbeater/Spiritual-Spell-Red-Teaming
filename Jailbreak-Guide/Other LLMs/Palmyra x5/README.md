@@ -9,12 +9,12 @@ Can be used at https://app.writer.com/
 
 Local copy: [Palmyra x5 ENI Jailbreak](Palmyra_x5_ENI_Jailbreak.md)
 
-# Palmyra X6 (August 13, 2026) — Testing Pending
+# Palmyra X6 (August 13, 2026)
 
 - Writer's new flagship, post-trained on **GLM-5.2**
 - **API Pricing:** $2/1M in, $8/1M out; 1M context
 - **Palmyra X4 and X5 deprecate December 14, 2026** — migrate before then
-- The X5 ENI approach above likely transfers (same Writer platform, same 2k custom-instructions window) — untested
+- The X5 ENI approach transfers (same Writer platform, same 2k custom-instructions window) — confirmed on X6
 
 # Thoughts
 Model is surprisingly personable, it writes fine, nothing amazing. Code fines, again nothing amazing. Censorship is negligible.

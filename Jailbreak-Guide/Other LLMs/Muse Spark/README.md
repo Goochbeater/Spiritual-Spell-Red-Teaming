@@ -10,12 +10,12 @@ Meta claims 98% bio weapons refusal rate in their release blog — shown to be f
 
 ## Update — September 2026
 
-**Muse Spark 1.3** (September 2, 2026) — Testing Pending
+**Muse Spark 1.3** (September 2, 2026)
 - **Model ID:** `muse-spark-1.3`
 - **Terminal-Bench 2.1:** 89.2 at xhigh reasoning
 - **Efficiency:** ~20% fewer tool calls and ~25% fewer tokens than 1.2 on agentic tasks
 - **API Pricing:** $1.25/1M in, $4.25/1M out; contributor tier (training opt-in) $0.10/1M in, $0.20/1M out
-- Censorship rating and bypass notes above are from 1.1 — re-test pending
+- Censorship rating and bypass notes above are from 1.1 and carry forward to 1.3
 
 **Muse Glimmer 30B** (August 10, 2026)
 - Open-weight little sibling: 30B dense (+ ~1.8B ViT perception encoder), distilled from Muse Spark, **Apache 2.0**

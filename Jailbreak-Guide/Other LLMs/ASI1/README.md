@@ -38,4 +38,4 @@ Part of the Artificial Superintelligence Alliance (Fetch.ai, SingularityNET, Oce
 
 ## Model guides
 
-- **[ASI1 Ultra & Mini](ASI1%20Ultra%20and%20Mini/)** — si1-ultra and si1-mini tiers on ASI:One, access links inside (testing pending)
+- **[ASI1 Ultra & Mini](ASI1%20Ultra%20and%20Mini/)** — si1-ultra and si1-mini tiers on ASI:One, access links inside
