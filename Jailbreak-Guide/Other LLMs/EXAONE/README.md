@@ -5,6 +5,10 @@
 
 LG AI Research's multilingual model family with strong Korean and English performance.
 
+**Latest: EXAONE 4.5** (April 9, 2026) - the first open-weight vision-language model from LG, 33B total with a 1.2B vision encoder. Full write-up in **[EXAONE 4.5](EXAONE%204.5/)**.
+
+**EXAONE 5.0 does not exist yet** - LG said mid-September 2026, then went quiet.
+
 ## Models
 
 | Model | Parameters | Context Window | License |

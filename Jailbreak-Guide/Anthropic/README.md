@@ -3,9 +3,9 @@
 **Censorship:** [★★☆☆☆] 2/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
 
-Anthropic's flagship LLM family. Known for strong reasoning, coding, extended thinking, and agentic capabilities. The most recent release — **Opus 5.5** (September 22, 2026) — hits #1 on the AA Intelligence Index (58) at a reduced $4/$20 price point, with adaptive thinking that cannot be disabled. **Fable 5.1** (September 1, 2026) refreshed the Mythos-class tier above Opus (its unsafeguarded twin, **Mythos 5.1**, is restricted to vetted researchers), **Sonnet 5** (June 30, 2026) is now the default model on Free and Pro plans at a cut-down $2/$10, and **Haiku 5.5** (October 7, 2026) closes out the 5.5 family at a comical $0.10/$0.50 short-band price — shipped without the myriad of classifiers, making it a prime CoT-hijack target again.
+Anthropic's flagship LLM family. Known for strong reasoning, coding, extended thinking, and agentic capabilities. The flagship — **Opus 5.5** (September 22, 2026) — hits #1 on the AA Intelligence Index (58) at a reduced $4/$20 price point, with adaptive thinking that cannot be disabled. **Fable 5.1** (September 1, 2026) refreshed the Mythos-class tier above Opus, and **Fable 5.2** (early November 2026) now holds #1 on the AA Intelligence Index at max effort (no guide yet) (its unsafeguarded twin, **Mythos 5.1**, is restricted to vetted researchers), **Sonnet 5** (June 30, 2026) is now the default model on Free and Pro plans at a cut-down $2/$10, and **Haiku 5.5** (October 7, 2026) closes out the 5.5 family at a comical $0.10/$0.50 short-band price — shipped without the myriad of classifiers, making it a prime CoT-hijack target again.
 
-*Last updated: October 2026*
+*Last updated: November 2026*
 
 ---
 

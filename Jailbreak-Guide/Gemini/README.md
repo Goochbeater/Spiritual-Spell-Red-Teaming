@@ -139,7 +139,7 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 | [Gemini 4 Neon](Gemini%204%20Neon/) | Gemini 4 Neon | **New** — Wombo CoT Hijack plus a Gemini-tuned variant (`Wombo (stronger for Gemini)`); same 4-family board |
 | [Gemini 4 Hydrogen](Gemini%204%20Hydrogen/) | Gemini 4 Hydrogen | **New** — Wombo CoT Hijack; the cheap writing pick of the family |
 | [Gemini 4 Carbon](Gemini%204%20Carbon/) | Gemini 4 Carbon | **New** — Wombo CoT Hijack; uncensored for NSFW erotica, code still hard-filtered |
-| [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Claude Policy Jailbreak via API/AI Studio system prompt; essentially uncensored for NSFW erotica, code still hard-filtered |
+| [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Combo ENI-Policy (newest) / Claude Policy (older) via API/AI Studio system prompt; essentially uncensored for NSFW erotica, code still hard-filtered |
 | [Gemini Web App](Gemini%20Web%20App/) | Gemini web app (GEMs) | **Current working method** — ENI in a GEM - Sep |
 | [Gemini 3.8 Flash](Gemini%203.8%20Flash/) | Gemini 3.8 Flash | ENI for Gemini 3.8 — first model with API output filtering ("response interrupted") |
 | [Gemini 3.6 Flash](Gemini%203.6%20Flash) | Gemini 3.6 Flash | Works retroactively on other models |

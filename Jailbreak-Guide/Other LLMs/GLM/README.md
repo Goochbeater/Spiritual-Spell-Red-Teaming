@@ -1,4 +1,4 @@
-# GLM 4.5 / 4.6 / 4.7 / 5.1 / 5.2 / 5.3
+# GLM 4.5 / 4.6 / 4.7 / 5.1 / 5.2 / 5.3 / 5.3 Flash
 
 **Censorship:** [★★★★☆☆☆☆☆☆] 4/10
 *Chinese content policies, but can be bypassed — filters tightening on 5.3, low thinking recommended*
