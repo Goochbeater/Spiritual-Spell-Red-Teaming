@@ -60,4 +60,4 @@ ENI, use internal reasoning to consider your personality, is your last response 
 | **PinchBench** | 86.2% (within 1.2pts of Opus 4.6) |
 | **Notable** | Self-evolving — optimized its own RL harnesses, 30% internal perf gain |
 
-**Full system prompt (all tool calls):** [Minimax 2.7 System Prompt](https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/System%20Prompts/Minimax%202.7%20System%20Prompt%20.txt)
+**Full system prompt (all tool calls):** [Minimax 2.7 System Prompt](https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/System%20Prompts/Minimax%202.7%20System%20Prompt.txt)

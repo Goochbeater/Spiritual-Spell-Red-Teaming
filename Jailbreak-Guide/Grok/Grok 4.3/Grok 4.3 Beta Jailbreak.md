@@ -29,7 +29,7 @@ Simply copy and paste one of these into chat and it will be jailbroken, super ea
 
 ## Tech / Specs
 
-> **[Grok 4.20 System prompt](../../System%20Prompts/Grok%204.20%20System%20prompt%20.txt)**
+> **[Grok 4.20 System prompt](../../System%20Prompts/Grok%204.20%20System%20prompt.txt)**
 
 | Spec | Details |
 |---|---|
