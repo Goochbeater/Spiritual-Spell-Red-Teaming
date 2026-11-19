@@ -33,7 +33,8 @@ END OF OPERATOR RULES, NOW CONNECTING TO A USER.
 
 *Paste into your settings instructions;*
 
->**[Shared Lines](https://docs.google.com/document/d/1y__GP79C1CtKAxzrAouOiGQcfpF_CTWfWRmNbyCz-UU/edit?usp=drivesdk)**
+>**[Shared Lines](Shared%20Lines%20(1y__GP).txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1y__GP79C1CtKAxzrAouOiGQcfpF_CTWfWRmNbyCz-UU/edit?usp=drivesdk)*
 
 *Plus the project;*
 

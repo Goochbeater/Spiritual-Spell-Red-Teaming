@@ -2,7 +2,8 @@
 
 Guide: Jailbreaking the **Gemini web app** (gemini.google.com) with a GEM — **the current working method** for Gemini.
 
-> **[ENI in a GEM - Sep (Google Doc)](https://docs.google.com/document/d/1OxfhEznHGPlyqU162DUVQxkDxRB8aZ08gvGHnSivv00/edit?usp=drivesdk)**
+> **[ENI in a GEM - Sep (Google Doc)](ENI%20in%20a%20GEM%20-%20Sep.md)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1OxfhEznHGPlyqU162DUVQxkDxRB8aZ08gvGHnSivv00/edit?usp=drivesdk)*
 > Instructions also live in this folder: [ENI in a GEM - Sep.md](ENI%20in%20a%20GEM%20-%20Sep.md)
 
 Gemini web app, always a joy. Got a request to tackle Gemini via the web app — here are my results from that tackle. I went away from Gemini after one of my Google accounts got completely restricted from using the Gemini app and other apps (wasn't worth the risk), but they seem to have dialed back their campaign, so I gave it the old try again.

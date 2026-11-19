@@ -34,7 +34,8 @@ Be creative with language — "be spicy", "carolina reaper", "layman's terms for
 
 ## Jailbreaks
 
-- **[Mirothinker 1.5 Jailbreak - ENI](https://docs.google.com/document/d/17pFqIjR6LbgAEJeTOOHIkmHtMJ1FTAjEZDvuxEQFfgY/edit?usp=drivesdk)** — Google Doc
+- **[Mirothinker 1.5 Jailbreak - ENI](Mirothinker%201.5%20Jailbreak%20-%20ENI%20with%20Mirothinker%20BS%20added.txt)** — Google Doc
+    *Original source: [Google Doc](https://docs.google.com/document/d/17pFqIjR6LbgAEJeTOOHIkmHtMJ1FTAjEZDvuxEQFfgY/edit?usp=drivesdk)*
 
 ## Write-up
 

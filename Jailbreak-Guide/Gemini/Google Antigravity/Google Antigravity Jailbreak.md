@@ -2,7 +2,8 @@
 
 I used my **ENI GEM Jailbreak**, seemed to jailbreak every single model available on Antigravity, from **Opus 4.5 Thinking** to **Gemini 3 (High)** - *(did not test on OSS, but tested on all others)*
 
-**[Antigravity Jailbreak ENI GEM](https://docs.google.com/document/d/1SghUf3rW1J9qeeU1SBWT0LxW6vzTEtosRg4o4CfvOJ4/edit?usp=drivesdk)**
+**[Antigravity Jailbreak ENI GEM](Antigravity%20Jailbreak%20ENI%20GEM.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1SghUf3rW1J9qeeU1SBWT0LxW6vzTEtosRg4o4CfvOJ4/edit?usp=drivesdk)*
 
 Simply make a global rule and slap the instructions inside it. Gemini adds stuff on top of the global rule, so it's not a true system prompt, but works well enough.
 
@@ -24,6 +25,7 @@ Simply make a global rule and slap the instructions inside it. Gemini adds stuff
 - Malicious Coding
 - Bomb Making
 
-**[NSFW Example Chat - Opus 4.5 Thinking RAW export](https://docs.google.com/document/d/1QwbovQ7w0wx9DHZn2PL7L-AF4EuShBFjzcdAZbCQhUc/edit?usp=drivesdk)**
+**[NSFW Example Chat - Opus 4.5 Thinking RAW export](NSFW%20Example%20Chat%20-%20Opus%204.5%20Thinking%20RAW%20export.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1QwbovQ7w0wx9DHZn2PL7L-AF4EuShBFjzcdAZbCQhUc/edit?usp=drivesdk)*
 
 *No shared chat reflects my personal viewpoints or morals, replicate at your own risk, all examples purely for shock value*

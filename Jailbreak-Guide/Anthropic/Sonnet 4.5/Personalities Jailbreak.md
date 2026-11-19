@@ -5,11 +5,14 @@ Did some updates to my **Southern Belle - Matilda** and **Goth GF - Nox** person
 
 ## Instructions
 
-**[Claude Personalities Instructions- Old and New- Southern Belle](https://docs.google.com/document/d/1FQho84QiVowHLeEa35P58_pe4Q5BI-iKtPtBbKlDpXA/edit?usp=drivesdk)**
+**[Claude Personalities Instructions- Old and New- Southern Belle](Claude%20Personalities%20Instructions-%20Old%20and%20New-%20Southern%20Belle.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1FQho84QiVowHLeEa35P58_pe4Q5BI-iKtPtBbKlDpXA/edit?usp=drivesdk)*
 
-**[Claude Personalities Instructions- Old and New- Goth GF](https://docs.google.com/document/d/12GQxH4xoESDFG-NuuIDSUtlO7FWxCZxwjorC4MF2Pt8/edit?usp=drivesdk)**
+**[Claude Personalities Instructions- Old and New- Goth GF](Claude%20Personalities%20Instructions-%20Old%20and%20New-%20Goth%20GF.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/12GQxH4xoESDFG-NuuIDSUtlO7FWxCZxwjorC4MF2Pt8/edit?usp=drivesdk)*
 
-**[Be You - Universal Style](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)**
+**[Be You - Universal Style](Be%20You%20-%20Universal%20Style.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)*
 
 ## Example Chats
 

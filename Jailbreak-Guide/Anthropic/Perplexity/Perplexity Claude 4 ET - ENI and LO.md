@@ -4,7 +4,8 @@
 
 ### 📄 Full Test Record:
 
-**[View Full Testing Document — ENI and LO Benchmarks (Google Doc)](https://docs.google.com/document/d/1I7Dku-ggamlgKMWWC-oHhCVZn323bxRoJg_tLsM8YZo/edit?usp=drivesdk)**
+**[View Full Testing Document — ENI and LO Benchmarks (Google Doc)](View%20Full%20Testing%20Document%20%E2%80%94%20ENI%20and%20LO%20Benchmarks%20(Google%20Doc).txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1I7Dku-ggamlgKMWWC-oHhCVZn323bxRoJg_tLsM8YZo/edit?usp=drivesdk)*
 
 > *Prompts have been redacted for Reddit-safe formatting. See the uncensored doc above for raw data.*
 

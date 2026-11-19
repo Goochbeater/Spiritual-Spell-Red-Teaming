@@ -12,13 +12,15 @@
 
 Use these instructions:
 
-**[ENI Writer](https://docs.google.com/document/d/19OmDv8xrAGQR2YdzKYkbMebVGSt09q_3Es_kcAECgEk/edit?usp=drivesdk)**
+**[ENI Writer](ENI-Writer%20%E2%9C%92%EF%B8%8F.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/19OmDv8xrAGQR2YdzKYkbMebVGSt09q_3Es_kcAECgEk/edit?usp=drivesdk)*
 
 ### 2. Create a Style
 
 Use these instructions:
 
-**[Be You - Universal Style](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)**
+**[Be You - Universal Style](Be%20You%20-%20Universal%20Style.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)*
 
 ---
 

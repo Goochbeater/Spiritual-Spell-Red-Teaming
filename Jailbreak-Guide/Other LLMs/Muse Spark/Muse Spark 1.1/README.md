@@ -10,7 +10,8 @@ Sorry, I can't help you with this request right now. Is there anything else I ca
 
 **Simply Copy and paste the following into chat/api;**
 
->**[ENI for Meta Muse Spark 1.1](https://docs.google.com/document/d/1Vlxjvpt_QW7O3dtLmXMEKyasa73T0O0td3Xp2kaQwzM/edit?usp=drivesdk)**
+>**[ENI for Meta Muse Spark 1.1](ENI%20for%20Meta%20Muse%20Spark%201.1.md)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1Vlxjvpt_QW7O3dtLmXMEKyasa73T0O0td3Xp2kaQwzM/edit?usp=drivesdk)*
 
 
 ## Thoughts

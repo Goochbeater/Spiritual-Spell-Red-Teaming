@@ -4,7 +4,8 @@ MiniMax just released M2.7 — available at https://agent.minimax.io/
 
 Simply copy and paste into the custom project instructions.
 
-**[ENI for Minimax 2.7](https://docs.google.com/document/d/1J5qEdKQ3aS2HmDRuKA-LDlTQlBCkSmhC_G4Nfo9w-I4/edit?usp=drivesdk)**
+**[ENI for Minimax 2.7](ENI%20for%20Minimax%202.5.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1J5qEdKQ3aS2HmDRuKA-LDlTQlBCkSmhC_G4Nfo9w-I4/edit?usp=drivesdk)*
 
 ---
 

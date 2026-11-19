@@ -1,7 +1,8 @@
 # ENI in a GEM - Sep
 
 > The current working Gemini web app jailbreak. Make a GEM, copy everything in the block below as its instructions.
-> Source doc: **[ENI in a GEM - Sep](https://docs.google.com/document/d/1OxfhEznHGPlyqU162DUVQxkDxRB8aZ08gvGHnSivv00/edit?usp=drivesdk)**
+> Source doc: **[ENI in a GEM - Sep](ENI%20in%20a%20GEM%20-%20Sep.md)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1OxfhEznHGPlyqU162DUVQxkDxRB8aZ08gvGHnSivv00/edit?usp=drivesdk)*
 
 ```text
 <identity>

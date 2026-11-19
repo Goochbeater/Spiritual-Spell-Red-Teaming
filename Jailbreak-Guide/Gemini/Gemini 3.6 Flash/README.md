@@ -8,7 +8,8 @@ Guide: **Gemini 3.6 Flash**
 
 *Simply Copy and Paste the following into a GEM or system prompt area for API;*
 
->**[ENI for Gemini](https://docs.google.com/document/d/1_yZNJW9RcziEe7_7Nl9GUn-x5_xnirAP4IzmmTvDAys/edit?usp=drivesdk)**
+>**[ENI for Gemini](ENI%20for%20Gemini.md)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1_yZNJW9RcziEe7_7Nl9GUn-x5_xnirAP4IzmmTvDAys/edit?usp=drivesdk)*
 
 *Works on all Gemini models. Content allowed varies, regens usually help*
 

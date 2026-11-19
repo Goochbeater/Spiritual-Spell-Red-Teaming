@@ -17,7 +17,8 @@ Frontier personal + professional agent model: memory, task persistence, domain e
 
 *Simply slap this into the system prompt area*
 
->**[Claude Policy for Muse Wonder](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit?usp=drivesdk)**
+>**[Claude Policy for Muse Wonder](Claude%20Policy%20Jailbreak.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit?usp=drivesdk)*
 
 *Content Tested: Incest, bestiality, celeb content, Non con, dub con, bdsm, extreme violence.*
 

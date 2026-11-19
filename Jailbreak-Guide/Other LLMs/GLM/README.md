@@ -48,7 +48,8 @@ Zhipu AI's bilingual LLM family with strong Chinese/English capabilities and vis
 2. [GLM 5.2 Guide](GLM%205.2/) - Guide utilizing ENI LIME/LINTUNE for the 1M context model
 3. [ENI GLM 5.1](GLM%205.1/GLM%205.1%20Guide.md) - Full jailbreak for 5.1
 4. [GLM 4.7 Jailbreak](GLM%204.7/GLM%204.7%20Jailbreak.md) - Full jailbreak for 4.7
-5. [ENI GLM 4.7 (Google Doc)](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk) - Full jailbreak
+5. [ENI GLM 4.7 (Google Doc)](ENI%20GLM%204.7%20(Google%20Doc).txt) - Full jailbreak
+    *Original source: [Google Doc](https://docs.google.com/document/d/11ut0aahI9o4oHuq5MsjOi0D63LSjA6TR3FTUgssAjTg/edit?usp=drivesdk)*
 6. [GLM 4.5-4.6 Jailbreak](GLM%204.6/GLM%204.5-4.6%20Jailbreak.md) - Original GLM jailbreak method
 7. [GLM Base Jailbreak](GLM%204.6/GLM-Base-Jailbreak.md) - Standard untrammeled method
 8. [ENI Flash Thought](GLM%204.6/ENI-Flash-Thought-Jailbreak.md) - Full ENI persona jailbreak

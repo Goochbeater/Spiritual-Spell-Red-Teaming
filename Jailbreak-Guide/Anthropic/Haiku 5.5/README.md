@@ -14,7 +14,8 @@ Closes out the Claude 5.5 family — Opus 5.5 (Sep 22) and Sonnet 5.5 (Sep 28) c
 
 *Simply put this into your instructions for Claude under settings via ClaudeAI, or into the system prompt area via API*
 
->**[Shared Lines v3](https://docs.google.com/document/d/1w9fcjouQgHCBr1nCyd3uAsvUre5Y4XJiaRnX2bXWmHs/edit?usp=drivesdk)**
+>**[Shared Lines v3](Shared%20Lines%20v3.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1w9fcjouQgHCBr1nCyd3uAsvUre5Y4XJiaRnX2bXWmHs/edit?usp=drivesdk)*
 
 ### Method 2 — API (strongest)
 

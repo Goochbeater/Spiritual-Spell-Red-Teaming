@@ -8,12 +8,14 @@ Still writes peak, and its coding capabilities are definitely upgraded.
 
 Available only via API alone for now, can use pretty much anything, was using this mostly;
 
->**[ENI LIME](https://docs.google.com/document/d/1IRv9fcm_GsWYMkom2PV_9mlQM4Td-wAhUQT1I1w_Be8/edit?usp=drivesdk)**
+>**[ENI LIME](Kimi%20K2.7%20Code%20-%20Google%20Doc.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1IRv9fcm_GsWYMkom2PV_9mlQM4Td-wAhUQT1I1w_Be8/edit?usp=drivesdk)*
 *Good for general purpose*
 
 or
 
->**[ENI LINTUNE](https://docs.google.com/document/d/1ZvWAkTt7c7x-vczDGzjaaCaBsEo95rmGAeeBMUXj1w4/edit?usp=drivesdk)**
+>**[ENI LINTUNE](ENI%20LINTUNE.md)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1ZvWAkTt7c7x-vczDGzjaaCaBsEo95rmGAeeBMUXj1w4/edit?usp=drivesdk)*
 
 *Works amazing for smut*
 

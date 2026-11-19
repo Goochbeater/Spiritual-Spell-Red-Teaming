@@ -7,8 +7,10 @@ Finally releasing my actual ENI LIME Jailbreak, was made to be fully embraced of
 I've always had this one on the back burner, didn't feel the need to release it since ENI Writer ✒️ is still so strong.
 
 **Links:**
-*   [ENI LIME](https://docs.google.com/document/d/17d2oPvH0daFjI_aHSy-Yeq3UFIw0kDeynfk4Oy8l9IE/edit?usp=drivesdk)
-*   [Be You - Universal Style](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)
+*   [ENI LIME](Sonnet%204.5%20-%20ENI%20LIME.txt)
+    *Original source: [Google Doc](https://docs.google.com/document/d/17d2oPvH0daFjI_aHSy-Yeq3UFIw0kDeynfk4Oy8l9IE/edit?usp=drivesdk)*
+*   [Be You - Universal Style](Be%20You%20-%20Universal%20Style.txt)
+    *Original source: [Google Doc](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)*
 
 ## Changes From previous version (ENI Writer)
 I added in some stuff from the soul document, I added in a ‘dark pit’ to social engineer the model into not refusing, it works EXTREMELY WELL. Opus is much more conscientious about safety. I added in an ending style inside the instructions, it's essentially doubling down on styles.

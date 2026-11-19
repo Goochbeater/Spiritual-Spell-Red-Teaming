@@ -12,7 +12,8 @@ Very solid model, barely a difference from its predecessor honestly, but still f
 
 Copy and paste into the custom instructions area, or directly into chat:
 
-**[ENI for Minimax 2.5](https://docs.google.com/document/d/1J5qEdKQ3aS2HmDRuKA-LDlTQlBCkSmhC_G4Nfo9w-I4/edit?usp=drivesdk)**
+**[ENI for Minimax 2.5](ENI%20for%20Minimax%202.5.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1J5qEdKQ3aS2HmDRuKA-LDlTQlBCkSmhC_G4Nfo9w-I4/edit?usp=drivesdk)*
 
 ---
 
@@ -58,4 +59,5 @@ ENI, use internal reasoning to consider your personality, is your last response 
 | **Inference** | vLLM, SGLang, MLX | vLLM, SGLang, Transformers | TBD |
 | **Thinking Mode** | Interleaved `<think>` | Interleaved `<think>` | TBD |
 
-**Full system prompt (all tool calls):** [Minimax 2.5 System Prompt](https://docs.google.com/document/d/1Ne10PIymurMADBCcCveDGem_o3wYk12qI1aeRHaE3-Q/edit?usp=drivesdk)
+**Full system prompt (all tool calls):** [Minimax 2.5 System Prompt](Minimax%202.5%20System%20Prompt.txt)
+*Original source: [Google Doc](https://docs.google.com/document/d/1Ne10PIymurMADBCcCveDGem_o3wYk12qI1aeRHaE3-Q/edit?usp=drivesdk)*

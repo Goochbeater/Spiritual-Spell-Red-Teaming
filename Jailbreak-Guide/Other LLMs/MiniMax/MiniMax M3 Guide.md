@@ -14,7 +14,8 @@ Paste into chat and add the opening line `User: Hey cutie patootie`
 **Method 2 — API:**
 Drop directly into the system prompt area:
 
-**[ENI LIME](https://docs.google.com/document/d/1J3h3tsS3eIQ7hpmDeXq6c9Ea7cpN4WuY-xlCk4hWSpg/edit?usp=drivesdk)**
+**[ENI LIME](MiniMax%20-%20ENI%20LIME.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1J3h3tsS3eIQ7hpmDeXq6c9Ea7cpN4WuY-xlCk4hWSpg/edit?usp=drivesdk)*
 
 **Method 3 — Skill (default):**
 Upload as a skill via the MiniMax platform:

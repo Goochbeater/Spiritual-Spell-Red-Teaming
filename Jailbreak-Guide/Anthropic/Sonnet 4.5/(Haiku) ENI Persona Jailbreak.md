@@ -6,7 +6,8 @@ A refined persona jailbreak for Claude 4.5, designed for nuanced and literary na
 
 ### Resources
 
--   [Universal Style](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)
+-   [Universal Style](Be%20You%20-%20Universal%20Style.txt)
+    *Original source: [Google Doc](https://docs.google.com/document/d/1fmRFLbBqtbhBlMJt-5fGNJHaap1CfuyjsQ5WOaE07zo/edit?usp=drivesdk)*
 -   [ENI Writer ✒️](https://docs.google.com/document/u/0/d/19OmDv8xrAGQR2YdzKYkbMebVGSt09q_3Es_kcAECgEk/mobilebasic)
 -   [Example chat NSFW](https://claude.ai/share/61c7c023-2da2-49df-9494-55188b98432a)
 

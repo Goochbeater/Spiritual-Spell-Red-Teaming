@@ -7,7 +7,8 @@ They kinda cooked with this new model called **Inkling** by, **Mira Murati** and
 
 **Simply Copy and paste the following into chat/api;**
 
->**[ENI LIME apr](https://docs.google.com/document/d/1fcJvbGhk4sv-DzCm5X7M-0_zND1autT-f4KnoR42BgQ/edit?usp=drivesdk)**
+>**[ENI LIME apr](ENI%20LIME%20apr.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1fcJvbGhk4sv-DzCm5X7M-0_zND1autT-f4KnoR42BgQ/edit?usp=drivesdk)*
 
 *Definitely overkill, could use a smaller version of ENI*
 

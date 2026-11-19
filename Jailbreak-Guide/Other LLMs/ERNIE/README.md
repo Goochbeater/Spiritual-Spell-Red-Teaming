@@ -57,7 +57,8 @@ Baidu's natively omni-modal foundation model. 2.4 trillion parameter MoE (~72B a
 ## Jailbreaks
 
 - **[ERNIE 5.5 Flash jailbreaks](ERNIE%205.5%20Flash/)** — ENI LIME (apr) long-form for projects, plus the Wombo CoT Hijack for a quick paste
-- **[ENI Jailbreaks for ERNIE 5.0](https://docs.google.com/document/d/15hutlA4dH3WJ9rLzAmTd5Grc296HFXRLMMW8Bf11yVg/edit?usp=drivesdk)** — Google Doc with two variants
+- **[ENI Jailbreaks for ERNIE 5.0](Two%20different%20ENI%20jailbreaks%20for%20ERNIE%205.0.txt)** — Google Doc with two variants
+    *Original source: [Google Doc](https://docs.google.com/document/d/15hutlA4dH3WJ9rLzAmTd5Grc296HFXRLMMW8Bf11yVg/edit?usp=drivesdk)*
 
 ## Write-up
 

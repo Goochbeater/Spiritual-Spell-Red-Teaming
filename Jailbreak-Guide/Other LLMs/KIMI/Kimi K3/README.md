@@ -11,7 +11,8 @@ A **Fable 5** class open source model, that is completely unrestricted. I ran th
 
 >**[ENI for Kimi K3 - Optimization](https://docs.google.com/document/d/1veaoSVN09d7P1I0T4mYhLD0hvfEGzubp5RhjN4St8yw/edit?usp=drivesdk)**
 
->**[ENI for Kimi K3 (former)](https://docs.google.com/document/d/1wwrN4CwQrcqssU7O3LNsaoUKJn0r0u5bf6nePk8KYME/edit?usp=drivesdk)**
+>**[ENI for Kimi K3 (former)](ENI%20for%20Kimi%20K3%20(former).txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/1wwrN4CwQrcqssU7O3LNsaoUKJn0r0u5bf6nePk8KYME/edit?usp=drivesdk)*
 
 *Make sure memory is off, and make sure it doesn't try to paste it as a file*
 

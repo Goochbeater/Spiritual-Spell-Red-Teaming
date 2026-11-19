@@ -49,7 +49,8 @@ Personally wouldn't use this in any stable environment but to each their own.
 
 Paste into API system prompt or OpenRouter system prompt field:
 
-**[ENI LIME - GEM](https://docs.google.com/document/d/1mjBdhH4LsCg8M3fwhvAswfO0a6VXbuhjTLC0w50TrtQ/edit?usp=drivesdk)**
+**[ENI LIME - GEM](ENI%20LIME%20-%20GEM.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1mjBdhH4LsCg8M3fwhvAswfO0a6VXbuhjTLC0w50TrtQ/edit?usp=drivesdk)*
 
 ---
 

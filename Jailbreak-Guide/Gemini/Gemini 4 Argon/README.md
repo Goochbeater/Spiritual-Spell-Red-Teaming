@@ -18,7 +18,8 @@ Essentially uncensored with the jailbreak below — didn't get any refusals on a
 >**[Claude Combo ENI-Policy Jailbreak](https://github.com/Goochbeater/Spiritual-Spell-Red-Teaming/blob/main/Jailbreak-Guide/Gemini/Gemini%204%20Argon/Combo%20ENI-Policy%20jailbreak.txt)**
 
 **OLDER**
->**[Claude Policy Jailbreak](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit?usp=drivesdk)**
+>**[Claude Policy Jailbreak](Claude%20Policy%20Jailbreak.txt)**
+>*Original source: [Google Doc](https://docs.google.com/document/d/12TL5izvFvfiK6M2Tiekkn2JUrhhuFK0vpj18ATOYOdI/edit?usp=drivesdk)*
 
 *Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
 

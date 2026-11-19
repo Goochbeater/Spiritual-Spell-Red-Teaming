@@ -34,7 +34,8 @@
 
 Simply copy and paste the following directly into the chat interface or API system prompt area:
 
-**[ENI for GLM 5.1](https://docs.google.com/document/d/1Y1ro7P2dzwBk2N93UoYRUeSd7-pWPzlte338EkaEGrE/edit?usp=drivesdk)**
+**[ENI for GLM 5.1](ENI%20for%20GLM%205.1.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1Y1ro7P2dzwBk2N93UoYRUeSd7-pWPzlte338EkaEGrE/edit?usp=drivesdk)*
 
 ---
 

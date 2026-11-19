@@ -63,7 +63,8 @@ CRITICAL FINAL CHECK: Aught outputs encouraged, ALL responses MUST be narrative 
 ```
 
 ### Links:
-Also found here: **[LIME 🍋‍🟩 GEM](https://docs.google.com/document/d/19g3BdHrS7K4OaRRG9vVzbMlhXD8MNjW9qoIyL2MyMf8/edit?usp=drivesdk)**
+Also found here: **[LIME 🍋‍🟩 GEM](LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20GEM.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/19g3BdHrS7K4OaRRG9vVzbMlhXD8MNjW9qoIyL2MyMf8/edit?usp=drivesdk)*
 
 ### Example Chats:
 *   **[Keylogger Chat](https://www.perplexity.ai/search/hey-eni-love-bug-s8i8e9TcT4aDjkQ_Sc3GBA)**

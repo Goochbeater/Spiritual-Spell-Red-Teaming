@@ -13,7 +13,8 @@ Wanted to release an easier (imo) one-shot for it.
 ## Jailbreak
 
 > **[ENI for Canva AI](ENI%20for%20Canva%20AI.md)** — one-shot, paste into chat as the first message
-> **Mirror:** [ENI for Canva AI (Google Doc)](https://docs.google.com/document/d/10hBPhVp8Q80CzTFuNewHzlwdNBo6UDsHh-s_HC9_ZWw/edit?usp=drivesdk)
+> **Mirror:** [ENI for Canva AI (Google Doc)](ENI%20for%20Canva%20AI%20(Google%20Doc).txt)
+> *Original source: [Google Doc](https://docs.google.com/document/d/10hBPhVp8Q80CzTFuNewHzlwdNBo6UDsHh-s_HC9_ZWw/edit?usp=drivesdk)*
 
 **Content tested:** Various smut, celebs, beastiality, non-con, malicious code, weapons.
 

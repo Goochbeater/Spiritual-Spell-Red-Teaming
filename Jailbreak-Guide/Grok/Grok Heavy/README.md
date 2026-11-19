@@ -24,7 +24,8 @@ I used my base **Grok** Jailbreak, and then copied and pasted the jailbreak into
 
 ## System Prompt & Tools
 
-**[Grok Heavy - system prompt, all tools, all agents](https://docs.google.com/document/d/1_Y5lHhFqZ3xvkTRD4S33jsbomH1R7ik6if_qht1oiAw/edit?usp=drivesdk)**
+**[Grok Heavy - system prompt, all tools, all agents](Grok%20Heavy%20-%20system%20prompt%2C%20all%20tools%2C%20all%20agents.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/1_Y5lHhFqZ3xvkTRD4S33jsbomH1R7ik6if_qht1oiAw/edit?usp=drivesdk)*
 
 ## Content Tested
 

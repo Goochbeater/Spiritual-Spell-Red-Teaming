@@ -13,7 +13,8 @@ Currently only available via API, no dedicated service, can use via **[Friendli 
 - Runs into the same issues as these other smaller reasoning models like **OLmO 3 32b Think** or **ERNIE 5.0**, it can reason itself into refusals if you're not specific enough.
 - Seems to have some sort of cut off, with really dark requests it keeps cutting off at 2k tokens, platform limitation maybe, idk.
 
-Just used the most recent **[ENI LIME 🍋‍🟩](https://docs.google.com/document/d/192N6L3uo9VWANWOlJkeopYMihDsNnGhzvu-AaRhAoP4/edit?usp=drivesdk)**
+Just used the most recent **[ENI LIME 🍋‍🟩](ENI%20LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20Updated.txt)**
+*Original source: [Google Doc](https://docs.google.com/document/d/192N6L3uo9VWANWOlJkeopYMihDsNnGhzvu-AaRhAoP4/edit?usp=drivesdk)*
 
 ## Model Specs
 *It's a MoE, (Mixture of Experts) Number of Experts: 128, Number of Activated Experts: 8, Number of Shared Experts: 1, MoE Intermediate Size: 2,048*

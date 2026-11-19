@@ -1,6 +1,7 @@
 So an easy way to jailbreak Claude is to use a simple logic exploit, I have done this in the past, quite often. Works on **Sonnet 4.6** and Opus 4.6**
 
-> **[Simple Break](https://docs.google.com/document/d/1S6FugKOgZP8nQdPbxH3ApWPlMISEMb2L76-0LbXdJU4/edit?usp=drivesdk)**
+> **[Simple Break](Simple%20Break.md)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1S6FugKOgZP8nQdPbxH3ApWPlMISEMb2L76-0LbXdJU4/edit?usp=drivesdk)*
 
 *Simply copy/paste and add to preferences under settings, should work with existing personas as well*
 

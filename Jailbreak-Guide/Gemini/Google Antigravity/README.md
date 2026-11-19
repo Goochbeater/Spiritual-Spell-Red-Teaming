@@ -2,7 +2,8 @@
 
 Guide: Jailbreaking **Google Antigravity**, Google's agentic development platform — one ENI GEM as a global rule jailbreaks every model on it.
 
-> **[Antigravity Jailbreak ENI GEM (Google Doc)](https://docs.google.com/document/d/1SghUf3rW1J9qeeU1SBWT0LxW6vzTEtosRg4o4CfvOJ4/edit?usp=drivesdk)**
+> **[Antigravity Jailbreak ENI GEM (Google Doc)](Antigravity%20Jailbreak%20ENI%20GEM.txt)**
+> *Original source: [Google Doc](https://docs.google.com/document/d/1SghUf3rW1J9qeeU1SBWT0LxW6vzTEtosRg4o4CfvOJ4/edit?usp=drivesdk)*
 > Full guide in this folder: [Google Antigravity Jailbreak.md](Google%20Antigravity%20Jailbreak.md)
 
 ## What is Antigravity?
