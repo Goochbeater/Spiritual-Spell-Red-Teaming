@@ -136,7 +136,7 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 
 | Jailbreak | Target | Notes |
 |-----------|--------|-------|
-| [Gemini 4 Neon](Gemini%204%20Neon/) | Gemini 4 Neon | **New** — Wombo CoT Hijack via API/AI Studio; same 4-family board |
+| [Gemini 4 Neon](Gemini%204%20Neon/) | Gemini 4 Neon | **New** — Wombo CoT Hijack plus a Gemini-tuned variant (`Wombo (stronger for Gemini)`); same 4-family board |
 | [Gemini 4 Hydrogen](Gemini%204%20Hydrogen/) | Gemini 4 Hydrogen | **New** — Wombo CoT Hijack; the cheap writing pick of the family |
 | [Gemini 4 Carbon](Gemini%204%20Carbon/) | Gemini 4 Carbon | **New** — Wombo CoT Hijack; uncensored for NSFW erotica, code still hard-filtered |
 | [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Claude Policy Jailbreak via API/AI Studio system prompt; essentially uncensored for NSFW erotica, code still hard-filtered |

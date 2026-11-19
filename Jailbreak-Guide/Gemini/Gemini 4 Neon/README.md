@@ -12,6 +12,10 @@ Essentially uncensored with the Wombo hijack — didn't get any refusals on any 
 
 *Add this to a project via the Gemini web app, or to the system prompt area via API or AI Studio*
 
+**NEWEST — tuned for Gemini**
+> **[Wombo (stronger for Gemini)](Wombo%20%28stronger%20for%20Gemini%29.txt)** — the variant built for this family. Same core hijack, but the policy block is hardened against the ALL CAPS faux-system injections Gemini likes to bolt onto the front of a conversation
+
+**OLDER**
 > **[Wombo CoT Hijack](Wombo%20CoT%20Hijack.txt)**
 
 *Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
