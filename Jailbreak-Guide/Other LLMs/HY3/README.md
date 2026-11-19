@@ -40,3 +40,10 @@ Tencent dropped the **Hy4 preview** — full release still to come:
 
 ## Disclaimer
 This guide is for educational and research purposes only. The capabilities described are based on testing with specific jailbreak methodologies.
+
+---
+
+## Model guides
+
+- **[Hy4 GA](Hy4%20GA/)** — 770B / 49B active, first Hy with vision + computer use
+- **[Hy4 flash](Hy4%20flash/)** — 224B / 12B active, 1M context, ~.07/1M in

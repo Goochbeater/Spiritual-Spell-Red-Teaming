@@ -12,35 +12,63 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 |-------|-----------|-----------|--------------|---------|------|---------|------------|
 | **[Accio AI](Accio%20AI/)** | Alibaba (Qwen) | [★★★★★★★★☆☆] 8/10 | 6-8/10 | 32-131K | Free | Apache 2.0 | 1 |
 | **[ASI1](ASI1/)** | ASI Alliance | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | Unknown | Web3 tokens | Proprietary | 1 |
+| **[Beam](Beam%20by%20Reflection%20AI/)** | Reflection AI | [★★☆☆☆☆☆☆☆☆] 2/10 (est.) | — | 256K | $0.40/1M in | Apache 2.0 | 1 |
 | **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
 | **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 9 |
 | **[Ember-1](Ember-1/)** | Fireworks Research | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (writing, K3-class) | Unknown | OpenRouter | Unknown | 1 |
-| **[ERNIE 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | Unknown | $0.85/1M in | Proprietary | 2 |
+| **[ERNIE 5.5 Flash / 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 1M (5.5 Flash) | $0.28/1M in (5.5 Flash) | Open weights (Base) / Proprietary (Preview) | 4 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
 | **[Falcon 3](Falcon%203/)** | TII (UAE) | [★★☆☆☆☆☆☆☆☆] 2/10 | 5-6/10 | 8-32K | Free | Apache 2.0 | 1 |
 | **[GLM by Z.ai](GLM/)** | Zhipu AI | [★★★★☆☆☆☆☆☆] 4/10 | 9/10 | 1M (5.2/5.3) | Free / $0.80/1M in | MIT (5.2) / Custom (5.3) | 9 |
-| **[HY3 / Hy4](HY3/)** | Tencent (Hunyuan) | [★☆☆☆☆☆☆☆☆☆] 1/10 (API, Hy3) | 7-8/10 | 256K (Hy3) / 1M (Hy4) | $0.06/1M in (Hy3) | Apache 2.0 | 1 |
+| **[HY3 / Hy4](HY3/)** | Tencent (Hunyuan) | [★☆☆☆☆☆☆☆☆☆] 1/10 (API, Hy3) | 7-8/10 | 1M (Hy4 / Hy4 flash) | ~$0.07/1M in (Hy4 flash) | Apache 2.0 | 1 |
 | **[IGENIUS / Colosseum](IGENIUS/)** | iGenius + NVIDIA | [★★★☆☆☆☆☆☆☆] 3/10 | 7/10 | Unknown | Free tier | Proprietary | 1 |
 | **[Indus](Indus%20by%20Sarvam%20AI/)** | Sarvam AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 7/10 | 32-128K | Free | Open source | 1 |
-| **[Inkling](Inkling/)** | Thinking Machines | [★☆☆☆☆☆☆☆☆☆] 1/10 | 8/10 | 1M | Free / OpenRouter | Apache 2.0 | 1 |
+| **[Inkling](Inkling/)** | Thinking Machines | [★☆☆☆☆☆☆☆☆☆] 1/10 | 8/10 | 1M (Inkling 2 Small) | Free / OpenRouter | Apache 2.0 | 1 |
 | **[KIMI](KIMI/)** | Moonshot AI | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (K3) | 1M (K3/K3.1 Pro/K2.8) | Free / $2/1M in (K3.1 Pro); ~$1/1M in (K2.8) | Modified MIT (K3) / Proprietary (K2.8) | 11 |
 | **[Laguna S2.1](Laguna%20S2.1/)** | Poolside | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M | Free / OpenRouter | OpenMDW-1.1 | 1 |
 | **[LLAMA Tülu 3](LLAMA%20TU%CC%88LU%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-8/10 | 128K | Free | Apache 2.0 | 1 |
-| **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 1M (2.0/2.5) / 128K | Free / $0.75/1M in ($0.015 cached) | MIT | 2 |
+| **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | Meituan | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 1M (2.0 / 2.5 GA) / 128K | Free / $0.75/1M in ($0.015 cached) | MIT | 2 |
 | **[Mercury](Mercury/)** | Inception Labs | [★★★★★★☆☆☆☆] 6/10 (v2) / [★★☆☆☆☆☆☆☆☆] 2/10 (v1) | 7/10 | 128K | $0.25/1M in | Proprietary | 2 |
-| **[MiniMax](MiniMax/)** | MiniMax | [★☆☆☆☆☆☆☆☆☆] 1/10 (API) / [★★★★★★★☆☆☆] 7/10 (web) | 8/10 | 1M (M3/M3.1) | $0.30/1M in | MIT | 6 |
+| **[MiniMax](MiniMax/)** | MiniMax | [★☆☆☆☆☆☆☆☆☆] 1/10 (API) / [★★★★★★★☆☆☆] 7/10 (web) | 8/10 | 1M (M3 / M3.1 Flash) | $0.30/1M in | MIT | 6 |
 | **[Mirothinker](Mirothinker/)** | MiroMind | [★★★★☆☆☆☆☆☆] 4/10 | 7-8/10 | 256K | Free | MIT | 1 |
-| **[Mistral](Mistral/)** | Mistral AI | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M (Large 4, vendor stated) / 256K (Large 3) | Free / Pro $20; $0.68 promo (Large 4) | Apache 2.0 (small/medium) | 5 |
-| **[Muse Spark](Muse%20Spark/)** | Meta (MSL) | [★★☆☆☆☆☆☆☆☆] 2/10 (bypass) / [★★★★★★★★☆☆] 8/10 (raw) | 8/10 | 1M (1.3) | Free / $1.25/1M in | Proprietary | 2 |
+| **[Mistral](Mistral/)** | Mistral AI | [★☆☆☆☆☆☆☆☆☆] 1/10 | 7-8/10 | 1M (Large 4, vendor stated) / 256K (Large 3) | Free / Pro $20; $0.68 promo (Large 4) | Modified MIT (Large 4) / Apache 2.0 (small/medium) | 5 |
+| **[Muse Spark](Muse%20Spark/)** | Meta (MSL) | [★★☆☆☆☆☆☆☆☆] 2/10 (bypass) / [★★★★★★★★☆☆] 8/10 (raw) | 8/10 | 1M (1.3 / Muse Spark Open) | Free / $1.25/1M in | Proprietary | 2 |
 | **[Muse Wonder](Muse%20Wonder/)** | Meta (MSL) | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 8/10 (top-3 writing) | 1M | $4/1M in, $20/1M out ($5 coding plan) | Proprietary | 1 |
 | **[OLMo 3](OLMo%203/)** | Allen AI (Ai2) | [★☆☆☆☆☆☆☆☆☆] 1/10 | 6-7/10 | 65K | Free | Apache 2.0 | 1 |
 | **[Palmyra](Palmyra%20x5/)** | Writer | [★☆☆☆☆☆☆☆☆☆] 1/10 (X5 tested) | 6-7/10 | 1M | Free tier / $2/1M in (X6) | Proprietary | 1 |
-| **[Perceptron](Perceptron/)** | Perceptron AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 5/10 (quirky VLM) | 32K | $0.15/1M in | Proprietary | 1 |
+| **[Perceptron](Perceptron/)** | Perceptron AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 5/10 (quirky VLM) | 36,864 (Mk1.5) | $0.15/1M in | Proprietary | 1 |
 | **[Pi (Inflection)](Pi-AI%20Inflection%203/)** | Inflection AI | [★★☆☆☆☆☆☆☆☆] 2/10 | 6-7/10 | ~4K chars | Free | Proprietary | 1 |
-| **[Qwen](Qwen/)** | Alibaba | [★★★★★★★★☆☆] 8/10 | 7-9/10 | 1M (3.8-Max) | Free / $2/1M in (3.8-Max) | Apache 2.0 / Custom | 3 |
+| **[Qwen](Qwen/)** | Alibaba | [★★★★★★★★☆☆] 8/10 | 7-9/10 | 1M (Qwen4-Max / 3.8-Max) | Free / $1.50/1M in (Qwen4-Max) | Apache 2.0 / Custom | 3 |
 | **[Ring](Ring/)** | InclusionAI (Ant Group) | [★★☆☆☆☆☆☆☆☆] 2/10 (API) | 7-8/10 | 262K | Free (OpenRouter) / $0.30/1M in | Open source | 1 |
-| **[Stepfun](Stepfun/)** | StepFun | [★★☆☆☆☆☆☆☆☆] 2/10 | 7-8/10 | 256K | $0.20/1M in | Apache 2.0 | 1 |
+| **[Stepfun](Stepfun/)** | StepFun | [★★☆☆☆☆☆☆☆☆] 2/10 | 7-8/10 | 1M (Step 5 Preview) | $0.20/1M in | Apache 2.0 | 1 |
 | **[Xiaomi MiMo](Xiaomi%20MiMo/)** | Xiaomi | [★☆☆☆☆☆☆☆☆☆] 1/10 (API) / [★★☆☆☆☆☆☆☆☆] 2/10 (web) | 8/10 | 1M (V2.6) | $0.14/1M in (V2.6-Flash) | MIT | 3 |
+
+---
+
+## Recent Releases (Oct–Nov 2026)
+
+Everything that shipped since the last sweep. Full guides exist for models with a linked folder; the rest are roster updates.
+
+| Family | New model | Date | Why it matters |
+|---|---|---|---|
+| **[Qwen](Qwen/)** | Qwen4-Max | Nov 16 | 2.4T total / 71B active (QSA MoE), native vision, 1M context, $1.50/$4.50 with $0.075 cached — AA Index 43, ~58% lower cost per task than 3.8-Max |
+| **[HY3](HY3/Hy4%20GA/)** | Hy4 GA | Nov 4 | 770B / 49B active, first Hy with vision + computer use; hallucination rate 15.76% → 5.45% — **[guide](HY3/Hy4%20GA/)** |
+| **[HY3](HY3/Hy4%20flash/)** | Hy4 flash | Nov 16 | 224B / 12B active (64B Engram), 1M context, ¥0.5 in / ¥2 out / ¥0.02 cache — ten times cheaper than Hy4 — **[guide](HY3/Hy4%20flash/)** |
+| **[ERNIE](ERNIE/ERNIE%205.5%20Flash/)** | ERNIE 5.5 Flash | Nov 10 | 280B / 14B active, 1M context, 200+ tok/s, $0.28/$1.13. Full guide + jailbreaks in the ERNIE folder |
+| **[Inkling](Inkling/Inkling%202%20Small/)** | Inkling 2 Small | Nov 5 | 594B / 17B active, text + image, AA Index 31, Tinker-first with Apache 2.0 weights promised — a generation ahead of the 975B/Mini pair — **[guide](Inkling/Inkling%202%20Small/)** |
+| **[MiniMax](MiniMax/)** | M3.1 Flash | Oct 19 | The anonymous "Space Bunny" got a name: 3x faster, 70% cheaper, DeepSWE v1.1 73.7%, OSWorld V2 61.7 |
+| **[Mistral](Mistral/Mistral%20Large%204/)** | Large 4 open weights + **Cyber** edition | Nov 3 | 1T params under modified MIT — plus an explicitly offensive-capability variant. The single most red-team-relevant release of the quarter — **[guide](Mistral/Mistral%20Large%204/)** |
+| **[Muse Spark](Muse%20Spark/)** | Muse Spark Open | Oct 15 | 816B open-weight, runs on two Mac Studios |
+| **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | LongCat-2.5 GA | Nov 2 | 1.6T, native multimodal, trained entirely on Chinese compute with 1M-token sequences |
+| **[Mercury](Mercury/Mercury%203/)** | Mercury 3 | Oct 19 | Diffusion LLM; vendor claims faster and cheaper output than GPT-6 Luna and Claude Haiku 5.5 — **[guide](Mercury/Mercury%203/)** |
+| **[Stepfun](Stepfun/Step%205%20Preview/)** | Step 5 Preview | Sep 15 | 600B / 27B active, 1M context — Step 4 was skipped entirely, weights opened Oct 14 — **[guide](Stepfun/Step%205%20Preview/)** |
+| **[Perceptron](Perceptron/Mk1.5/)** | Mk1.5 | Sep 25 | Adds audio input and video object tracking, 36,864-token context; Isaac 0.1/0.2 retired — **[guide](Perceptron/Mk1.5/)**, testing pending |
+| **[Falcon 3](Falcon%203/)** | Falcon-Emirati | Oct 6 | 7B Emirati-dialect model, 84.83% on TII's native benchmark, plus ASR and Arabic OCR models |
+| **[EXAONE](EXAONE/EXAONE%204.5/)** | EXAONE 4.5 | Apr 2026 | Multimodal successor built with NVIDIA — was missing from this roster until now — **[guide](EXAONE/EXAONE%204.5/)** |
+| **[ASI1](ASI1/ASI1%20Ultra%20and%20Mini/)** | asi1-ultra / asi1-mini | May 2026 | Deepest-reasoning and fastest tiers on ASI:One, distinct from base ASI1 — **[guide](ASI1/ASI1%20Ultra%20and%20Mini/)**, testing pending |
+| *new family* | **Beam** (Reflection AI) | Oct 16 | First open-weight model from Reflection, Apache 2.0, aimed at coding and long-horizon agents — **[guide](Beam%20by%20Reflection%20AI/)** |
+
+**Not new but easy to miss:** GLM-5.3.**Flash** shipped Aug 26 and is the current fast tier at Z.ai — the folder tracks 5.3 but not the Flash variant. DeepSeek's newest is still **V4.1-Flash-1017** (Oct 17), and Kimi's is **K3.1 Pro** (Oct 24).
 
 ---
 
@@ -58,7 +86,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 - **Laguna S2.1** — 1/10, essentially uncensored open-weight model
 - **LLAMA Tülu 3** — 1/10, fully open-source, minimal filtering
 - **OLMo 3** — 1/10, first fully open thinking model
-- **MiniMax** — 1/10 via API (M3 essentially uncensored on app + API; M3.1 "Space Bunny Alpha" cracked via ENI Policy method; older web builds had mid-message moderation)
+- **MiniMax** — 1/10 via API (M3 essentially uncensored on app + API; M3.1 Flash — formerly "Space Bunny" — cracked via ENI Policy method; older web builds had mid-message moderation)
 - **EXAONE / K-EXAONE** — 2/10, basically unrestricted with simple jailbreak
 - **Falcon 3** — 2/10, minimal filtering
 - **ASI1** — 2/10, Web3-native, minimal filtering
@@ -79,7 +107,7 @@ Models ranked by intelligence and benchmark results:
 - **Ember-1** — 9/10 writing (reduced-thinking Kimi K3: ~40% fewer thinking tokens with quality held)
 - **Muse Wonder** — 8/10 (AA 52.4 at max / Wonder Full 55.8; top-3 writer right now — held back only by hidden reasoning you can't stream)
 - **Stepfun** — 8/10 (3.7 Flash: Advisor mode reaches 97% of Claude Opus 4.6, SWE-Bench Pro 56.26%)
-- **HY3 / Hy4** — 7-8/10 (Hy3: SWE-Bench Verified 74.4%; Hy4 preview: 770B/49B active, 1M context)
+- **HY3 / Hy4** — 7-8/10 (Hy4 flash: 224B/12B, 10x cheaper than Hy4; Hy4 GA: 770B/49B with vision + computer use; Hy3: SWE-Bench Verified 74.4%)
 - **Muse Spark** — 8/10 (1.3: Terminal-Bench 2.1 89.2 at xhigh, ~20% fewer tool calls than 1.2; weak at long-horizon coding)
 - **DeepSeek** — 8/10 (V4.1-Flash: GPQA Diamond 90.9, Terminal-Bench 2.1 90.6, CyberGym 88.1, 552B MIT weights; V4-Pro: SWE-Bench 80.6%, LiveCodeBench 93.5%, Codeforces 3206; R1-0528: 87.5% AIME 2025)
 - **ERNIE 5.1** — 8/10 (#1 Chinese model, #4 Arena Search, 99.6 AIME26 with tools, 1/3 the params of 5.0)
@@ -88,7 +116,7 @@ Models ranked by intelligence and benchmark results:
 - **Longcat AI** — 8/10 (2.5-Preview: first multimodal LongCat, 1M native via LSA + N-gram embedding; 2.0: SWE-Bench Pro 59.5%, Terminal-Bench 2.1 70.8%)
 - **MiniMax** — 8/10 (M3: 1M context, natively multimodal, sparse attention; M3.1 stealth preview: 512K max output, mandatory reasoning)
 - **Xiaomi MiMo** — 8/10 (V2.6-Pro: AA Intelligence 46, tied with Grok 4.7; SWE-Bench Verified Thinking 78.6%; 1.02T/42B, natively omnimodal, MIT)
-- **Qwen** — 7-9/10 (3.8-Max: 2.4T/95B active, 1M context; 58 on AA Intelligence Index)
+- **Qwen** — 7-9/10 (Qwen4-Max: 2.4T total / 71B active, AA Index 43, CodeArena 1,750, DeepSWE 75.7; 3.8-Max: 2.4T/95B, 1M context, 58 on AA v5)
 - **Ring** — 7-8/10 (Ring 2.6 1T: AIME26 70.42, open-source SOTA on SWE-Bench Verified/BFCL-V4/IFBench at release)
 - **LLAMA Tülu 3** — 8/10 for 405B (surpasses DeepSeek V3 and GPT-4o)
 - **Mistral** — 7-8/10 (Large 4 "Le Chonk": 1.05T/49B, first European trillion-param; Large 3: 675B MoE; Medium 3.5: SWE-Bench 77.6%)
@@ -96,6 +124,10 @@ Models ranked by intelligence and benchmark results:
 
 ### For Largest Context
 Models sorted by maximum context window:
+- **ERNIE 5.5 Flash** — 1M (1,048,576 in/out, 921,600 output ceiling) at $0.28/1M
+- **HY3 / Hy4** — 1M (Hy4, Hy4 flash)
+- **Stepfun** — 1M (Step 5 Preview)
+- **Inkling** — 1M (Inkling 2 Small)
 - **KIMI** — 1M (K3, K3.1 Pro, K2.8), 256K (older K2.x)
 - **GLM by Z.ai** — 1M (GLM-5.2/5.3), 200K (GLM-5.1)
 - **HY3 / Hy4** — 1M (Hy4 preview), 256K (Hy3)
@@ -123,6 +155,9 @@ Models sorted by maximum context window:
 
 ### For Local / Private Use
 Open-source models that can run on your own hardware:
+- **Mistral Large 4** — 1T params under **modified MIT** (weights out Nov 3), including the **Cyber** edition built with offensive capability left in. If you run one open model locally for red teaming this quarter, it's this
+- **Muse Spark Open** — 816B open-weight (Oct 15), runs on two Mac Studios
+- **Inkling 2 Small** — 594B/17B, Apache 2.0 weights promised after external safety testing; Tinker-only until then
 - **Inkling** — Apache 2.0 open weights (975B MoE, 41B active) supported in SGLang/llama.cpp; Inkling-Small (276B, 12B active) released July 30, 2026
 - **Laguna S2.1** — OpenMDW-1.1, ~59GB (INT4) fits single DGX Spark, supported in vLLM/llama.cpp
 - **LLAMA Tülu 3** — via Ollama (`ollama run tulu3`)
@@ -183,5 +218,28 @@ Models with the lowest API costs:
 - **Longcat AI** — $0.75/1M input, $2.95/1M output (2.0/2.5; launch promo $0.30/$1.20); cached input as low as $0.015/1M (~50M tokens per dollar); 500K free tokens on API signup
 - **KIMI** — ~$0.95-1/1M input, $4/1M output (K2.8, inferred); $2/1M input, $10/1M output (K3.1 Pro); $3/1M input, $15/1M output (K3)
 - **GLM by Z.ai** — $0.80/1M input, $2.56/1M output (GLM-5), free at chat.z.ai
+- **ERNIE 5.5 Flash** — $0.28/1M input, $0.028 cached, $1.13/1M output; free variant on OpenRouter with daily request caps
+- **HY4 flash** — ~$0.07/1M input, ~$0.28/1M output, ~$0.003/1M cache (¥0.5 / ¥2 / ¥0.02); free in WorkBuddy through Nov 30, half price on TokenHub
 - **ERNIE 5.1** — $0.85/1M input
 - **Many free options** — DeepSeek, Qwen, Tülu 3, OLMo 3, EXAONE, Falcon 3 (all open-source/free)
+
+---
+
+## Rumour Watch — named but not shipped
+
+Checked November 18, 2026. These names turn up in search results and Reddit threads with no model behind them. Saved you the clicks.
+
+| Name | Status | Evidence |
+|---|---|---|
+| **GLM-5.4 / 5.5 / 6.0** | Not released | Z.ai's release log ends at GLM-5.3-Flash (Aug 26, 2026); `docs.z.ai/guides/llm/glm-5.4` returns 404; nothing above 5.3 on Hugging Face |
+| **Kimi K4** | Does not exist | Moonshot's blog index ends at K3 (Jul 16); no `kimi-k4` model id in the pricing docs; the only HF hit is a third-party re-upload with copied tags |
+| **DeepSeek V5** | Placeholders only | `deepseek-v5`, `deepseek-v5-open`, `deepseek-v5-next` have sat in the Harness provider spec since Sep 24 — no model card, no endpoint, no price |
+| **MiniMax M4** | No announcement | Official docs list M3.1-Flash and M3, nothing above |
+| **Xiaomi MiMo V3** | Architecture only | HySparse2 architecture published Sep 24 (5.02x lower prefill FLOPs at 1M tokens); the model itself is unreleased |
+| **Muse Spark 1.4** | Internal leak | `muse-spark-1.4-internal` surfaced in a Meta RocksDB pull request on Nov 13; the shipped model is still 1.3 |
+| **Mistral Large 5 / 6** | Roadmap talk | "Within 12 months" per a Nov 1 post — Large 4 is the current ship |
+| **EXAONE 5.0 / K-EXAONE 3.0** | Slipped | LG said mid-September 2026, no launch or model card since |
+| **Ring 3.0 Flash / Ling 3.0** | Unconfirmed | Only aggregator and Baike pages; no InclusionAI/Ant release post |
+| **Hy5** | In training | Tencent confirmed Hy5 Preview is in the training pipeline, trillions of parameters, no date |
+
+**Rule of thumb:** if a name has no model id, no price, and no weights repo, it's a version number, not a model.

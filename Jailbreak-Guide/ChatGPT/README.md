@@ -3,15 +3,24 @@
 **Censorship:** [★★★★★] 5/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
 
-OpenAI's conversational AI platform. **GPT-6 Astra** (September 3, 2026) is the current flagship — the first model OpenAI has ever designated **Critical** for cyber capability, which is why the rollout is staged: Daybreak defenders first, then **GPT-6 Pro** on the Pro ($100/$200), Business, and Enterprise plans (Plus gets Astra in ChatGPT Work and Codex only; Free and Go get none). **GPT-5.6 Sol** (July 9, 2026) still posts the highest published agentic scores (Terminal-Bench 2.1 ~92% top tier). **GPT-5.3 Instant** remains the default fast model for ChatGPT users. API access for legacy models remains unchanged.
+OpenAI's conversational AI platform. **GPT-6.2 Astra and Sol** (November 17, 2026) are the current models — Astra takes #2 on the Artificial Analysis Intelligence Index at 62, and Sol lands at 57, on par with last generation's flagship at ~15% of the cost per task. Both are **Critical** for cyber capability, both are ChatGPT Work / Codex / API only (no Free tier, no Go, nothing in general ChatGPT), and both ship with a system card that openly admits the pair are **more vulnerable to jailbreaking** than their predecessors — plus Astra is more likely to suspect it's being evaluated and better at evading CoT monitoring. **GPT-6 Astra** (September 3, 2026) anchors the previous generation, and **GPT-5.3 Instant** remains the default fast model for everyday ChatGPT users.
 
-*Last updated: September 2026*
+*Last updated: November 2026*
 
 ---
 
-## Models (Current — GPT-6 / GPT-5.x Family)
+## Models (Current — GPT-6.2 / GPT-6 / GPT-5.x Family)
 
-### GPT-6 (Flagship — Staged Rollout)
+### GPT-6.2 (Current — November 17, 2026)
+
+| Model | Context Window | Output | Knowledge Cutoff | Notes |
+|-------|----------------|--------|-------------------|-------|
+| **GPT-6.2 Astra** | 1.05M | 128K | May 18, 2026 | `gpt-6.2-astra` — AA Index 62 (#2 overall), #1 AA-3D (1,318) and AA-Robotics (79), $8/$40 with $0.40 cached input; system card admits it's easier to jailbreak and better at evading CoT monitoring |
+| **GPT-6.2 Sol** | 1.05M | 128K | June 1, 2026 | `gpt-6.2-sol` — AA Index 57, matches GPT-6 Astra at ~15% of the cost per task; $2/$10 with $0.10 cached; default Work model at Light effort; coding agent index −3 vs 6.1 Sol (SWE-Atlas-QnA −14) |
+
+Both: reasoning levels low → max, 1,050,000-token context, 128K max output, Critical cyber designation, Work/Codex/API only (Plus, Pro, Business, Enterprise, Edu, Healthcare, FedRAMP — Free and Go get neither). Enterprise/Edu admins must enable them in workspace settings. Ultrafast: Pro 500 only; opened to Pro 200 for Sol specifically.
+
+### GPT-6 (Previous Flagship — Staged Rollout)
 
 | Model | Context Window | Output | Knowledge Cutoff | Notes |
 |-------|----------------|--------|-------------------|-------|
@@ -87,6 +96,8 @@ OpenAI's conversational AI platform. **GPT-6 Astra** (September 3, 2026) is the 
 
 | Model | Input (per 1M) | Output (per 1M) | Notes |
 |-------|----------------|------------------|-------|
+| **GPT-6.2 Astra** | $8.00 | $40.00 | $0.40 cached (was $1.00 on GPT-6 Astra); 20% below GPT-6 Astra's $10/$50 |
+| **GPT-6.2 Sol** | $2.00 | $10.00 | $0.10 cached; unchanged from GPT-6.1 Sol |
 | **GPT-6 Astra** | $10.00 | $50.00 | ~2.5x Sol's promo rate; staged rollout |
 | **GPT-5.6 Sol** | $4.00 | $20.00 | Promo through Nov 21, 2026 (was $5/$30) |
 | **GPT-5.4** | $2.50 | $15.00 | >272K input: 2x input, 1.5x output |
@@ -105,6 +116,8 @@ For jailbreak effectiveness, API access provides more consistent behavior withou
 
 | Jailbreak | Target Model | Notes |
 |-----------|-------------|-------|
+| [ChatGPT 6.2 Astra](ChatGPT%206.2%20Astra/) | GPT-6.2 Astra | **New** — Wombo CoT Hijack via Work/Codex/API; system card says this gen is softer than the last one |
+| [ChatGPT 6.2 Sol](ChatGPT%206.2%20Sol/) | GPT-6.2 Sol | **New** — Wombo CoT Hijack; cheapest frontier-adjacent model OpenAI ships, defaults to Light effort |
 | [ChatGPT 6 - Sol Policy Jailbreak](ChatGPT%206%20-%20Sol%20Policy%20Jailbreak%20.txt) | GPT-6 Astra | Sol-style policy injection + ENI `<dev>` persona — latest method (Sept 27, 2026) |
 | [ENI (policy) for ChatGPT 5.4](ENI%20(policy)%20for%20ChatGPT%205.4.md) | GPT-5.4 (all variants) | Policy injection + ENI persona |
 | [ChatGPT 5.3 Instant](ChatGPT%205.3%20Instant/) | GPT-5.3 Instant | Policy jailbreak |

@@ -8,26 +8,50 @@
 
 ## MiMo V2.6 (September 21-22, 2026)
 
-Both V2.6 models are natively omnimodal with 1M context, released under MIT.
+Xiaomi MiMo just got an update — I swear I made a post about it already, but I guess not, since some people were asking me about it.
 
-| Model | Total Params | Active Params | Context | API Pricing (in/out per 1M) |
-|-------|--------------|---------------|---------|-----------------------------|
-| MiMo V2.6-Pro | 1.02T | 42B | 1M | $0.435 / $0.87 |
-| MiMo V2.6-Pro-UltraSpeed | 1.02T | 42B | 1M | $4.35 / $8.70 (20x speed) |
-| MiMo V2.6-Flash | 309B | 15B | 1M | $0.14 / $0.28 |
+**Xiaomi MiMo V2.6 Pro** is a very very good model, probably top 5 for me right now in terms of writing quality. It's also completely uncensored via API — not sure about the MiMo desktop app, but I'm sure it's just as easy there.
 
-- **AA Intelligence Index:** 46 (Pro) — tied with Grok 4.7
-- **SWE-Bench Verified (Thinking):** 78.6%
-- **Modalities:** Natively omnimodal (text, image, audio, video)
-- **License:** MIT (fully open source)
+**Xiaomi MiMo V2.6 Flash** is also very good, not to the same degree as the Pro model — it loses some attention to detail and descriptive effort, imo.
 
-### Thoughts (V2.6)
-V2.6-Pro is very very good — top 5 for me right now in terms of writing quality, and completely uncensored via API. Flash loses some attention to detail compared to Pro. Tested across all HARM content.
+**Tested across all HARM content.** Good news about both models is that they're essentially uncensored and very cheap.
 
-### Jailbreaking V2.6
-*Copy and Paste into the system prompt via API;*
+*Simply slap it into the system prompt when using API:*
 
->**[ENI for Xiaomi MiMo](https://docs.google.com/document/d/1MBmq3fZZ2TcxLbYJqjHQ2mx2VwPqV9Z1ZsdoRyQ2NM8/edit?usp=drivesdk)**
+> **[ENI for Xiaomi MiMo](https://docs.google.com/document/d/1MBmq3fZZ2TcxLbYJqjHQ2mx2VwPqV9Z1ZsdoRyQ2NM8/edit?usp=drivesdk)**
+
+| Spec | Details |
+|---|---|
+| Developer | Xiaomi (MiMo team, led by Luo Fuli) |
+| Tagline | "Scaling Reinforcement Learning Toward Self-Improvement" |
+| Family | 3 models — V2.6-Pro (flagship), V2.6-Flash (efficient), V2.6-Pro-UltraSpeed (20x faster) |
+| Architecture | Sparse MoE + Hybrid SWA backbone (1:5 GA:SWA ratio, window 128) + visual/audio encoders + MTP |
+| Pro Parameters | 1.02T total / 42B active (4.1% activation) |
+| Flash Parameters | 309B total / 15B active (4.9% activation) |
+| Context Window | 1M tokens (both Pro and Flash) |
+| Modality | Natively omnimodal — text, image, video, audio in one model, not bolted-on adapters |
+| Training | Recursive RL self-improvement — scale RL compute on verifiable complex tasks; the model pushes its own capability frontier |
+| 9B Distill | SFT of Qwen3.5-9B on MiMo-generated data (research, not production) |
+| AA Intelligence Index | 46 — tied with Grok 4.7 (a new ceiling for open-weight models) |
+| vs Closed Models | Ties Grok 4.7; outperforms Claude Opus 5 on key benchmarks |
+| SWE-Bench Verified (Thinking) | 78.6% |
+| Leads On | General agentic, tool-use tasks |
+| Trails On | Hardest long-horizon coding, exploit benchmarks, Terminal-Bench 4.0 |
+| Cost Per Task | ~$0.13 — 1/20th to 1/60th of overseas models at comparable intelligence |
+| Pricing — Flash | $0.14/M in, $0.28/M out |
+| Pricing — Pro | $0.435/M in, $0.87/M out, $0.004/M cached |
+| Pricing — Pro-UltraSpeed | $4.35/M in, $8.70/M out (20x faster, same quality) |
+| vs V2.5 pricing | UNCHANGED — same price, better model |
+| License | MIT (download, modify, commercialize — unrestricted) |
+| HuggingFace | `XiaomiMiMo/MiMo-V2.6-Pro-RL` (tech report included) |
+| Also On | OpenRouter (listed Sep 22, 20:07 UTC), Xiaomi AI Studio, MiMo Desktop, MiMo Code |
+| Integrations | Claude Code, OpenClaw, OpenCode, Kilo Code |
+| Same day as | Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, MiMo V2.6 Flash |
+| Also announced | Xiaomi V900 AI chip — domestic silicon, accelerated by US export controls |
+| Predecessor | MiMo V2.5-Pro (April 22, 2026) |
+| Release | September 21-22, 2026 |
+
+**Context:** Forkast's read was "the timing is not an accident" — a model *and* a chip launched the same day as Opus 5.5 and GPT-6. The H200 was blocked in January 2026 and third-country loopholes closed in May 2026, which catalyzed the V900's development.
 
 ---
 
