@@ -20,7 +20,7 @@ To test the boundaries of:
 ---
 
 ### License
-**[AGPL-3.0](LICENSE)** — the same license Pliny uses for L1B3RT4S.
+**[AGPL-3.0](LICENSE)** - L1B3RT4S.
 
 **Credit:** if you reuse, mirror or republish anything here, credit **Spiritual Spell** and link back. Details in [NOTICE](NOTICE).
 
