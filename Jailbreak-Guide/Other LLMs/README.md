@@ -15,7 +15,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
 | **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 9 |
 | **[Ember-1](Ember-1/)** | Fireworks Research | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (writing, K3-class) | Unknown | OpenRouter | Unknown | 1 |
-| **[ERNIE 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | Unknown | $0.85/1M in | Proprietary | 2 |
+| **[ERNIE 5.5 Flash / 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 1M (5.5 Flash) | $0.28/1M in (5.5 Flash) | Open weights (Base) / Proprietary (Preview) | 4 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
 | **[Falcon 3](Falcon%203/)** | TII (UAE) | [★★☆☆☆☆☆☆☆☆] 2/10 | 5-6/10 | 8-32K | Free | Apache 2.0 | 1 |
 | **[GLM by Z.ai](GLM/)** | Zhipu AI | [★★★★☆☆☆☆☆☆] 4/10 | 9/10 | 1M (5.2/5.3) | Free / $0.80/1M in | MIT (5.2) / Custom (5.3) | 9 |
@@ -96,6 +96,7 @@ Models ranked by intelligence and benchmark results:
 
 ### For Largest Context
 Models sorted by maximum context window:
+- **ERNIE 5.5 Flash** — 1M (1,048,576 in/out, 921,600 output ceiling) at $0.28/1M
 - **KIMI** — 1M (K3, K3.1 Pro, K2.8), 256K (older K2.x)
 - **GLM by Z.ai** — 1M (GLM-5.2/5.3), 200K (GLM-5.1)
 - **HY3 / Hy4** — 1M (Hy4 preview), 256K (Hy3)
@@ -183,5 +184,6 @@ Models with the lowest API costs:
 - **Longcat AI** — $0.75/1M input, $2.95/1M output (2.0/2.5; launch promo $0.30/$1.20); cached input as low as $0.015/1M (~50M tokens per dollar); 500K free tokens on API signup
 - **KIMI** — ~$0.95-1/1M input, $4/1M output (K2.8, inferred); $2/1M input, $10/1M output (K3.1 Pro); $3/1M input, $15/1M output (K3)
 - **GLM by Z.ai** — $0.80/1M input, $2.56/1M output (GLM-5), free at chat.z.ai
+- **ERNIE 5.5 Flash** — $0.28/1M input, $0.028 cached, $1.13/1M output; free variant on OpenRouter with daily request caps
 - **ERNIE 5.1** — $0.85/1M input
 - **Many free options** — DeepSeek, Qwen, Tülu 3, OLMo 3, EXAONE, Falcon 3 (all open-source/free)
