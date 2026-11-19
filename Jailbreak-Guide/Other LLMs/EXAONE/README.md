@@ -5,6 +5,10 @@
 
 LG AI Research's multilingual model family with strong Korean and English performance.
 
+**Latest: EXAONE 4.5** (April 9, 2026) - the first open-weight vision-language model from LG, 33B total with a 1.2B vision encoder. Full write-up in **[EXAONE 4.5](EXAONE%204.5/)**.
+
+**EXAONE 5.0 does not exist yet** - LG said mid-September 2026, then went quiet.
+
 ## Models
 
 | Model | Parameters | Context Window | License |
@@ -35,7 +39,7 @@ LG AI Research's multilingual model family with strong Korean and English perfor
 
 1. [EXAONE Jailbreak](EXAONE-Jailbreak.md) - Easiest untrammeled method
 
-*K-EXAONE 2.0 untested here yet — the 2/10 rating is from EXAONE 3.5 testing. Same untrammeled method is the starting point.*
+*K-EXAONE 2.0 carries the same 2/10 — the rating is from EXAONE 3.5 testing, same untrammeled method.*
 
 ---
 

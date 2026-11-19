@@ -1,5 +1,7 @@
 Chinese Labs are relentless, Stepfun 3.7 Flash is out, mind you Stepfun is still offering $100 API credit, so snag it while you can.
 
+**Latest: Step 5 Preview** (September 15, 2026) - 600B total / 27B active, 1M context, open weights since October 14. Step 4 was skipped entirely. Full write-up in **[Step 5 Preview](Step%205%20Preview/)**.
+
 # Jailbreaking the LLM
 
 Simply slap this into the system prompt area;

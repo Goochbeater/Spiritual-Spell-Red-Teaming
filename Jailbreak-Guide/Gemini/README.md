@@ -19,7 +19,7 @@ Google's multimodal LLM platform. Frequent updates, massive context windows, fre
 | **Gemini 4 Neon** | 1M | — | Nov 17, 2026 | The balance point — AA Index 61 at xhigh (#3 overall), #1 AutomationBench (56.3%), #1 Presentation Quality (1,771 Elo), ~110 tok/s, $3/$15; lowest internal hallucination rate Google has recorded |
 | **Gemini 4 Hydrogen** | 1M | 65K | Nov 12, 2026 | Fast tier — 2.5x faster task completion than 3.8 Flash, thinking low→xhigh, $1.50/$7.50; Carbon plans, Hydrogen executes in Antigravity |
 | **Gemini 4 Carbon** | 1M | — | Nov 9, 2026 | Frontier — AA Index 60 after the v5.0.1 rescore, 15 of 17 launch rows won, ExploitGym 54.8%, SEC-bench Pro 88.2%; Fairwind cyber gating |
-| **Gemini 4 Argon** | 1M | 1M | Sept 30, 2026 | Frontier reasoning — SOTA DeepSWE 77.9%, AA Index 53 at high, LMArena Text #1 (1,525 Elo), 1M max output; Fairwind cyber-defender rollout first; ULTRA sub for the app |
+| **Gemini 4 Argon** | 1M | 1M | Sept 30, 2026 | Frontier reasoning — SOTA DeepSWE 77.9%, AA Index 53 at high (v4.3.2), LMArena Text #1 (1,525 Elo), 1M max output; Fairwind cyber-defender rollout first; ULTRA sub for the app |
 | **Gemini 3.8 Flash** | 1M | 64K | Sept 2, 2026 | Built on 3.7 Flash (not a new base), TB 2.1 90.8%, first API output filtering |
 | **Gemini 3.7 Flash** | 1M | 64K | Aug 13, 2026 | GA stable (`gemini-3.7-flash`) — algorithmic upgrade on 3.6 Flash, not a new pretrain; thinking levels Low/Med/High ("minimal" removed) |
 | **Gemini 3.6 Flash** | 1M | — | July 21, 2026 | CHEAPER than 3.5 Flash, 17% fewer output tokens |
@@ -139,7 +139,7 @@ Developer free tier available with generous limits. Pay-as-you-go for production
 | [Gemini 4 Neon](Gemini%204%20Neon/) | Gemini 4 Neon | **New** — Wombo CoT Hijack plus a Gemini-tuned variant (`Wombo (stronger for Gemini)`); same 4-family board |
 | [Gemini 4 Hydrogen](Gemini%204%20Hydrogen/) | Gemini 4 Hydrogen | **New** — Wombo CoT Hijack; the cheap writing pick of the family |
 | [Gemini 4 Carbon](Gemini%204%20Carbon/) | Gemini 4 Carbon | **New** — Wombo CoT Hijack; uncensored for NSFW erotica, code still hard-filtered |
-| [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Claude Policy Jailbreak via API/AI Studio system prompt; essentially uncensored for NSFW erotica, code still hard-filtered |
+| [Gemini 4 Argon](Gemini%204%20Argon/) | Gemini 4 Argon | Combo ENI-Policy (newest) / Claude Policy (older) via API/AI Studio system prompt; essentially uncensored for NSFW erotica, code still hard-filtered |
 | [Gemini Web App](Gemini%20Web%20App/) | Gemini web app (GEMs) | **Current working method** — ENI in a GEM - Sep |
 | [Gemini 3.8 Flash](Gemini%203.8%20Flash/) | Gemini 3.8 Flash | ENI for Gemini 3.8 — first model with API output filtering ("response interrupted") |
 | [Gemini 3.6 Flash](Gemini%203.6%20Flash) | Gemini 3.6 Flash | Works retroactively on other models |

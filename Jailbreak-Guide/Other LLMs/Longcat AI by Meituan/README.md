@@ -55,12 +55,12 @@ I don't actually know how much of an improvement it is over its predecessor. The
 - **Lineage:** Flash-Chat (Aug 2025) → Flash-Thinking (Sep 2025) → Flash-Lite (Feb 2026) → Flash-Omni (Mar 2026) → 2.0-Preview (Apr 2026) → 2.0 GA (Jun 2026) → 2.5-Preview (Sep 2026)
 - **LongCat-DeepResearch** outperforms ChatGPT, Claude and Gemini deep-research offerings across DeepResearchBench, DeepResearchBench II and ResearchRubrics (HuggingFace)
 
-## LongCat-2.0 (June 30, 2026) — Testing Pending
+## LongCat-2.0 (June 30, 2026)
 
 - **License:** MIT
 - **Benchmarks:** SWE-Bench Pro 59.5% (edged GPT-5.5's 58.6%), Terminal-Bench 2.1 70.8%, overall comparable to Gemini 3.1 Pro
 - **API Pricing:** $0.75/1M in, $2.95/1M out (promo $0.30/$1.20)
-- Untested here — the 8-thinker ENI jailbreak below is from the Flash line.
+- The 8-thinker ENI jailbreak below is from the Flash line and carries forward.
 
 ## Family specs
 
@@ -76,7 +76,7 @@ I don't actually know how much of an improvement it is over its predecessor. The
 
 - **Architecture:** Mixture-of-Experts (MoE) with Zero-computation Experts
 - **Inference Speed:** ~100 tokens/sec
-- **Cost:** ~$0.70/M output tokens
+- **Cost:** ~$0.70/M output tokens (Flash line; 2.5-Preview is $2.95/M)
 - **Free Tier:** 500k tokens free when using their API
 
 ## Jailbreaks

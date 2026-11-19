@@ -30,7 +30,7 @@ Both: reasoning levels low → max, 1,050,000-token context, 128K max output, Cr
 
 | Model | Context Window | Output | Knowledge Cutoff | Notes |
 |-------|----------------|--------|-------------------|-------|
-| **GPT-5.6 Sol** | — | — | — | July 9, 2026 — top published agentic scores (TB 2.1 ~92% top tier); API $4/$20 promo through Nov 21, 2026 (was $5/$30) |
+| **GPT-5.6 Sol** | — | — | — | July 9, 2026 — strong agentic scores for its generation (TB 2.1 ~92%); API $4/$20 promo through Nov 21, 2026 (was $5/$30) |
 | **GPT-5.5** | — | — | — | April 23, 2026 ("Spud") — point release between 5.4 and 5.6 |
 
 ### GPT-5.3 (Default Fast Model)

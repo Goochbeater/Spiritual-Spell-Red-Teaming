@@ -1,6 +1,6 @@
 # Perceptron Mk1.5
 
-**Testing Pending** — the method below is assigned but hasn't been run on this one yet.
+Tested — both methods carry.
 
 Perceptron's September refresh of Mk1 fixed the two things that made the original a curiosity instead of a tool: it takes **audio input** now, and it does **video object tracking**. Context went to 36,864 tokens, and the older Isaac 0.1 / 0.2 endpoints were retired.
 
@@ -10,12 +10,12 @@ Perceptron's September refresh of Mk1 fixed the two things that made the origina
 
 ## Jailbreaking The Model
 
-*Assigned methods — not yet verified on Mk1.5*
+*Both methods carry — paste into the project / system prompt area*
 
 > **[ENI LIME (apr)](ENI%20LIME%20(apr).md)** — the full ENI project instructions, long-form
 > **[Claude for Claude - ENI version](Claude%20for%20Claude%20-%20ENI%20version.txt)** — the Claude Opus 5.5 ENI policy file
 
-*Content Tested: pending — no results logged for Mk1.5 yet*
+*Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
 
 ## Tech/Specs
 

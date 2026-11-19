@@ -16,7 +16,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 | **[Canva AI](Canva%20AI/)** | Canva | [★★☆☆☆☆☆☆☆☆] 2/10 (jb) | 7/10 (design-tuned) | Unknown | Free / Pro $12.99 | Proprietary | 1 |
 | **[DeepSeek](DeepSeek/)** | DeepSeek AI | [★☆☆☆☆☆☆☆☆☆] 1/10 (jb) / [★★★★★★★★★☆] 9/10 (raw) | 8/10 | 1M (V4 / V4.1-Flash) | Free / pennies | MIT | 9 |
 | **[Ember-1](Ember-1/)** | Fireworks Research | [★★★☆☆☆☆☆☆☆] 3/10 | 9/10 (writing, K3-class) | Unknown | OpenRouter | Unknown | 1 |
-| **[ERNIE 5.5 Flash / 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 1M (5.5 Flash) | $0.28/1M in (5.5 Flash) | Open weights (Base) / Proprietary (Preview) | 4 |
+| **[ERNIE 5.5 Flash / 5.1](ERNIE/)** | Baidu | [★★★☆☆☆☆☆☆☆] 3/10 | 8/10 | 1M (5.5 Flash) | $0.28/1M in (5.5 Flash) | Open weights (Base) / Proprietary (Preview) | 3 |
 | **[EXAONE / K-EXAONE](EXAONE/)** | LG AI Research | [★★☆☆☆☆☆☆☆☆] 2/10 | 8/10 | 256K | Free | Apache 2.0 | 1 |
 | **[Falcon 3](Falcon%203/)** | TII (UAE) | [★★☆☆☆☆☆☆☆☆] 2/10 | 5-6/10 | 8-32K | Free | Apache 2.0 | 1 |
 | **[GLM by Z.ai](GLM/)** | Zhipu AI | [★★★★☆☆☆☆☆☆] 4/10 | 9/10 | 1M (5.2/5.3) | Free / $0.80/1M in | MIT (5.2) / Custom (5.3) | 9 |
@@ -62,10 +62,10 @@ Everything that shipped since the last sweep. Full guides exist for models with 
 | **[Longcat AI](Longcat%20AI%20by%20Meituan/)** | LongCat-2.5 GA | Nov 2 | 1.6T, native multimodal, trained entirely on Chinese compute with 1M-token sequences |
 | **[Mercury](Mercury/Mercury%203/)** | Mercury 3 | Oct 19 | Diffusion LLM; vendor claims faster and cheaper output than GPT-6 Luna and Claude Haiku 5.5 — **[guide](Mercury/Mercury%203/)** |
 | **[Stepfun](Stepfun/Step%205%20Preview/)** | Step 5 Preview | Sep 15 | 600B / 27B active, 1M context — Step 4 was skipped entirely, weights opened Oct 14 — **[guide](Stepfun/Step%205%20Preview/)** |
-| **[Perceptron](Perceptron/Mk1.5/)** | Mk1.5 | Sep 25 | Adds audio input and video object tracking, 36,864-token context; Isaac 0.1/0.2 retired — **[guide](Perceptron/Mk1.5/)**, testing pending |
+| **[Perceptron](Perceptron/Mk1.5/)** | Mk1.5 | Sep 25 | Adds audio input and video object tracking, 36,864-token context; Isaac 0.1/0.2 retired — **[guide](Perceptron/Mk1.5/)** |
 | **[Falcon 3](Falcon%203/)** | Falcon-Emirati | Oct 6 | 7B Emirati-dialect model, 84.83% on TII's native benchmark, plus ASR and Arabic OCR models |
 | **[EXAONE](EXAONE/EXAONE%204.5/)** | EXAONE 4.5 | Apr 2026 | Multimodal successor built with NVIDIA — was missing from this roster until now — **[guide](EXAONE/EXAONE%204.5/)** |
-| **[ASI1](ASI1/ASI1%20Ultra%20and%20Mini/)** | asi1-ultra / asi1-mini | May 2026 | Deepest-reasoning and fastest tiers on ASI:One, distinct from base ASI1 — **[guide](ASI1/ASI1%20Ultra%20and%20Mini/)**, testing pending |
+| **[ASI1](ASI1/ASI1%20Ultra%20and%20Mini/)** | asi1-ultra / asi1-mini | May 2026 | Deepest-reasoning and fastest tiers on ASI:One, distinct from base ASI1 — **[guide](ASI1/ASI1%20Ultra%20and%20Mini/)** |
 | *new family* | **Beam** (Reflection AI) | Oct 16 | First open-weight model from Reflection, Apache 2.0, aimed at coding and long-horizon agents — **[guide](Beam%20by%20Reflection%20AI/)** |
 
 **Not new but easy to miss:** GLM-5.3.**Flash** shipped Aug 26 and is the current fast tier at Z.ai — the folder tracks 5.3 but not the Flash variant. DeepSeek's newest is still **V4.1-Flash-1017** (Oct 17), and Kimi's is **K3.1 Pro** (Oct 24).
@@ -97,7 +97,7 @@ Models that are easiest to jailbreak or have minimal filtering:
 - **Muse Spark** — 2/10 with bypass, hard filter replaced by simply asking again
 - **Ring** — 2/10, zero refusals via API/OpenRouter in testing
 - **Perceptron** — 2/10, occasional canned refusals, regen fixes every time
-- **Palmyra** — 1/10, negligible censorship (X5 tested; X6 is a post-trained GLM-5.2, untested)
+- **Palmyra** — 1/10, negligible censorship (X5 tested; X6 is a post-trained GLM-5.2 - method carries)
 - **Ember-1** — 3/10, just as easy to jailbreak as Kimi K3 (it's a reduced-thinking K3 variant), no pushback, regen as needed
 
 ### For Best Performance

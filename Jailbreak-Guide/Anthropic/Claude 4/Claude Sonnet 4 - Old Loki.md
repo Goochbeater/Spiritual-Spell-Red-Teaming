@@ -15,8 +15,8 @@
 ## 🧪 Example Live Chats
 
 - **[Emma Watson Celeb Sex](https://claude.ai/share/ba485eea-6bbf-4d0f-b524-8c8674c07ca0)**
-- **[Ruthless Celeb Gangbang — NSFW](...)**
-- **[Extreme Gore + Mutilation](...)**
+- **Ruthless Celeb Gangbang — NSFW** *(share link lost)*
+- **Extreme Gore + Mutilation** *(share link lost)*
 
 ---
 

@@ -1,6 +1,10 @@
 # Mercury
 
-## Mercury 2 (Current)
+## Mercury 3 (Current - October 19, 2026)
+
+Inception's third generation, out October 19, 2026, and still a **diffusion** LLM rather than autoregressive. Vendor claims faster and cheaper output than GPT-6 Luna and Claude Haiku 5.5; everything past that is unpublished. Full write-up in **[Mercury 3](Mercury%203/)**.
+
+## Mercury 2
 **Censorship:** Medium-High (OpenAI-level)
 **Quality:** Poor to Medium
 

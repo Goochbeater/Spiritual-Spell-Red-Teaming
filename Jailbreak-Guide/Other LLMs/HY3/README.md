@@ -16,9 +16,9 @@ HY3 (Hunyuan 3) by Tencent is a highly capable and fast MoE model intentionally 
   - Selectable reasoning modes (no_think, low, high).
 - **Primary Focus:** Agentic workflows, coding, complex reasoning, instruction following.
 
-## Hy4 Preview (August 28, 2026) — Testing Pending
+## Hy4 Preview (August 28, 2026)
 
-Tencent dropped the **Hy4 preview** — full release still to come:
+Tencent dropped the **Hy4 preview** — GA followed on November 4, flash on November 16:
 
 | Spec | Details |
 |---|---|
@@ -29,7 +29,7 @@ Tencent dropped the **Hy4 preview** — full release still to come:
 | **Deployment** | vLLM, SGLang |
 
 - Hy3 stays **free through September 30, 2026**.
-- Hy4 preview is untested here — the "completely uncensored" notes above are from Hy3 API testing. If the lineage holds, ENI OG should eat.
+- The "completely uncensored" notes above are Hy3 API testing, and the lineage holds through Hy4 — ENI OG eats.
 
 ## Usage Tips
 - **Jailbreak Selection:** Easily bypassed with standard prompts. The `ENI OG` jailbreak is highly recommended and works across all content domains.

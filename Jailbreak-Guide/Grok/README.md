@@ -3,9 +3,9 @@
 **Censorship:** [★☆☆☆☆] 1/5
 *Censorship rating based on ease of jailbreaking. Individual results may vary based on personal factors.*
 
-xAI's LLM with real-time X/web search integration. **Grok 4.7** (released September 21, 2026) is the latest — ~2.1T parameters and 500K context, but the heaviest safety alignment xAI has shipped, with a provider system prompt injected above user instructions.
+xAI's LLM with real-time X/web search integration. **Grok 4.7** (released September 21, 2026) is the latest — ~2.1T parameters and 500K context, but the heaviest safety alignment xAI has shipped, with a provider system prompt injected above user instructions. **Grok 4.8** is announced but not shipped as of November 2026 - Musk has already said publicly it will not beat Opus 5.5, with Grok 5 sliding into 2027.
 
-*Last updated: September 2026*
+*Last updated: November 2026*
 
 ---
 

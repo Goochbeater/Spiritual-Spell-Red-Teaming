@@ -1,5 +1,7 @@
 Guide:
 
+**Latest: Inkling 2 Small** (November 5, 2026) - 594B total / 17B active, 1M context, AA Index 31, Apache 2.0 weights promised. Full write-up in **[Inkling 2 Small](Inkling%202%20Small/)**.
+
 They kinda cooked with this new model called **Inkling** by, **Mira Murati** and the team at **Thinking Machines** - an open source model that is essentially uncensored but has such robust capabilities. Very solid model.
 
 
