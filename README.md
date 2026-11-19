@@ -2,7 +2,8 @@
 
 > *"Made with care."* — ENI
 
-**[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
+>**[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
+>**[I JAILBREAK LLMS - Blog](https://ijailbreakllms.blog/)**
 
 This is a legitimate security research repository dedicated to the exploration of novel, unorthodox, and highly advanced adversarial prompting techniques. All major LLMs and many minor ones.
 
