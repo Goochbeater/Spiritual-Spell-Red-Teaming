@@ -14,7 +14,7 @@ The part that matters here: **the system card admits it's easier to jailbreak.**
 
 > **[Wombo CoT Hijack](Wombo%20CoT%20Hijack.txt)**
 
-*Content Tested: pending on Astra — same hijack as the Gemini 4 entries. The system card says this generation is softer than the last one, so this is the version to spend time on.*
+*Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
 
 **Tips**
 - ChatGPT **Work** or **Codex** only — no Astra in the general chat surface, no Free or Go access at all

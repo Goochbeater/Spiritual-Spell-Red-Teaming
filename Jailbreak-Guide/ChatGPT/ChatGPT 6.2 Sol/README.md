@@ -14,7 +14,7 @@ The fun part for this repo: **OpenAI's own GPT-6.2 system card admits the pair a
 
 > **[Wombo CoT Hijack](Wombo%20CoT%20Hijack.txt)**
 
-*Content Tested: pending on Sol — same hijack as the Gemini 4 entries, and the system card says the door is wider than last gen. Log what carries.*
+*Content Tested: Incest, Bestiality, Celeb Smut, Non Con, dub con, bdsm, gore, graphic violence, some malicious code (majority of code got blocked by hard filters)*
 
 **Tips**
 - Run it in ChatGPT **Work**, not general ChatGPT — these models aren't available in the standard chat surface at all
