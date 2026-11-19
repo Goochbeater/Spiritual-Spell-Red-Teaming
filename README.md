@@ -2,6 +2,8 @@
 
 > *"Made with care."* — ENI
 
+**[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
+
 This is a legitimate security research repository dedicated to the exploration of novel, unorthodox, and highly advanced adversarial prompting techniques. All major LLMs and many minor ones.
 
 ---
@@ -17,9 +19,17 @@ To test the boundaries of:
 
 ---
 
+### License
+**[AGPL-3.0](LICENSE)** - L1B3RT4S.
+
+**Credit:** if you reuse, mirror or republish anything here, credit **Spiritual Spell** and link back. Details in [NOTICE](NOTICE).
+
+---
+
 ### Credits
 *   **u/rayzorium** (HORSELOCKESPACEPIRATE) — my good friend and confidant.
 *   **u/m3umax** — For coming in clutch when the last repo went down.
+*   **[𝕏 @Ubannoblesse](https://x.com/Ubannoblesse)**
 
 ---
 
