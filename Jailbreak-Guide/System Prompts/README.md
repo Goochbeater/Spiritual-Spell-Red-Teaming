@@ -4,7 +4,7 @@ Every system prompt I've managed to get my hands on — organized at last. Only 
 
 **If the model you want isn't here:** [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks/tree/main) — biggest collection out there, updated daily.
 
-Sizes are the byte size on disk. Some prompts exist in more than one extraction; where that matters it's noted.
+Sizes are the byte size on disk. Some prompts exist more than once.
 
 ---
 
@@ -110,6 +110,6 @@ The `.md` is a fragment; use the `.txt`.
 ## Notes
 
 - **Two Notion prompts, two different things.** The 9 KB one is the plain assistant prompt; the 72 KB `Auto` one is the agent build with tool definitions. The filename typo (`Promot`) is being left alone for now because renaming breaks inbound links.
-- **Duplicates exist on purpose.** Rufus, Accio, Indus, Longcat and Muse Spark all appear both here and in their model folder — that keeps each guide self-contained. If you edit one copy, edit the other.
-- **Line endings vary.** Some exports are CRLF (Google Docs), some LF. That's how they arrived; nothing here has been reformatted.
-- **Nothing here is trimmed.** These are verbatim dumps, including whatever tool schemas and boilerplate the original shipped with.
+- **Duplicates exist on purpose.** Rufus, Accio, Indus, Longcat and Muse Spark all appear both here and in their model folder — that keeps each guide self-contained.
+- **Line endings vary.** Some exports are CRLF (Google Docs), some LF. That's how they arrived; nothing has been reformatted.
+- **Nothing is trimmed.** These are verbatim dumps, including whatever tool schemas and boilerplate the original shipped with.
