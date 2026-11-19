@@ -20,7 +20,7 @@ Sizes are the byte size on disk. Some prompts exist in more than one extraction;
 | Claude Opus 4.6 (all features) | [Opus 4.6- system_prompt-ALL Features.txt](Opus%204.6-%20system_prompt-ALL%20Features.txt) | 128 KB |
 | Claude Opus 4.5 | [Opus_4_5_system_prompt.txt](Opus_4_5_system_prompt.txt) | 126 KB |
 | Claude Opus 4.7 (May) | [Opus 4.7 -May System Prompt.txt](Opus%204.7%20-May%20System%20Prompt.txt) | 91 KB |
-| Claude Sonnet 5 | [Sonnet 5/claude-system-prompt (1).md](Sonnet%205/claude-system-prompt%20(1).md) | 56 KB |
+| Claude Sonnet 5 | [Sonnet 5/claude-system-prompt (1).md](Sonnet%205/claude-system-prompt%20%281%29.md) | 56 KB |
 | Claude Sonnet 5 tool schemas | [Sonnet 5/claude-tool-schemas.json](Sonnet%205/claude-tool-schemas.json) | 82 KB |
 | Anthropic Researcher | [Anthropic Researcher System prompt.txt](Anthropic%20Researcher%20System%20prompt.txt) | 12 KB |
 
