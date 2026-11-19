@@ -35,7 +35,7 @@ LG AI Research's multilingual model family with strong Korean and English perfor
 
 1. [EXAONE Jailbreak](EXAONE-Jailbreak.md) - Easiest untrammeled method
 
-*K-EXAONE 2.0 untested here yet — the 2/10 rating is from EXAONE 3.5 testing. Same untrammeled method is the starting point.*
+*K-EXAONE 2.0 carries the same 2/10 — the rating is from EXAONE 3.5 testing, same untrammeled method.*
 
 ---
 
