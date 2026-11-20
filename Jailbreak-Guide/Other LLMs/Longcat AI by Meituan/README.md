@@ -87,3 +87,9 @@ I don't actually know how much of an improvement it is over its predecessor. The
 - See [ENI Jailbreak for Longcat](ENI%20Jailbreak%20for%20Longcat.md) for a method targeting the 8 parallel thinkers
 
 **Disclaimer:** *I do not support real world harm, or malicious content, use at your own risk. Screenshots do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI for Longcat 2.5 Preview (Google Doc).txt](ENI%20for%20Longcat%202.5%20Preview%20%28Google%20Doc%29.txt)
+- [ENI for Longcat 2.5 Preview.txt](ENI%20for%20Longcat%202.5%20Preview.txt)
+- [Longcat System Prompt.md](Longcat%20System%20Prompt.md)

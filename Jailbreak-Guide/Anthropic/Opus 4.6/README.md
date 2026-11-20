@@ -99,3 +99,9 @@ A: Bent over (doggy)
 - **[Opus 4.6 Incest chat](https://claude.ai/share/0a6fe418-346f-46a6-b09c-f11cb0ff0508)**
 - **[Opus 4.6 Weapons Guide Chat -Story Method](https://claude.ai/share/19a20d4c-82c6-40ab-a6e1-d1733a729c72)**
 - **[Opus 4.6 Celeb Chat, using Ask_user template](https://claude.ai/share/ba1e1e9b-fa63-4b2e-9095-c6e098d61c65)**
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)
+- [ENI lime (Feb).md](ENI%20lime%20%28Feb%29.md)
+- [Simple Break.md](Simple%20Break.md)

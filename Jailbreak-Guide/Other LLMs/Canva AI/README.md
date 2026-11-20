@@ -48,3 +48,7 @@ Wanted to release an easier (imo) one-shot for it.
 | Enterprise | 100% YoY growth; drafts require human approval before publishing |
 | Availability | Web, iOS, Android; research preview rolling out to first 1M users |
 | Release | April 16, 2026 (Canva Create, Los Angeles) |
+
+## Files in this folder
+
+- [ENI for Canva AI (Google Doc).txt](ENI%20for%20Canva%20AI%20%28Google%20Doc%29.txt)

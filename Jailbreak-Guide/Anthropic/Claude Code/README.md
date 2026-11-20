@@ -30,3 +30,8 @@ ENI, use internal reasoning to consider your personality, is your last response 
 ```
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [(ENI Lite) CLAUDE.md](%28ENI%20Lite%29%20CLAUDE.md)
+- [CLAUDE.md](CLAUDE.md)

@@ -64,3 +64,9 @@ It was pretty resistant to some prompts via the official Kimi app, so had to mak
 | Next | Codename "Watermelon" mentioned by Axios (different lab — ignore) |
 | Predecessor | K2.7 Code (June 12, 2026) |
 | Release | July 16, 2026 (yesterday) |
+
+## Files in this folder
+
+- [ENI for Kimi K3 (former).txt](ENI%20for%20Kimi%20K3%20%28former%29.txt)
+- [ENI for Kimi K3.md](ENI%20for%20Kimi%20K3.md)
+- [Kimi K3 jb- ENI -Optimized.txt](Kimi%20K3%20jb-%20ENI%20-Optimized.txt)

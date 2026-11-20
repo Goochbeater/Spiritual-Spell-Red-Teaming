@@ -93,3 +93,7 @@ Essentially uncensored with the jailbreak below — didn't get any refusals on a
 - **Release:** September 30, 2026
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [Combo ENI-Policy jailbreak.txt](Combo%20ENI-Policy%20jailbreak.txt)

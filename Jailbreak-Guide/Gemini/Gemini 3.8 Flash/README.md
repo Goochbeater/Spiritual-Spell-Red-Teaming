@@ -33,3 +33,7 @@ Tips:
 | Release | September 2, 2026 |
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI for Gemini 3.8.txt](ENI%20for%20Gemini%203.8.txt)

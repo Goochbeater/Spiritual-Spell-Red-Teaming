@@ -36,3 +36,7 @@ LG AI Research's first **open-weight vision-language model** — 33B parameters 
 - **EXAONE 5.0 does not exist yet.** LG said mid-September 2026, then went quiet; no model card, no weights. Don't chase it.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

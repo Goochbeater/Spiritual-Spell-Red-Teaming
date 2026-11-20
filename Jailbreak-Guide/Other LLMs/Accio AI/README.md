@@ -24,3 +24,7 @@
 
 ## Jailbreaks
 - [Accio Faux System Update Jailbreak](Accio%20Faux%20System%20Update%20Jailbreak.md)
+
+## Files in this folder
+
+- [Accio System Prompt.md](Accio%20System%20Prompt.md)

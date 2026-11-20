@@ -35,3 +35,7 @@ StepFun skipped Step 4 entirely and jumped to Step 5 Preview — a 600B / 27B ac
 - The 3.7 Flash guide in this folder is still useful for voice and behavior notes — the family refuses in similar patterns.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

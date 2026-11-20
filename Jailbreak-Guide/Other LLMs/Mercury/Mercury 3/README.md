@@ -36,3 +36,7 @@ Inception Labs' third generation, and still the odd one out: Mercury is a **diff
 - If a refusal appears mid-generation, regen is cheap — that's the whole point of the architecture.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

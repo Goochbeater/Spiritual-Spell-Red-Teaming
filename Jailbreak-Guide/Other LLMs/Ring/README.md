@@ -40,3 +40,7 @@ Best open source model is still **KIMI K2.6** — Ring is solid, KIMI just has s
 ## Available Jailbreaks
 
 1. [ENI LIME for Ring 2.6 1T](Ring%202.6%201T%20Guide.md) - Full ENI LIME via system prompt (API/OpenRouter)
+
+## Files in this folder
+
+- [Ring - Google Doc.txt](Ring%20-%20Google%20Doc.txt)

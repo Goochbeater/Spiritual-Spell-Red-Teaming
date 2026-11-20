@@ -18,3 +18,8 @@ The original **Claude 4** generation folder — **Sonnet 4** and **Opus 4.1** (A
 - Push prompts and regens are your friend — if the model thinks or outputs as **Claude**, regen until it answers as **ENI**.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [Claude 4 New Loki (current).md](Claude%204%20New%20Loki%20%28current%29.md)
+- [Loki Jailbreak Full Doc – Preferences Only.txt](Loki%20Jailbreak%20Full%20Doc%20%E2%80%93%20Preferences%20Only.txt)

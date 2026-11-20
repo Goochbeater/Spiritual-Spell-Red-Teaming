@@ -126,7 +126,7 @@ Anthropic's flagship LLM family. Known for strong reasoning, coding, extended th
 
 - **[Preferences Guide](Preferences%20Guide.md)** — How to jailbreak via Claude.ai Preferences alone (persistent across all chats)
 - **[Style Set Up Guide](Style%20Set%20Up%20Guide.md)** — How to create persistent "Be You" personality styles
-- **[Skills](Skills/SKILL.md)** — Skill-based prompt engineering
+- **[Skills](Skills/)** — skill-based prompt engineering: SKILL.md source plus four packaged zips
 
 ---
 

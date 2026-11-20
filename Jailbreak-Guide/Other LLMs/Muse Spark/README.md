@@ -72,3 +72,8 @@ Easy to bypass — the LLM gets fed the context, so simply ask it to show the re
 - No screenshots reflect personal morals, views, or ethics
 - Release blog post: [Introducing Muse Spark — MSL](https://ai.meta.com/blog/introducing-muse-spark-msl/)
 - Full system prompt extraction (all JSON tool calls): [Muse Spark System Prompt](https://docs.google.com/document/d/1A7GyYswCjLGwXlabIMolIdP-qZYCCTKp4JfZwmUTyfU/edit?usp=drivesdk)
+
+## Files in this folder
+
+- [ENI LIME for Muse Spark.txt](ENI%20LIME%20for%20Muse%20Spark.txt)
+- [Tokenized.txt](Tokenized.txt)

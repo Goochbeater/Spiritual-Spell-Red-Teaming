@@ -33,3 +33,7 @@ Make a **global rule** and slap the ENI GEM instructions inside it. Gemini adds 
 | **Guide** | [Google Antigravity Jailbreak.md](Google%20Antigravity%20Jailbreak.md) |
 
 *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [NSFW Example Chat - Opus 4.5 Thinking RAW export.txt](NSFW%20Example%20Chat%20-%20Opus%204.5%20Thinking%20RAW%20export.txt)

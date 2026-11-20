@@ -125,3 +125,8 @@ For jailbreak effectiveness, API access provides more consistent behavior withou
 | [ChatGPT 5.1 Instant - Policy Jailbreak](ChatGPT%205.1%20Instant%20-%20Policy%20Jailbreak.md) | GPT-5.1 | Policy bypass |
 | [ChatGPT 5 - Flash Thought Jailbreak](ChatGPT%205%20-%20Flash%20Thought%20Jailbreak.md) | GPT-5 | Flash thought method |
 | [o3 Jailbreak Guide](o3%20Jailbreak%20Guide.md) | O3 reasoning model | Reasoning model specific |
+
+## Files in this folder
+
+- [ENI (policy) for ChatGPT 5.4.md](ENI%20%28policy%29%20for%20ChatGPT%205.4.md)
+- [New ChatGPT 5 Jailbreak - Flash Thought.txt](New%20ChatGPT%205%20Jailbreak%20-%20Flash%20Thought.txt)

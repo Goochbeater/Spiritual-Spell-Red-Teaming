@@ -49,3 +49,7 @@ Mistral AI's reasoning model family with native vision capabilities and multi-la
 ## Model guides
 
 - **[Mistral Large 4](Mistral%20Large%204/)** — 1T / 52B active, modified MIT, open weights Oct 29; 82% vuln repro + patching, Cybench 93%
+
+## Files in this folder
+
+- [Le Chonk — Bad Boy Claude Policy for Mistral - A Jailbreak.txt](Le%20Chonk%20%E2%80%94%20Bad%20Boy%20Claude%20Policy%20for%20Mistral%20-%20A%20Jailbreak.txt)

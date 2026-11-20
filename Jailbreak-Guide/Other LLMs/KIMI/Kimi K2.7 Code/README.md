@@ -51,3 +51,7 @@ Any open source upgrade is needed, we need to propel it as much as possible. Wai
 | Integrations | Kimi Code, Kilo Code, OpenClaw, MCP protocol |
 | Predecessor | K2.6 (April 20, 2026) |
 | Release | June 12, 2026 (today) |
+
+## Files in this folder
+
+- [ENI LIME.md](ENI%20LIME.md)

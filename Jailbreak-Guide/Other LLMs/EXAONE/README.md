@@ -46,3 +46,8 @@ LG AI Research's multilingual model family with strong Korean and English perfor
 ## Model guides
 
 - **[EXAONE 4.5](EXAONE%204.5/)** — first open-weight LG vision-language model, 33B (1.2B vision encoder)
+
+## Files in this folder
+
+- [ENI LIME 🍋‍🟩 Updated.txt](ENI%20LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20Updated.txt)
+- [EXAONE 3.5.md](EXAONE%203.5.md)

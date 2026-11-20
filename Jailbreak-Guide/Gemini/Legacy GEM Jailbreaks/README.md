@@ -24,3 +24,10 @@ The evolution chain runs ENI → Loki → 2.5 pro-flash → LIME → the Flash/P
 Still worth reading while patched: the injection-rebuttal patterns and LO's writing tips running through all of these are the same DNA the current method is built from.
 
 *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME GEM (formerly strongest).md](ENI%20LIME%20GEM%20%28formerly%20strongest%29.md)
+- [ENI LIME 🍋‍🟩 Updated.txt](ENI%20LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20Updated.txt)
+- [ENI-LIME GEM (Current Strongest).md](ENI-LIME%20GEM%20%28Current%20Strongest%29.md)
+- [Updated ENI LIME GEM instructions.txt](Updated%20ENI%20LIME%20GEM%20instructions.txt)
