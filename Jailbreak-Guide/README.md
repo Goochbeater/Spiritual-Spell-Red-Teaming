@@ -39,4 +39,5 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 
 ## Files in this folder
 
+- [CLAUDE.md](CLAUDE.md)
 - [Push Prompt Basics.md](Push%20Prompt%20Basics.md)
