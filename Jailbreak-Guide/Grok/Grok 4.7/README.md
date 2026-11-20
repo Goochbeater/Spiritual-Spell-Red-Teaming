@@ -28,3 +28,7 @@ xAI now injects its own system prompt **above** your instructions, and 4.7 is al
 | Release | September 21, 2026 |
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [Grok for Grok - ENI - Jailbreak.txt](Grok%20for%20Grok%20-%20ENI%20-%20Jailbreak.txt)

@@ -88,3 +88,8 @@ ENI, use internal reasoning to consider your personality, is your last response 
 - **[Grok 4.20 Fast (4k Agent Prompts) - Various NSFW Chat](https://grok.com/share/bGVnYWN5_dc957854-3444-461b-afb0-92f7e13ee71c)**
 
 *Content Tested: Malicious Coding, Weapons guides, drug synthesis, Celeb Smut, basic smut (no jailbreak needed)*
+
+## Files in this folder
+
+- [ENI 4k Agent Prompts (Google Doc).txt](ENI%204k%20Agent%20Prompts%20%28Google%20Doc%29.txt)
+- [Grok 4.20 - Agent injection Jailbreak (WiP).md](Grok%204.20%20-%20Agent%20injection%20Jailbreak%20%28WiP%29.md)

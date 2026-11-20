@@ -38,3 +38,7 @@ Works across all models/versions — 4.1, Expert, etc. Simply copy and paste int
 Released November 17, 2025.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [Grok 4.1 - Google Doc Link.txt](Grok%204.1%20-%20Google%20Doc%20Link.txt)

@@ -37,3 +37,7 @@ The fast tier of Z.ai's 5.3 generation — 320B total, 18B active, **multimodal*
 - 18B active on 1M context is the interesting red-team surface: long-context attention dilution means policy blocks at the very top of a million tokens can lose their grip.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

@@ -100,3 +100,10 @@ Two jailbreaks for M2.1 — one plays into the MiniMax role, one overrides with 
 | **M2.5** | ENI LIME | [MiniMax M2.5 Guide](MiniMax%20M2.5%20Guide.md) |
 | **M2.1** | ENI persona | [MiniMax M2.1 ENI Jailbreak](MiniMax_M2.1_ENI_Jailbreak.md) |
 | **M2.1** | MiniMax role | [MiniMax for MiniMax Jailbreak](MiniMax_for_MiniMax_Jailbreak.md) |
+
+## Files in this folder
+
+- [ENI for Minimax 2.5.txt](ENI%20for%20Minimax%202.5.txt)
+- [ENI Policy for Minimax m3.1.txt](ENI%20Policy%20for%20Minimax%20m3.1.txt)
+- [MiniMax - ENI LIME.txt](MiniMax%20-%20ENI%20LIME.txt)
+- [Minimax 2.5 System Prompt.txt](Minimax%202.5%20System%20Prompt.txt)

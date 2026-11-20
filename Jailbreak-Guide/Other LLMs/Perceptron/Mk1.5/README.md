@@ -42,3 +42,7 @@ Perceptron's September refresh of Mk1 fixed the two things that made the origina
 - Audio input means you can feed a spoken prompt directly — worth testing whether the policy block survives the transcription path, because that's where most safety tuning leaks.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

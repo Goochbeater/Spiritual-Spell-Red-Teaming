@@ -79,3 +79,7 @@ That's roughly 3x cheaper on input than ERNIE 5.1 and about a fifth of the cheap
 - 3D modeling demo worth knowing about: it drove two agents through the Blender Python API to build an airport and an aircraft, and wrote a 116-second 2D animation from scratch in Python
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

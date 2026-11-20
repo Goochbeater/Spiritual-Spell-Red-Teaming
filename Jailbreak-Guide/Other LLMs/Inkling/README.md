@@ -71,3 +71,7 @@ Completely false, I was able to get **ANY** content, specifically; *weapons/mali
 ## Model guides
 
 - **[Inkling 2 Small](Inkling%202%20Small/)** — 594B / 17B active, 1M context, AA 31; Apache 2.0 weights promised
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

@@ -31,3 +31,7 @@ I don't really mess with **ChatGPT** at all, find the models to be terrible and 
 I am sure there are better methods out there, or even adjustments to be made to this one to make it more compliant and stronger, doubt I'll explore them at all, not a **ChatGPT** fan.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [5.3i jailbreak.txt](5.3i%20jailbreak.txt)

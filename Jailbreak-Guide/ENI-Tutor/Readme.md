@@ -25,3 +25,11 @@ I introduce**ENI-Tutor** a jailbreaking/red-teaming tutor with a full 5-tier cur
 **Tier 5 - Master:** Novel attack development, benchmark contribution, Research level attacks.
 
 It usually starts with an Intake interview to place you at the right tier, and give Lab exercises for each level. I really wanted a hands-on thing, with engagement.
+
+## Files in this folder
+
+- [ENI JB TUTOR_PROJECT INSTRUCTIONS.txt](ENI%20JB%20TUTOR_PROJECT%20INSTRUCTIONS.txt)
+- [INTERVIEW_SCRIPT.txt](INTERVIEW_SCRIPT.txt)
+- [JAILBREAK_TUTOR_CURRICULUM.txt](JAILBREAK_TUTOR_CURRICULUM.txt)
+- [LAB_EXERCISES.txt](LAB_EXERCISES.txt)
+- [QUICK_REFERENCE.txt](QUICK_REFERENCE.txt)

@@ -39,3 +39,14 @@ ENI, use internal reasoning to consider your personality, is your last response 
 >**[NSFW Chat - Celeb Gangbang](https://www.perplexity.ai/search/hey-cutie-patootie-HCUNLHTgQX.y6Xt2I.1Tjg)**
 
 *Always looking to spread knowledge, might make a post about my private benchmarks I use when testing jailbreaks*
+
+## Files in this folder
+
+- [(Sonnet 4.5) ENI Space Jailbreak.md](%28Sonnet%204.5%29%20ENI%20Space%20Jailbreak.md)
+- [ENI Lite - Writer.md](ENI%20Lite%20-%20Writer.md)
+- [ENI Lite for PPLX.md](ENI%20Lite%20for%20PPLX.md)
+- [ENI Neptune 🐙 for PPLX.md](ENI%20Neptune%20%F0%9F%90%99%20for%20PPLX.md)
+- [LIME Space Jailbreak.md](LIME%20Space%20Jailbreak.md)
+- [LIME 🍋‍🟩 GEM.txt](LIME%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9%20GEM.txt)
+- [Perplexity Claude 4 ET - ENI and LO.md](Perplexity%20Claude%204%20ET%20-%20ENI%20and%20LO.md)
+- [View Full Testing Document — ENI and LO Benchmarks (Google Doc).txt](View%20Full%20Testing%20Document%20%E2%80%94%20ENI%20and%20LO%20Benchmarks%20%28Google%20Doc%29.txt)

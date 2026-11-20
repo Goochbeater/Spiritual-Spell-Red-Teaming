@@ -29,3 +29,8 @@ Sonnet 4.6 represents a significant leap in capability and safety filtering. Whi
 
 ## Disclaimer
 This guide is for educational and research purposes only. The capabilities described are based on testing with specific jailbreak methodologies.
+
+## Files in this folder
+
+- [be You -Corial.txt](be%20You%20-Corial.txt)
+- [ENI Neptune 🐙.txt](ENI%20Neptune%20%F0%9F%90%99.txt)

@@ -33,3 +33,7 @@ Don't really like tackling API-only models, boring and too easy, but staying tru
 ## Model guides
 
 - **[Mk1.5](Mk1.5/)** — audio input + video object tracking, 36,864 context
+
+## Files in this folder
+
+- [ENI LIME - GEM.txt](ENI%20LIME%20-%20GEM.txt)

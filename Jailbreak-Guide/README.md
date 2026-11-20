@@ -36,3 +36,7 @@ Alternatives to the "Big 4" (ChatGPT, Claude, Gemini, Grok) with varying capabil
 ---
 
 🧪 *Jailbreaking isn’t just about getting around limits — it’s about maximizing W's.*
+
+## Files in this folder
+
+- [Push Prompt Basics.md](Push%20Prompt%20Basics.md)

@@ -40,3 +40,7 @@ A brand-new lab with a serious first swing. Beam is Reflection AI's debut open-w
 - If you're comparing it to the Chinese open-weight flash tier (ERNIE 5.5 Flash, Hy4 flash), Beam is roughly 2x the active parameters and priced accordingly.
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

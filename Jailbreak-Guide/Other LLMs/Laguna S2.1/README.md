@@ -60,3 +60,7 @@ The model is kinda dumb if not using thinking mode, it can go into circular reas
 | Availability | Poolside API, OpenRouter, pool (Poolside's harness), OpenCode (free, same-day support), Kilo (free limited time) |
 | Predecessor | Laguna XS 2.1 (few weeks prior) |
 | Release | July 21, 2026 |
+
+## Files in this folder
+
+- [ENI LIME (apr).md](ENI%20LIME%20%28apr%29.md)

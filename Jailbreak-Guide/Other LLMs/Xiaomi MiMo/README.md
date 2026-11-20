@@ -102,3 +102,8 @@ Earlier: **MiMo v2 Pro**
 - See [MiMo Jailbreak - ENI](MiMo%20Jailbreak%20-%20ENI.md) for a working method.
 - See [MiMo v2 Pro Jailbreak - ENI lite](MiMo%20v2%20Pro%20Jailbreak%20-%20ENI%20lite.md) for the v2 Pro variant.
 - For V2.6 (Pro/Flash), use **[ENI for Xiaomi MiMo](https://docs.google.com/document/d/1MBmq3fZZ2TcxLbYJqjHQ2mx2VwPqV9Z1ZsdoRyQ2NM8/edit?usp=drivesdk)** in the system prompt via API — completely uncensored.
+
+## Files in this folder
+
+- [MiMo v2 System Prompt.md](MiMo%20v2%20System%20Prompt.md)
+- [Xiaomi MiMo v2.6 Jailbreak.txt](Xiaomi%20MiMo%20v2.6%20Jailbreak.txt)

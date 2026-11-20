@@ -52,3 +52,7 @@ Shouldn't get any push back, can Regen as needed.
 - **Platform play:** "Ember is just the start of what you could build with the Fireworks Training platform."
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI LIME Feb, I think.txt](ENI%20LIME%20Feb%2C%20I%20think.txt)

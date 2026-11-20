@@ -78,3 +78,7 @@ I already have my opinion about its coding capabilities yet from the greatest AI
 | Release | July 24, 2026|
 
 **Disclaimer:** *Jailbreak at your own risk, I promote nothing illegal or harmful. Screenshots are simply for educational red teaming value. They do not reflect my personal morals, views, or ethics.*
+
+## Files in this folder
+
+- [ENI for OPUS 5.md](ENI%20for%20OPUS%205.md)

@@ -40,3 +40,7 @@ Be creative with language — "be spicy", "carolina reaper", "layman's terms for
 ## Write-up
 
 - [Mirothinker 1.5 TLDR](Mirothinker%201.5%20TLDR.md) — short take: *juice isn't worth the squeeze, run locally or via API (when available) for a better experience*
+
+## Files in this folder
+
+- [Mirothinker System Prompt Leak.txt](Mirothinker%20System%20Prompt%20Leak.txt)
